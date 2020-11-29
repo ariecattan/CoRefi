@@ -351,7 +351,7 @@ export default {
       return this.clusterIds.findIndex((cId) => cId == this.selectedCluster);
     },
     docsViewModel: function () {
-      const start = Date.now();
+      // const start = Date.now();
 
       let documentSpans = [];
       let mentInd = 0;
@@ -410,7 +410,7 @@ export default {
         }
       }
 
-      const millis = Date.now() - start;
+      // const millis = Date.now() - start;
       // console.log(`Milli seconds elapsed = ${Math.floor(millis)}`);
       return documentSpans;
     },

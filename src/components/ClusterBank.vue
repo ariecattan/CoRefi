@@ -49,14 +49,14 @@
 
     <div v-if="withHypernym"> 
       <v-divider></v-divider>
-    <v-btn block v-on:click="finished=!finished" id="done" disabled v-if="!lastMention" color="#B0BEC5">Move to Hypernym Annotation</v-btn>
-    <v-btn block v-on:click="finished=!finished" id="done" v-if="lastMention" color="#B0BEC5">Move to Hypernym Annotation</v-btn>
+    <!-- <v-btn block disabled v-if="!lastMention" color="#B0BEC5">Move to Hypernym Annotation</v-btn>
+    <v-btn block v-on:click="finished=!finished" id="done" v-if="appear" color="#B0BEC5">Move to Hypernym Annotation</v-btn> -->
     <!-- <v-divider v-if="mode=='reviewer'"></v-divider> -->
     
-    <div id="treetest">
-       <Hypernym :clusterList="createTree()" 
-       v-if="finished" 
-       @updateTree="updateTree($event)">
+    <div id="treetest" v-if="appear">
+       <Hypernym  :clusterList="this.clusters" 
+       @candidateSelected="candidateSelected($event)"
+       @updateTree="updateTree($event)" >
        </Hypernym>
       </div>
     </div>
@@ -93,6 +93,7 @@ export default {
       currentCluster: this.selectedCluster.toString(),
       finished: false,
       treeClusters: Tree,
+      appear: this.lastMention
     };
   },
   computed: {

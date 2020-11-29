@@ -66,6 +66,8 @@
           ref="mentions"
           :class="tokenSpan.class"
           @click="viewedMentionClicked($event, tokenSpan)"
+          @contextmenu="handler($event)"
+          @dblclick="viewedMentionDoubleClicked($event, tokenSpan)"
         >
           <span
             v-if="!tokenSpan.tokens"
@@ -79,7 +81,7 @@
             v-else
             :id="'token-' + token.i"
             :key="token.i"
-            class="token"
+            class="mention"
             :class="{ 'no-white':token.noWhite }"
             v-text="token.text"
           />
@@ -98,7 +100,7 @@
         :suggestedReviewerClusters="suggestedReviewerClusters"
         :mode="mode"
         :withHypernym="this.hypernym"
-        :lastMention="isFinalMention()"
+        :lastMention="this.done"
         v-on:newCluster="assignMention(true)"
         v-on:candidateSelected="selectCluster"
         @updateTree="updateTree"
@@ -114,7 +116,7 @@
 
     <v-tour name="myTour" :steps="tourSteps" />
 
-    <v-footer  color="white"
+    <!-- <v-footer  inset app color="white"
     :fixed="fixedFooter" 
     >
       <ClusterBank
@@ -129,17 +131,31 @@
         v-on:newCluster="assignMention(true)"
         @updateTree="updateTree"
       ></ClusterBank>
-    </v-footer>
-    <v-footer :fixed="fixedFooter">
+    </v-footer> -->
+    <v-footer  :fixed="!this.done" :key="this.done">
       <v-btn id="help" @click.stop="help = true" fab dark small icon color="blue">
         <v-icon>mdi-help</v-icon>
       </v-btn>
+      <ClusterBank
+        v-if="clusterBarBottom"
+        :clusters="clusters"
+        :selectedCluster.sync="selectedCluster"
+        :suggestedReviewerClusters="suggestedReviewerClusters"
+        :mode="mode"
+        :withHypernym="this.hypernym"
+        :lastMention="this.done"
+        v-on:candidateSelected="selectCluster"
+        v-on:newCluster="assignMention(true)"
+        @updateTree="updateTree"
+      ></ClusterBank>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import jsonData from  "./data/onboarding_example.json"
+import jsonData from  "./data/scientific_onboarding_tutorial.json"
+// import jsonData from "./data/sentiment_examples.json"
+// import jsonData from "./data/scirex_example_.json";
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
 import VueTreeList from 'vue-tree-list'
@@ -229,9 +245,32 @@ export default {
     data.clusterTree = new Object();
     data.documents = this.prepareDocument(data.tokens, data.mentions);
     data.hypernym = data.hypernym ? data.hypernym : false;
+    data.done = false;
     return data;
   },
   computed: {
+    // documents: function () {
+    //   const documents = this.groupBy(this.tokens, "document");
+    //   Object.keys(documents).map((doc) => {
+    //     var paragraphs = this.groupBy(documents[doc], "paragraph")
+    //     Object.keys(paragraphs).map((para) => {
+    //         paragraphs[para] = {
+    //           start: paragraphs[para][0].i,
+    //           end: paragraphs[para][paragraphs[para].length - 1].i,
+    //           mentions: this.getParagraphMentions(this.mentions, paragraphs[para][0].i, paragraphs[para][paragraphs[para].length - 1].i)
+    //         }
+    //     })
+    //     documents[doc] = {
+    //       start: documents[doc][0].i,
+    //       end: documents[doc][documents[doc].length - 1].i,
+    //       paragraphs: paragraphs,
+    //     };
+    //   });
+
+    //   return documents;
+    // },
+
+
     curMention: function () {
       return this.mentions[this.curMentionIndex];
     },
@@ -240,8 +279,16 @@ export default {
       return this.tokens[this.curMention.start].document;
     },
 
+    isFinal: function() {
+      return this.curMentionIndex == this.mentions.length - 1;
+    },
+
     assignedMentions: function () {
+      // if (this.done) {
+      //   return this.mentions;
+      // }
       return this.mentions.slice(0, this.mentionsViewed);
+      
     },
 
     documentsViewed: function () {
@@ -304,7 +351,7 @@ export default {
       return this.clusterIds.findIndex((cId) => cId == this.selectedCluster);
     },
     docsViewModel: function () {
-      // const start = Date.now();
+      const start = Date.now();
 
       let documentSpans = [];
       let mentInd = 0;
@@ -355,13 +402,16 @@ export default {
         if (doc_id != this.curDocument) {
           documentSpans.push({ class: "other-document", docSpans: spans });
         } else {
-          documentSpans.push({ class: "", docSpans: spans });
-          break;
+          documentSpans.push({ class: "current-document", docSpans: spans });
+          
+          if (this.mentionsViewed < this.mentions.length - 1) {
+            break;
+          }
         }
       }
 
-      // const millis = Date.now() - start;
-      // console.log(`Milli seconds elapsed = ${Math.floor(millis)}`);
+      const millis = Date.now() - start;
+      console.log(`Milli seconds elapsed = ${Math.floor(millis)}`);
       return documentSpans;
     },
   },
@@ -478,17 +528,38 @@ export default {
       if (!mention.class){
         return; // just a token not a mention
       }
-      if (e.altKey || e.ctrlKey) {
-        e.preventDefault();
-        if (this.reassignable) {
-          this.reassignMention(mention.index);
-        }
-      } else {
-        if (mention.index != undefined && mention.index != this.curMentionIndex){
+      // if (this.reassignable) {
+      //     this.reassignMention(mention.index);
+      //     this.$forceUpdate();
+      // }
+      if (mention.index != undefined && mention.index != this.curMentionIndex){
             this.selectCluster(this.mentions[mention.index].clustId);
-        }
+      }
+      // if (e.altKey || e.ctrlKey) {
+      //   e.preventDefault();
+      //   if (this.reassignable) {
+      //     this.reassignMention(mention.index);
+      //   }
+      // } else {
+      //   if (mention.index != undefined && mention.index != this.curMentionIndex){
+      //       this.selectCluster(this.mentions[mention.index].clustId);
+      //   }
+      // }
+    },
+
+    viewedMentionDoubleClicked(e, mention) {
+      if (!mention.class){
+        return; // just a token not a mention
+      }
+      if (this.reassignable){
+        this.reassignMention(mention.index);
       }
     },
+
+    // someFunction(e, mention) {
+    //   e.preventDefault();
+    //   if 
+    // },
 
     getSelection() {
       let sel = document
@@ -626,10 +697,16 @@ export default {
       this.$set(this.mentions, this.curMentionIndex, newAssignment)
 
       if (this.curMentionIndex == this.mentionsViewed) {
-        this.mentionsViewed = Math.min(this.mentions.length -1 , this.mentionsViewed + 1);
+        this.mentionsViewed = Math.min(this.mentions.length , this.mentionsViewed + 1);
         // this.mentionsViewed += 1;
       }
-      this.curMentionIndex = this.mentionsViewed;
+      if (this.mentionsViewed < this.mentions.length) {
+        this.curMentionIndex = this.mentionsViewed;
+      }
+      else{
+        this.done = true;
+      }
+      
     },
 
     isValidAssignment(clusterAssignment) {
@@ -709,7 +786,7 @@ export default {
 @import url("https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css");
 @import url("../node_modules/vuetify/dist/vuetify.min.css");
 
-.token,
+.token, 
 .mention-token {
   margin-right: 0.3em;
 }
@@ -722,6 +799,11 @@ export default {
 .viewed:hover {
   font-weight: medium;
   color: #b16a00;
+}
+.mention {
+  margin-right: 0.3em;
+  font-weight: bold;
+  color: black;
 }
 .cluster {
   background: #ddeff9;
@@ -739,6 +821,9 @@ export default {
   font-weight: 500;
   padding: 0em;
   border-bottom: 1px solid #c71585;
+}
+.current-document {
+  color: #616161;
 }
 .other-document {
   color: #bdbdbd;

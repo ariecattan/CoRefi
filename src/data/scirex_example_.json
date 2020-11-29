@@ -1,6 +1,7 @@
 {
     "clusterName": "Machine_Translation",
     "mode": "annotation",
+    "hypernym": true,
     "fixableSpans": false,
     "newMentions": false,
     "reassignable": true,

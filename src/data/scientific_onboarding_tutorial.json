@@ -1,0 +1,232 @@
+{
+    "mode": "onboarding",
+    "fixableSpans":false,
+    "reassignable":false,
+    "tokens": [
+        {
+            "i": 0,
+            "document": 0,
+            "text": "This"
+        },
+        {
+            "i": 1,
+            "document": 0,
+            "text": "paper"
+        },
+        {
+            "i": 2,
+            "document": 0,
+            "text": "presents"
+        },
+        {
+            "i": 3,
+            "document": 0,
+            "text": "a"
+        },
+        {
+            "i": 4,
+            "document": 0,
+            "text": "CNN"
+        },
+        {
+            "i": 5,
+            "document": 0,
+            "text": "for"
+        },
+        {
+            "i": 6,
+            "document": 0,
+            "text": "Text"
+        },
+        {
+            "i": 7,
+            "document": 0,
+            "text": "Classification"
+        },
+        {
+            "i": 8,
+            "document": 1,
+            "text": "We"
+        },
+        {
+            "i": 9,
+            "document": 1,
+            "text": "propose"
+        },
+        {
+            "i": 10,
+            "document": 1,
+            "text": "a"
+        },
+        {
+            "i": 11,
+            "document": 1,
+            "text": "new"
+        },
+        {
+            "i": 12,
+            "document": 1,
+            "text": "convolutional"
+        },
+        {
+            "i": 13,
+            "document": 1,
+            "text": "neural"
+        },
+        {
+            "i": 14,
+            "document": 1,
+            "text": "network"
+        },
+        {
+            "i": 15,
+            "document": 1,
+            "text": "for"
+        },
+        {
+            "i": 16,
+            "document": 1,
+            "text": "sentiment"
+        },
+        {
+            "i": 17,
+            "document": 1,
+            "text": "analysis"
+        }
+    ],
+    "mentions": [
+        {
+            "start": 4,
+            "end": 4,
+            "clustId": "4-4"
+        },
+        {
+            "start": 6,
+            "end": 7,
+            "clustId": "6-7"
+        },
+        {
+            "start": 12,
+            "end": 14,
+            "clustId": "4-4"
+        },
+        {
+            "start": 16,
+            "end": 17,
+            "clustId": "16-17"
+        }
+    ],
+    "selectedCluster": "4-4",
+    "tourSteps" : [
+        {
+            "target": "#dashboard",
+            "header": {
+                "title": "CoRefi Onboarding!"
+            },
+            "content": "This experience will walkthrough how to perform coreference annotation."
+        },
+        {
+            "target": "#dashboard",
+            "header": {
+                "title": "CoRefi Getting Started!"
+            },
+            "content": "Displayed on the screen below is a document and two mentions."
+        },
+        {
+            "target": ".cluster",
+            "header": {
+                "title": "Cluster Mentions"
+            },
+            "content": "The first Mention is automatically assigned to it's own Corefernce  <span class=\"cluster\">Cluster</span>."
+        },
+        {
+            "target": ".v-chip--active",
+            "header": {
+                "title": "Cluster Bank"
+            },
+            "content": "Clusters are managed in the cluster bank.",
+            "params": {
+                "placement": "right"
+              }
+        },
+        {
+            "target": ".v-chip--active",
+            "header": {
+                "title": "Selecting Clusters"
+            },
+            "content": "Clusters can be selected with the arrow keys, or by clicking on a previously assigned mention.",
+            "params": {
+                "placement": "right"
+              }
+        },
+        {
+            "target": ".current",
+            "header": {
+                "title": "Current Mention"
+            },
+            "content": "The current mention appears in <span class=\"current\">purple</span>."
+        },
+        {
+            "target": ".current",
+            "header": {
+                "title": "Assigning Mentions"
+            },
+            "content": "The <span class=\"current\">current mention</span> can be assigned to the <span class=\"cluster\">selected cluster</span> with the SPACE bar."
+        },
+        {
+            "target": ".current",
+            "header": {
+                "title": "Assigning a New Cluster"
+            },
+            "content": "If the current mention does not belong to any cluster in the cluster bank it can be assigned to new cluster with Ctrl + SPACE (Windows) or ALT + SPACE (MacOS)."
+        },
+        {
+            "target": ".current",
+            "header": {
+                "title": "Reassigning a Mention"
+            },
+            "content": "If a mention was assigned incorrectly assigned it can be selected for reassignment at any point with Double Click on Mention."
+        },
+        {
+            "target": ".current",
+            "header": {
+                "title": "Help and Controls"
+            },
+            "content": "If you ever forget any of the controls all of CoRefi's functionality can be found in the help menu. Just click on the blue <span style='color:#2196f3'> '?'</span> in the bottom left corner of the screen."
+        },
+        {
+            "target": ".current",
+            "header": {
+                "title": "Finish The Annotation"
+            },
+            "content": "Now using what you've learned assign the remaining mentions to the correct clusters until they are all assigned. Don't worry if you make mistakes CoRefi will guided to the correct answers."
+        }
+    ],
+    "goldMentions": [
+        {
+            "start": 6,
+            "end": 7,
+            "clustId": "6-7",
+            "validMessage": "Correct! This is a new mention!",
+            "defaultErrorMessage": "Are you sure this mention co-refers with CNN ?"
+        },
+        {
+            "start": 12,
+            "end": 14,
+            "clustId": "4-4",
+            "validMessage": "Correct! CNN is the acronym of Convolutional Neural Network and they should be marked as coreferring even though they are used for different tasks!",
+            "defaultErrorMessage": "That's not quite right, CNN and Convolutional Neural Network are exactly the same method!"
+        },
+        {
+            "start": 16,
+            "end": 17,
+            "clustId": "16-17",
+            "validMessage": "Correct! This is a new cluster!",
+            "clusterErrorMessages":{
+                "4-4": "Sentiment Analysis doesn't corefer with CNN",
+                "6-7": "That's not quite right! Although Sentiment Analysis is a ''type of'' Text Classification, they do not corefer"
+            }
+        }
+    ],
+    "snackbarTimeout": 5000
+}

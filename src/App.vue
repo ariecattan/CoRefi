@@ -411,7 +411,7 @@ export default {
       }
 
       const millis = Date.now() - start;
-      console.log(`Milli seconds elapsed = ${Math.floor(millis)}`);
+      // console.log(`Milli seconds elapsed = ${Math.floor(millis)}`);
       return documentSpans;
     },
   },

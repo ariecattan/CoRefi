@@ -66,7 +66,6 @@
           ref="mentions"
           :class="tokenSpan.class"
           @click="viewedMentionClicked($event, tokenSpan)"
-          @contextmenu="handler($event)"
           @dblclick="viewedMentionDoubleClicked($event, tokenSpan)"
         >
           <span
@@ -100,7 +99,7 @@
         :suggestedReviewerClusters="suggestedReviewerClusters"
         :mode="mode"
         :withHypernym="this.hypernym"
-        :lastMention="this.done"
+        :lastMention="true"
         v-on:newCluster="assignMention(true)"
         v-on:candidateSelected="selectCluster"
         @updateTree="updateTree"
@@ -132,7 +131,7 @@
         @updateTree="updateTree"
       ></ClusterBank>
     </v-footer> -->
-    <v-footer  :fixed="!this.done" :key="this.done">
+    <v-footer  :fixed="false" :key="this.done">
       <v-btn id="help" @click.stop="help = true" fab dark small icon color="blue">
         <v-icon>mdi-help</v-icon>
       </v-btn>
@@ -143,7 +142,7 @@
         :suggestedReviewerClusters="suggestedReviewerClusters"
         :mode="mode"
         :withHypernym="this.hypernym"
-        :lastMention="this.done"
+        :lastMention="true"
         v-on:candidateSelected="selectCluster"
         v-on:newCluster="assignMention(true)"
         @updateTree="updateTree"
@@ -156,6 +155,7 @@
 import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
 // import jsonData from "./data/scirex_example_.json";
+// import jsonData from "../../coref-hypernym/data/scirex3/100.json";
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
 import VueTreeList from 'vue-tree-list'
@@ -376,6 +376,10 @@ export default {
               index: mentInd
             };
 
+            // console.log(mentInd);
+            // console.log(this.mentions[mentInd]);
+
+            
             if (mentInd == this.curMentionIndex) {
               mentionSpan.class = "current";
             } else if (this.mentions[mentInd].clustId == this.selectedCluster) {

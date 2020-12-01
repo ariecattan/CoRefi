@@ -192,7 +192,7 @@
             "header": {
                 "title": "Help and Controls"
             },
-            "content": "If you ever forget any of the controls all of CoRefi's functionality can be found in the help menu. Just click on the blue <span style='color:#2196f3'> '?'</span> in the top left corner of the screen."
+            "content": "If you ever forget any of the controls all of CoRefi's functionality can be found in the help menu. Just click on the black '?' in the top left corner of the screen."
         },
         {
             "target": ".current",

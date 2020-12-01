@@ -94,7 +94,7 @@
     </v-container>
   </v-layout>
   <v-divider mx-4 />
-  <v-btn block color="#B0BEC5" @click="showHideHypernym()">{{hypernymMessage}} Hypernyms</v-btn>
+  <v-btn block color="#B0BEC5" v-if="this.hypernym" @click="showHideHypernym()">{{hypernymMessage}} Hypernyms </v-btn>
   <v-container>
   <Hypernym  :clusterList="this.clusters" 
       :mentions="this.assignedMentions"
@@ -192,9 +192,9 @@
 </template>
 
 <script>
-// import jsonData from  "./data/scientific_onboarding_tutorial.json"
+import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
-import jsonData from "./data/scirex_example_.json";
+// import jsonData from "./data/scirex_example_.json";
 // import jsonData from "../../coref-hypernym/data/scirex3/100.json";
 import Vue from "vue";
 import Vuetify from "vuetify/lib";

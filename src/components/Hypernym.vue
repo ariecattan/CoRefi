@@ -1,8 +1,9 @@
 <template>
   <div>
       <v-chip class="ma-2" disabled label color="white" font-weight="700" text-color="black">
-        <strong>Hierarchy:</strong>
+        <strong>Hierarchy:</strong> 
       </v-chip>
+      <v-btn @click="forceRerender()" absolute large append color="#B0BEC5">Reset</v-btn>
     <vue-tree-list
       @drop="updateTree()"
       :model="clusterTree"
@@ -22,30 +23,49 @@
 
 
 <script>
+// import { VButton } from "vuetify/lib";
   import { VueTreeList, Tree, TreeNode } from 'vue-tree-list'
   import jsonData from '../data/clusters.json'
   export default {
     name: "Hypernym",
     components: {
-      VueTreeList
+      VueTreeList,
+      // VButton
     },
     props: {
-        clusterList: Object
+        clusterList: Object,
+        mentions: Array
     },
     data() {
       return {
         newTree: {},
         clusterTree: {},
+        rendering: false,
+        assignedMentions: [],
         data: new Tree(!this.json || this.json == "${data}"
         ? jsonData
         : JSON.parse(unescape(this.json).replace("\u00e2\u20ac\u2122", "'"))),
       }
     },
     created() {
-        this.clusterTree = new Tree(Object.values(this.clusterList));
+      // console.log('Re-rendering');
+      Object.values(this.clusterList).forEach((value) => {
+        value.addTreeNodeDisabled = true;
+        value.addLeafNodeDisabled = true;
+        value.editNodeDisabled =  true,
+        value.delNodeDisabled = true
+      });
+      this.clusterTree = new Tree(Object.values(this.clusterList));
         // this.clusterTree = new Tree(this.clusterList);
     },
+
     watch: {
+      mentions: function(newVal, oldVal) {
+        if (!this.arrayEquals(newVal, oldVal)) {
+          this.assignedMentions = newVal;
+        }
+      },
+
       clusterList: function(newVal, oldVal) {
         let oldClusters = Object.keys(oldVal);
         let newClusters = Object.keys(newVal);
@@ -64,13 +84,27 @@
         if (toBeAdded.length > 0) {
           this.addMissingNode(this.clusterList[toBeAdded]);          
         } else {
-          this.deleteExtraNode(oldVal[toBeDeleted]);
+          let clusterToBeDeleted = oldVal[toBeDeleted];
+
+        
+          let [start, end] = clusterToBeDeleted.id.split('-');
+          let newCluster = this.getClusterMention(start, end);
+          this.deleteExtraNode(oldVal[toBeDeleted].id, newCluster);
         }
         
-        
+      
       }
     },
     methods: {
+      forceRerender: function() {
+        this.$emit('forceRerender');
+      },
+
+      getClusterMention(start, end) {
+        let mention = this.assignedMentions.find(x => x.start == start && x.end == end);
+        return mention.clustId;
+      },
+
       arrayEquals(a, b) {
         return Array.isArray(a) &&
           Array.isArray(b) &&
@@ -78,27 +112,22 @@
           a.every((val, index) => val == b[index]);
       },
 
-      deleteExtraNode(nodeName) {
+
+      dfs(nodeName) {
         let stack = [];
         let explored = new Set();
         stack.push(this.clusterTree);
 
         explored.add(this.clusterTree);
 
-        // find with dfs the node to delete
+         // find with dfs the node to delete
         while (!stack.length == 0) {
           let t = stack.pop();
           explored.add(t);
 
-          if (t.id == nodeName.id) {
-            // if the node to delete has children, move the children to his parents
-            if (t.children) {
-              t.children.forEach(x => t.parent.addChildren(x));
-            }
-            t.remove();
-            break;
-          } 
-
+          if (t.id == nodeName) {
+            return t;
+          }
           // add the children in the stack (for the dfs)
           if (t.children) {
             t.children.forEach(element => {
@@ -106,13 +135,59 @@
             explored.add(element);
           });
           }
-          
         }
       },
 
+      deleteExtraNode(nodeName, clusterDest) {
+        let deleted = this.dfs(nodeName);
+        let dest = this.dfs(clusterDest);
 
+        if (deleted.children) {
+          deleted.children.forEach(x => dest.addChildren(x));
+        }
+        deleted.remove();
+
+        // let stack = [];
+        // let explored = new Set();
+        // stack.push(this.clusterTree);
+
+        // explored.add(this.clusterTree);
+
+        // // find with dfs the node to delete
+        // while (!stack.length == 0) {
+        //   let t = stack.pop();
+        //   explored.add(t);
+
+        //   if (t.id == nodeName.id) {
+        //     // if the node to delete has children, move the children to his parents
+        //     if (t.children) {
+        //       t.children.forEach(x => clusterDest.addChildren(x));
+        //     }
+        //     t.remove();
+        //     break;
+        //   } 
+
+        //   // add the children in the stack (for the dfs)
+        //   if (t.children) {
+        //     t.children.forEach(element => {
+        //     stack.push(element);
+        //     explored.add(element);
+        //   });
+        //   }
+          
+        // }
+      },
+
+      // onChangeName() {
+
+      // },
       addMissingNode(nodeName) {
         if (nodeName) {
+          nodeName.addTreeNodeDisabled = true;
+          nodeName.addLeafNodeDisabled = true;
+          nodeName.ditNodeDisabled = true;
+          nodeName.delNodeDisabled = true;
+          nodeName.editNodeDisabled = true;
           var node = new TreeNode(nodeName);
           this.clusterTree.addChildren(node);
 
@@ -163,12 +238,12 @@
 
       updateTree() {
           this.getNewTree();
-          console.log(this.clusterTree);
+          // console.log(this.clusterTree);
           return this.$emit('updateTree', this.newTree);
       },
 
       selectCluster(params) {
-        console.log(params);
+        // console.log(params);
         return this.$emit("candidateSelected", params.id);
       }
     }
@@ -199,5 +274,6 @@
   .muted {
     color: gray;
     font-size: 80%;
+    display: none;
   }
 </style>

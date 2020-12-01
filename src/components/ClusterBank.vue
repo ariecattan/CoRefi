@@ -56,7 +56,9 @@
     <div id="treetest" v-if="appear">
        <Hypernym  :clusterList="this.clusters" 
        @candidateSelected="candidateSelected($event)"
-       @updateTree="updateTree($event)" >
+       @updateTree="updateTree($event)"
+       @forceRerender="forceRerender()"
+       :key="hypernymRerender" >
        </Hypernym>
       </div>
     </div>
@@ -93,7 +95,8 @@ export default {
       currentCluster: this.selectedCluster.toString(),
       finished: false,
       treeClusters: Tree,
-      appear: this.lastMention
+      appear: this.lastMention,
+      hypernymRerender: 0,
     };
   },
   computed: {
@@ -110,6 +113,9 @@ export default {
     },
   },
   methods: {
+    forceRerender: function() {
+      this.hypernymRerender += 1;
+    },
     createTree: function() {
       return Object.values(this.clusters);
     },

@@ -35,6 +35,10 @@
         max-width="40"
         contain
       ></v-img>
+      
+      <v-btn id="help" @click.stop="help = true" fab dark left small icon color="blue">
+        <v-icon>mdi-help</v-icon>
+      </v-btn>
       <v-spacer />
       Mention: {{ curMentionIndex + 1 }}/{{ mentions.length}} Document: {{parseInt(curDocument) + 1}}/{{ tokens[tokens.length - 1].document +1}}
     </v-system-bar>
@@ -90,9 +94,19 @@
     </v-container>
   </v-layout>
   <v-divider mx-4 />
+  <!-- <v-btn block color="#B0BEC5">Show/Hide Hypernyms</v-btn> -->
+  <Hypernym  :clusterList="this.clusters" 
+      :mentions="this.assignedMentions"
+      @candidateSelected="selectCluster"
+      @updateTree="updateTree($event)"
+      @forceRerender="renderHypernym()"
+      :key="this.hypernymRerender" 
+      style="display:block"
+      v-if="this.hypernym">
+  </Hypernym>
 </v-container>
       
-      <ClusterBank
+      <!-- <ClusterBank
         v-if="!clusterBarBottom"
         :clusters="clusters"
         :selectedCluster="selectedCluster"
@@ -103,7 +117,9 @@
         v-on:newCluster="assignMention(true)"
         v-on:candidateSelected="selectCluster"
         @updateTree="updateTree"
-      ></ClusterBank>
+      ></ClusterBank> -->
+
+        
     </v-main>
 
     
@@ -131,12 +147,33 @@
         @updateTree="updateTree"
       ></ClusterBank>
     </v-footer> -->
-    <v-footer  :fixed="false" :key="this.done">
+    <v-footer :fixed="true">
+      <!-- <v-btn id="help" @click.stop="help = true" fab dark left small icon color="blue">
+        <v-icon>mdi-help</v-icon>
+      </v-btn> -->
+      <ClusterBank
+        v-if="true"
+        :clusters="clusters"
+        :selectedCluster.sync="selectedCluster"
+        :suggestedReviewerClusters="suggestedReviewerClusters"
+        :mode="mode"
+        :withHypernym="false"
+        :lastMention="true"
+        v-on:candidateSelected="selectCluster"
+        v-on:newCluster="assignMention(true)"
+        @updateTree="updateTree"
+      ></ClusterBank>
+    </v-footer>
+
+    
+    
+
+    <!-- <v-footer  :fixed="false" :key="this.done">
       <v-btn id="help" @click.stop="help = true" fab dark small icon color="blue">
         <v-icon>mdi-help</v-icon>
       </v-btn>
       <ClusterBank
-        v-if="clusterBarBottom"
+        v-if="true"
         :clusters="clusters"
         :selectedCluster.sync="selectedCluster"
         :suggestedReviewerClusters="suggestedReviewerClusters"
@@ -147,15 +184,15 @@
         v-on:newCluster="assignMention(true)"
         @updateTree="updateTree"
       ></ClusterBank>
-    </v-footer>
+    </v-footer> -->
   </v-app>
 </template>
 
 <script>
-import jsonData from  "./data/scientific_onboarding_tutorial.json"
+// import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
 // import jsonData from "./data/scirex_example_.json";
-// import jsonData from "../../coref-hypernym/data/scirex3/100.json";
+import jsonData from "../../coref-hypernym/data/scirex3/100.json";
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
 import VueTreeList from 'vue-tree-list'
@@ -192,6 +229,7 @@ Vue.use(VueTour);
 Vue.config.productionTip = false;
 
 import ClusterBank from "./components/ClusterBank.vue";
+import Hypernym from './components/Hypernym.vue';
 
 
 export default {
@@ -216,7 +254,8 @@ export default {
     VCardTitle,
     VCardText,
     VCardActions,
-    ClusterBank
+    ClusterBank,
+    Hypernym
   },
   directives: {
     Mutate,
@@ -243,32 +282,33 @@ export default {
     data.previousCoreferringWorkerTokens = {};
     data.clusterBarBottom = false;
     data.clusterTree = new Object();
-    data.documents = this.prepareDocument(data.tokens, data.mentions);
+    // data.documents = this.prepareDocument(data.tokens, data.mentions);
     data.hypernym = data.hypernym ? data.hypernym : false;
     data.done = false;
+    data.hypernymRerender = false;
     return data;
   },
   computed: {
-    // documents: function () {
-    //   const documents = this.groupBy(this.tokens, "document");
-    //   Object.keys(documents).map((doc) => {
-    //     var paragraphs = this.groupBy(documents[doc], "paragraph")
-    //     Object.keys(paragraphs).map((para) => {
-    //         paragraphs[para] = {
-    //           start: paragraphs[para][0].i,
-    //           end: paragraphs[para][paragraphs[para].length - 1].i,
-    //           mentions: this.getParagraphMentions(this.mentions, paragraphs[para][0].i, paragraphs[para][paragraphs[para].length - 1].i)
-    //         }
-    //     })
-    //     documents[doc] = {
-    //       start: documents[doc][0].i,
-    //       end: documents[doc][documents[doc].length - 1].i,
-    //       paragraphs: paragraphs,
-    //     };
-    //   });
+    documents: function () {
+      const documents = this.groupBy(this.tokens, "document");
+      Object.keys(documents).map((doc) => {
+        var paragraphs = this.groupBy(documents[doc], "paragraph")
+        Object.keys(paragraphs).map((para) => {
+            paragraphs[para] = {
+              start: paragraphs[para][0].i,
+              end: paragraphs[para][paragraphs[para].length - 1].i,
+              mentions: this.getParagraphMentions(this.mentions, paragraphs[para][0].i, paragraphs[para][paragraphs[para].length - 1].i)
+            }
+        })
+        documents[doc] = {
+          start: documents[doc][0].i,
+          end: documents[doc][documents[doc].length - 1].i,
+          paragraphs: paragraphs,
+        };
+      });
 
-    //   return documents;
-    // },
+      return documents;
+    },
 
 
     curMention: function () {
@@ -455,6 +495,10 @@ export default {
     }
   },
   methods: {
+    renderHypernym: function() {
+      this.hypernymRerender = !this.hypernymRerender;
+    },
+
     getParagraphMentions(mentions, start, end) {
       return mentions.filter(mention => mention.start >= start && mention.end <= end)
     },

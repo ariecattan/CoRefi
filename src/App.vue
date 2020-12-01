@@ -94,7 +94,8 @@
     </v-container>
   </v-layout>
   <v-divider mx-4 />
-  <!-- <v-btn block color="#B0BEC5">Show/Hide Hypernyms</v-btn> -->
+  <v-btn block color="#B0BEC5" @click="showHideHypernym()">{{hypernymMessage}} Hypernyms</v-btn>
+  <v-container>
   <Hypernym  :clusterList="this.clusters" 
       :mentions="this.assignedMentions"
       @candidateSelected="selectCluster"
@@ -102,8 +103,10 @@
       @forceRerender="renderHypernym()"
       :key="this.hypernymRerender" 
       style="display:block"
-      v-if="this.hypernym">
+      v-if="this.hypernym"
+      v-show="this.showHypernym">
   </Hypernym>
+  </v-container>
 </v-container>
       
       <!-- <ClusterBank
@@ -191,8 +194,8 @@
 <script>
 // import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
-// import jsonData from "./data/scirex_example_.json";
-import jsonData from "../../coref-hypernym/data/scirex3/100.json";
+import jsonData from "./data/scirex_example_.json";
+// import jsonData from "../../coref-hypernym/data/scirex3/100.json";
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
 import VueTreeList from 'vue-tree-list'
@@ -286,9 +289,17 @@ export default {
     data.hypernym = data.hypernym ? data.hypernym : false;
     data.done = false;
     data.hypernymRerender = false;
+    data.showHypernym = false;
     return data;
   },
   computed: {
+    hypernymMessage: function () {
+      if (this.showHypernym) {
+        return "Hide";
+      }
+      return "Show";
+    },
+
     documents: function () {
       const documents = this.groupBy(this.tokens, "document");
       Object.keys(documents).map((doc) => {
@@ -495,6 +506,10 @@ export default {
     }
   },
   methods: {
+    showHideHypernym: function() {
+      this.showHypernym = !this.showHypernym;
+    },
+
     renderHypernym: function() {
       this.hypernymRerender = !this.hypernymRerender;
     },

@@ -25,7 +25,6 @@
 <script>
 // import { VButton } from "vuetify/lib";
   import { VueTreeList, Tree, TreeNode } from 'vue-tree-list'
-  import jsonData from '../data/clusters.json'
   export default {
     name: "Hypernym",
     components: {
@@ -41,10 +40,7 @@
         newTree: {},
         clusterTree: {},
         rendering: false,
-        assignedMentions: [],
-        data: new Tree(!this.json || this.json == "${data}"
-        ? jsonData
-        : JSON.parse(unescape(this.json).replace("\u00e2\u20ac\u2122", "'"))),
+        assignedMentions: []
       }
     },
     created() {

@@ -12,6 +12,8 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
+    "vue-flash-message": "^0.7.2",
+    "vue-simple-alert": "^1.1.1",
     "vue-tour": "git+https://github.com/aribornstein/vue-tour.git",
     "vue-tree-list": "^1.4.6",
     "vued3tree": "^5.1.0",

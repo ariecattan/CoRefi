@@ -1,0 +1,6470 @@
+{
+    "hypernym": true,
+    "clusterName": "sentiment",
+    "mode": "annotation",
+    "fixableSpans": false,
+    "newMentions": false,
+    "reassignable": true,
+    "tokens": [
+        {
+            "i": 0,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "The"
+        },
+        {
+            "i": 1,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "goal"
+        },
+        {
+            "i": 2,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "is"
+        },
+        {
+            "i": 3,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "to"
+        },
+        {
+            "i": 4,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "extract"
+        },
+        {
+            "i": 5,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "fine"
+        },
+        {
+            "i": 6,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "-"
+        },
+        {
+            "i": 7,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "grained"
+        },
+        {
+            "i": 8,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "information"
+        },
+        {
+            "i": 9,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "with"
+        },
+        {
+            "i": 10,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "respect"
+        },
+        {
+            "i": 11,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "to"
+        },
+        {
+            "i": 12,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "entities"
+        },
+        {
+            "i": 13,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "mentioned"
+        },
+        {
+            "i": 14,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "in"
+        },
+        {
+            "i": 15,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "user"
+        },
+        {
+            "i": 16,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "comments"
+        },
+        {
+            "i": 17,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "."
+        },
+        {
+            "i": 18,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "This"
+        },
+        {
+            "i": 19,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "work"
+        },
+        {
+            "i": 20,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "extends"
+        },
+        {
+            "i": 21,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "both"
+        },
+        {
+            "i": 22,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "aspect"
+        },
+        {
+            "i": 23,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "-"
+        },
+        {
+            "i": 24,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "based"
+        },
+        {
+            "i": 25,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "sentiment"
+        },
+        {
+            "i": 26,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "analysis"
+        },
+        {
+            "i": 27,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "that"
+        },
+        {
+            "i": 28,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "assumes"
+        },
+        {
+            "i": 29,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "a"
+        },
+        {
+            "i": 30,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "single"
+        },
+        {
+            "i": 31,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "entity"
+        },
+        {
+            "i": 32,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "per"
+        },
+        {
+            "i": 33,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "document"
+        },
+        {
+            "i": 34,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "and"
+        },
+        {
+            "i": 35,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "targeted"
+        },
+        {
+            "i": 36,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "sentiment"
+        },
+        {
+            "i": 37,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "analysis"
+        },
+        {
+            "i": 38,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "that"
+        },
+        {
+            "i": 39,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "assumes"
+        },
+        {
+            "i": 40,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "a"
+        },
+        {
+            "i": 41,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "single"
+        },
+        {
+            "i": 42,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "sentiment"
+        },
+        {
+            "i": 43,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "towards"
+        },
+        {
+            "i": 44,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "a"
+        },
+        {
+            "i": 45,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "target"
+        },
+        {
+            "i": 46,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "entity"
+        },
+        {
+            "i": 47,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "."
+        },
+        {
+            "i": 48,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "In"
+        },
+        {
+            "i": 49,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "particular"
+        },
+        {
+            "i": 50,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": ","
+        },
+        {
+            "i": 51,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "we"
+        },
+        {
+            "i": 52,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "identify"
+        },
+        {
+            "i": 53,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "the"
+        },
+        {
+            "i": 54,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "sentiment"
+        },
+        {
+            "i": 55,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "towards"
+        },
+        {
+            "i": 56,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "each"
+        },
+        {
+            "i": 57,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "aspect"
+        },
+        {
+            "i": 58,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "of"
+        },
+        {
+            "i": 59,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "one"
+        },
+        {
+            "i": 60,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "or"
+        },
+        {
+            "i": 61,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "more"
+        },
+        {
+            "i": 62,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "entities"
+        },
+        {
+            "i": 63,
+            "document": 0,
+            "paragraph": 0,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "."
+        },
+        {
+            "i": 64,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "The"
+        },
+        {
+            "i": 65,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "underlying"
+        },
+        {
+            "i": 66,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "assumption"
+        },
+        {
+            "i": 67,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "of"
+        },
+        {
+            "i": 68,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "this"
+        },
+        {
+            "i": 69,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "work"
+        },
+        {
+            "i": 70,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "was"
+        },
+        {
+            "i": 71,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "that"
+        },
+        {
+            "i": 72,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "there"
+        },
+        {
+            "i": 73,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "is"
+        },
+        {
+            "i": 74,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "one"
+        },
+        {
+            "i": 75,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "overall"
+        },
+        {
+            "i": 76,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "polarity"
+        },
+        {
+            "i": 77,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "in"
+        },
+        {
+            "i": 78,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "the"
+        },
+        {
+            "i": 79,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "whole"
+        },
+        {
+            "i": 80,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "text"
+        },
+        {
+            "i": 81,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "."
+        },
+        {
+            "i": 82,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "Aspect"
+        },
+        {
+            "i": 83,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "-"
+        },
+        {
+            "i": 84,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "based"
+        },
+        {
+            "i": 85,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "sentiment"
+        },
+        {
+            "i": 86,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "analysis"
+        },
+        {
+            "i": 87,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "("
+        },
+        {
+            "i": 88,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "ABSA"
+        },
+        {
+            "i": 89,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": ")"
+        },
+        {
+            "i": 90,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "relates"
+        },
+        {
+            "i": 91,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "to"
+        },
+        {
+            "i": 92,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "the"
+        },
+        {
+            "i": 93,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "task"
+        },
+        {
+            "i": 94,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "of"
+        },
+        {
+            "i": 95,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "extracting"
+        },
+        {
+            "i": 96,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "fine"
+        },
+        {
+            "i": 97,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "-"
+        },
+        {
+            "i": 98,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "grained"
+        },
+        {
+            "i": 99,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "information"
+        },
+        {
+            "i": 100,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "by"
+        },
+        {
+            "i": 101,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "identifying"
+        },
+        {
+            "i": 102,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "the"
+        },
+        {
+            "i": 103,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "polarity"
+        },
+        {
+            "i": 104,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "towards"
+        },
+        {
+            "i": 105,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "different"
+        },
+        {
+            "i": 106,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "aspects"
+        },
+        {
+            "i": 107,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "of"
+        },
+        {
+            "i": 108,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "an"
+        },
+        {
+            "i": 109,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "entity"
+        },
+        {
+            "i": 110,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "in"
+        },
+        {
+            "i": 111,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "the"
+        },
+        {
+            "i": 112,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "same"
+        },
+        {
+            "i": 113,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "unit"
+        },
+        {
+            "i": 114,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "of"
+        },
+        {
+            "i": 115,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "text"
+        },
+        {
+            "i": 116,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": ","
+        },
+        {
+            "i": 117,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "and"
+        },
+        {
+            "i": 118,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "recognizing"
+        },
+        {
+            "i": 119,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "the"
+        },
+        {
+            "i": 120,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "polarity"
+        },
+        {
+            "i": 121,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "associated"
+        },
+        {
+            "i": 122,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "with"
+        },
+        {
+            "i": 123,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "each"
+        },
+        {
+            "i": 124,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "aspect"
+        },
+        {
+            "i": 125,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "separately"
+        },
+        {
+            "i": 126,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "."
+        },
+        {
+            "i": 127,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "The"
+        },
+        {
+            "i": 128,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "datasets"
+        },
+        {
+            "i": 129,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "for"
+        },
+        {
+            "i": 130,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "this"
+        },
+        {
+            "i": 131,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "task"
+        },
+        {
+            "i": 132,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "were"
+        },
+        {
+            "i": 133,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "mostly"
+        },
+        {
+            "i": 134,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "based"
+        },
+        {
+            "i": 135,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "on"
+        },
+        {
+            "i": 136,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "specialized"
+        },
+        {
+            "i": 137,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "review"
+        },
+        {
+            "i": 138,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "platforms"
+        },
+        {
+            "i": 139,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "such"
+        },
+        {
+            "i": 140,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "as"
+        },
+        {
+            "i": 141,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "Yelp"
+        },
+        {
+            "i": 142,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "where"
+        },
+        {
+            "i": 143,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "it"
+        },
+        {
+            "i": 144,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "is"
+        },
+        {
+            "i": 145,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "assumed"
+        },
+        {
+            "i": 146,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "that"
+        },
+        {
+            "i": 147,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "only"
+        },
+        {
+            "i": 148,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "one"
+        },
+        {
+            "i": 149,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "entity"
+        },
+        {
+            "i": 150,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "is"
+        },
+        {
+            "i": 151,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "discussed"
+        },
+        {
+            "i": 152,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "in"
+        },
+        {
+            "i": 153,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "one"
+        },
+        {
+            "i": 154,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "review"
+        },
+        {
+            "i": 155,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "snippet"
+        },
+        {
+            "i": 156,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": ","
+        },
+        {
+            "i": 157,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "but"
+        },
+        {
+            "i": 158,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "the"
+        },
+        {
+            "i": 159,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "opinion"
+        },
+        {
+            "i": 160,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "on"
+        },
+        {
+            "i": 161,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "multiple"
+        },
+        {
+            "i": 162,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "aspects"
+        },
+        {
+            "i": 163,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "can"
+        },
+        {
+            "i": 164,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "be"
+        },
+        {
+            "i": 165,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "expressed"
+        },
+        {
+            "i": 166,
+            "document": 0,
+            "paragraph": 1,
+            "doc_name": "063ad0349f05c8aacbbb653ffcf01047a293fa30",
+            "text": "."
+        },
+        {
+            "i": 167,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "document"
+        },
+        {
+            "i": 168,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": ":"
+        },
+        {
+            "i": 169,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Effective"
+        },
+        {
+            "i": 170,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "LSTMs"
+        },
+        {
+            "i": 171,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "for"
+        },
+        {
+            "i": 172,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Target"
+        },
+        {
+            "i": 173,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "-"
+        },
+        {
+            "i": 174,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Dependent"
+        },
+        {
+            "i": 175,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Sentiment"
+        },
+        {
+            "i": 176,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Classification"
+        },
+        {
+            "i": 177,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Target"
+        },
+        {
+            "i": 178,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "-"
+        },
+        {
+            "i": 179,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "dependent"
+        },
+        {
+            "i": 180,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "sentiment"
+        },
+        {
+            "i": 181,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "classification"
+        },
+        {
+            "i": 182,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "remains"
+        },
+        {
+            "i": 183,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "a"
+        },
+        {
+            "i": 184,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "challenge"
+        },
+        {
+            "i": 185,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": ":"
+        },
+        {
+            "i": 186,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "modeling"
+        },
+        {
+            "i": 187,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "the"
+        },
+        {
+            "i": 188,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "semantic"
+        },
+        {
+            "i": 189,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "relatedness"
+        },
+        {
+            "i": 190,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "of"
+        },
+        {
+            "i": 191,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "a"
+        },
+        {
+            "i": 192,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "target"
+        },
+        {
+            "i": 193,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "with"
+        },
+        {
+            "i": 194,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "its"
+        },
+        {
+            "i": 195,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "context"
+        },
+        {
+            "i": 196,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "words"
+        },
+        {
+            "i": 197,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "in"
+        },
+        {
+            "i": 198,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "a"
+        },
+        {
+            "i": 199,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "sentence"
+        },
+        {
+            "i": 200,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "."
+        },
+        {
+            "i": 201,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Different"
+        },
+        {
+            "i": 202,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "context"
+        },
+        {
+            "i": 203,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "words"
+        },
+        {
+            "i": 204,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "have"
+        },
+        {
+            "i": 205,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "different"
+        },
+        {
+            "i": 206,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "influences"
+        },
+        {
+            "i": 207,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "on"
+        },
+        {
+            "i": 208,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "determining"
+        },
+        {
+            "i": 209,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "the"
+        },
+        {
+            "i": 210,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "sentiment"
+        },
+        {
+            "i": 211,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "polarity"
+        },
+        {
+            "i": 212,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "of"
+        },
+        {
+            "i": 213,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "a"
+        },
+        {
+            "i": 214,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "sentence"
+        },
+        {
+            "i": 215,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "towards"
+        },
+        {
+            "i": 216,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "the"
+        },
+        {
+            "i": 217,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "target"
+        },
+        {
+            "i": 218,
+            "document": 1,
+            "paragraph": 0,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "."
+        },
+        {
+            "i": 219,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "License"
+        },
+        {
+            "i": 220,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "details"
+        },
+        {
+            "i": 221,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": ":"
+        },
+        {
+            "i": 222,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Sentiment"
+        },
+        {
+            "i": 223,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "analysis"
+        },
+        {
+            "i": 224,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": ","
+        },
+        {
+            "i": 225,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "also"
+        },
+        {
+            "i": 226,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "known"
+        },
+        {
+            "i": 227,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "as"
+        },
+        {
+            "i": 228,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "opinion"
+        },
+        {
+            "i": 229,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "mining"
+        },
+        {
+            "i": 230,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": ","
+        },
+        {
+            "i": 231,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "is"
+        },
+        {
+            "i": 232,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "a"
+        },
+        {
+            "i": 233,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "fundamental"
+        },
+        {
+            "i": 234,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "task"
+        },
+        {
+            "i": 235,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "in"
+        },
+        {
+            "i": 236,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "natural"
+        },
+        {
+            "i": 237,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "language"
+        },
+        {
+            "i": 238,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "processing"
+        },
+        {
+            "i": 239,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "and"
+        },
+        {
+            "i": 240,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "computational"
+        },
+        {
+            "i": 241,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "linguistics"
+        },
+        {
+            "i": 242,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "."
+        },
+        {
+            "i": 243,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "Sentiment"
+        },
+        {
+            "i": 244,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "analysis"
+        },
+        {
+            "i": 245,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "is"
+        },
+        {
+            "i": 246,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "crucial"
+        },
+        {
+            "i": 247,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "to"
+        },
+        {
+            "i": 248,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "understanding"
+        },
+        {
+            "i": 249,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "user"
+        },
+        {
+            "i": 250,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "generated"
+        },
+        {
+            "i": 251,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "text"
+        },
+        {
+            "i": 252,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "in"
+        },
+        {
+            "i": 253,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "social"
+        },
+        {
+            "i": 254,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "networks"
+        },
+        {
+            "i": 255,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "or"
+        },
+        {
+            "i": 256,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "product"
+        },
+        {
+            "i": 257,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "reviews"
+        },
+        {
+            "i": 258,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": ","
+        },
+        {
+            "i": 259,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "and"
+        },
+        {
+            "i": 260,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "has"
+        },
+        {
+            "i": 261,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "drawn"
+        },
+        {
+            "i": 262,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "a"
+        },
+        {
+            "i": 263,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "lot"
+        },
+        {
+            "i": 264,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "of"
+        },
+        {
+            "i": 265,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "attentions"
+        },
+        {
+            "i": 266,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "from"
+        },
+        {
+            "i": 267,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "both"
+        },
+        {
+            "i": 268,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "industry"
+        },
+        {
+            "i": 269,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "and"
+        },
+        {
+            "i": 270,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "academic"
+        },
+        {
+            "i": 271,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "communities"
+        },
+        {
+            "i": 272,
+            "document": 1,
+            "paragraph": 1,
+            "doc_name": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+            "text": "."
+        },
+        {
+            "i": 273,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "One"
+        },
+        {
+            "i": 274,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "important"
+        },
+        {
+            "i": 275,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "example"
+        },
+        {
+            "i": 276,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "is"
+        },
+        {
+            "i": 277,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "training"
+        },
+        {
+            "i": 278,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "an"
+        },
+        {
+            "i": 279,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "image"
+        },
+        {
+            "i": 280,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "classifier"
+        },
+        {
+            "i": 281,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "on"
+        },
+        {
+            "i": 282,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "synthetic"
+        },
+        {
+            "i": 283,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "or"
+        },
+        {
+            "i": 284,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "semi"
+        },
+        {
+            "i": 285,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "-"
+        },
+        {
+            "i": 286,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "synthetic"
+        },
+        {
+            "i": 287,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "images"
+        },
+        {
+            "i": 288,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ","
+        },
+        {
+            "i": 289,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "which"
+        },
+        {
+            "i": 290,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "may"
+        },
+        {
+            "i": 291,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "come"
+        },
+        {
+            "i": 292,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "in"
+        },
+        {
+            "i": 293,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "abundance"
+        },
+        {
+            "i": 294,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "and"
+        },
+        {
+            "i": 295,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "be"
+        },
+        {
+            "i": 296,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "fully"
+        },
+        {
+            "i": 297,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "labeled"
+        },
+        {
+            "i": 298,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ","
+        },
+        {
+            "i": 299,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "but"
+        },
+        {
+            "i": 300,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "which"
+        },
+        {
+            "i": 301,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "inevitably"
+        },
+        {
+            "i": 302,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "have"
+        },
+        {
+            "i": 303,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "a"
+        },
+        {
+            "i": 304,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "distribution"
+        },
+        {
+            "i": 305,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "that"
+        },
+        {
+            "i": 306,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "is"
+        },
+        {
+            "i": 307,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "different"
+        },
+        {
+            "i": 308,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "from"
+        },
+        {
+            "i": 309,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "real"
+        },
+        {
+            "i": 310,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "images"
+        },
+        {
+            "i": 311,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "["
+        },
+        {
+            "i": 312,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reference"
+        },
+        {
+            "i": 313,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "]["
+        },
+        {
+            "i": 314,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reference"
+        },
+        {
+            "i": 315,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "]["
+        },
+        {
+            "i": 316,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reference"
+        },
+        {
+            "i": 317,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "]["
+        },
+        {
+            "i": 318,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reference"
+        },
+        {
+            "i": 319,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "]"
+        },
+        {
+            "i": 320,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "."
+        },
+        {
+            "i": 321,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Another"
+        },
+        {
+            "i": 322,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "example"
+        },
+        {
+            "i": 323,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "is"
+        },
+        {
+            "i": 324,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "in"
+        },
+        {
+            "i": 325,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 326,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "context"
+        },
+        {
+            "i": 327,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "of"
+        },
+        {
+            "i": 328,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "sentiment"
+        },
+        {
+            "i": 329,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "analysis"
+        },
+        {
+            "i": 330,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "in"
+        },
+        {
+            "i": 331,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "written"
+        },
+        {
+            "i": 332,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reviews"
+        },
+        {
+            "i": 333,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ","
+        },
+        {
+            "i": 334,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "where"
+        },
+        {
+            "i": 335,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "one"
+        },
+        {
+            "i": 336,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "might"
+        },
+        {
+            "i": 337,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "have"
+        },
+        {
+            "i": 338,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "labeled"
+        },
+        {
+            "i": 339,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "data"
+        },
+        {
+            "i": 340,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "for"
+        },
+        {
+            "i": 341,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reviews"
+        },
+        {
+            "i": 342,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "of"
+        },
+        {
+            "i": 343,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "one"
+        },
+        {
+            "i": 344,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "type"
+        },
+        {
+            "i": 345,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "of"
+        },
+        {
+            "i": 346,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "product"
+        },
+        {
+            "i": 347,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "("
+        },
+        {
+            "i": 348,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "e.g."
+        },
+        {
+            "i": 349,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ","
+        },
+        {
+            "i": 350,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "movies"
+        },
+        {
+            "i": 351,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ")"
+        },
+        {
+            "i": 352,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ","
+        },
+        {
+            "i": 353,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "while"
+        },
+        {
+            "i": 354,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "having"
+        },
+        {
+            "i": 355,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 356,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "need"
+        },
+        {
+            "i": 357,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "to"
+        },
+        {
+            "i": 358,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "classify"
+        },
+        {
+            "i": 359,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reviews"
+        },
+        {
+            "i": 360,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "of"
+        },
+        {
+            "i": 361,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "other"
+        },
+        {
+            "i": 362,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "products"
+        },
+        {
+            "i": 363,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "("
+        },
+        {
+            "i": 364,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "e.g."
+        },
+        {
+            "i": 365,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ","
+        },
+        {
+            "i": 366,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "books"
+        },
+        {
+            "i": 367,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ")"
+        },
+        {
+            "i": 368,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "."
+        },
+        {
+            "i": 369,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Learning"
+        },
+        {
+            "i": 370,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "a"
+        },
+        {
+            "i": 371,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "discriminative"
+        },
+        {
+            "i": 372,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "classifier"
+        },
+        {
+            "i": 373,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "or"
+        },
+        {
+            "i": 374,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "other"
+        },
+        {
+            "i": 375,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "predictor"
+        },
+        {
+            "i": 376,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "in"
+        },
+        {
+            "i": 377,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 378,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "presence"
+        },
+        {
+            "i": 379,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "of"
+        },
+        {
+            "i": 380,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "a"
+        },
+        {
+            "i": 381,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "shift"
+        },
+        {
+            "i": 382,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "between"
+        },
+        {
+            "i": 383,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "training"
+        },
+        {
+            "i": 384,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "and"
+        },
+        {
+            "i": 385,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "test"
+        },
+        {
+            "i": 386,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "distributions"
+        },
+        {
+            "i": 387,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "is"
+        },
+        {
+            "i": 388,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "known"
+        },
+        {
+            "i": 389,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "as"
+        },
+        {
+            "i": 390,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "domain"
+        },
+        {
+            "i": 391,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "adaptation"
+        },
+        {
+            "i": 392,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "("
+        },
+        {
+            "i": 393,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "DA"
+        },
+        {
+            "i": 394,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ")"
+        },
+        {
+            "i": 395,
+            "document": 2,
+            "paragraph": 0,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "."
+        },
+        {
+            "i": 396,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "We"
+        },
+        {
+            "i": 397,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "also"
+        },
+        {
+            "i": 398,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "observed"
+        },
+        {
+            "i": 399,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "better"
+        },
+        {
+            "i": 400,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "accuracies"
+        },
+        {
+            "i": 401,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "when"
+        },
+        {
+            "i": 402,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "we"
+        },
+        {
+            "i": 403,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "initialized"
+        },
+        {
+            "i": 404,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 405,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "learning"
+        },
+        {
+            "i": 406,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "of"
+        },
+        {
+            "i": 407,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 408,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "reverse"
+        },
+        {
+            "i": 409,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "classifier"
+        },
+        {
+            "i": 410,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "\u03b7"
+        },
+        {
+            "i": 411,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "r"
+        },
+        {
+            "i": 412,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "with"
+        },
+        {
+            "i": 413,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 414,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "configuration"
+        },
+        {
+            "i": 415,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "learned"
+        },
+        {
+            "i": 416,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "by"
+        },
+        {
+            "i": 417,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 418,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "network"
+        },
+        {
+            "i": 419,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "\u03b7"
+        },
+        {
+            "i": 420,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "."
+        },
+        {
+            "i": 421,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "section"
+        },
+        {
+            "i": 422,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ":"
+        },
+        {
+            "i": 423,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Experiments"
+        },
+        {
+            "i": 424,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "on"
+        },
+        {
+            "i": 425,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Sentiment"
+        },
+        {
+            "i": 426,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Analysis"
+        },
+        {
+            "i": 427,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Data"
+        },
+        {
+            "i": 428,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Sets"
+        },
+        {
+            "i": 429,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "We"
+        },
+        {
+            "i": 430,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "now"
+        },
+        {
+            "i": 431,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "compare"
+        },
+        {
+            "i": 432,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "the"
+        },
+        {
+            "i": 433,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "performance"
+        },
+        {
+            "i": 434,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "of"
+        },
+        {
+            "i": 435,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "our"
+        },
+        {
+            "i": 436,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "proposed"
+        },
+        {
+            "i": 437,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "DANN"
+        },
+        {
+            "i": 438,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "algorithm"
+        },
+        {
+            "i": 439,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "to"
+        },
+        {
+            "i": 440,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "a"
+        },
+        {
+            "i": 441,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "standard"
+        },
+        {
+            "i": 442,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "neural"
+        },
+        {
+            "i": 443,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "network"
+        },
+        {
+            "i": 444,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "with"
+        },
+        {
+            "i": 445,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "one"
+        },
+        {
+            "i": 446,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "hidden"
+        },
+        {
+            "i": 447,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "layer"
+        },
+        {
+            "i": 448,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "("
+        },
+        {
+            "i": 449,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "NN"
+        },
+        {
+            "i": 450,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ")"
+        },
+        {
+            "i": 451,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "described"
+        },
+        {
+            "i": 452,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "by"
+        },
+        {
+            "i": 453,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Equation"
+        },
+        {
+            "i": 454,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "("
+        },
+        {
+            "i": 455,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "5"
+        },
+        {
+            "i": 456,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ")"
+        },
+        {
+            "i": 457,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ","
+        },
+        {
+            "i": 458,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "and"
+        },
+        {
+            "i": 459,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "a"
+        },
+        {
+            "i": 460,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Support"
+        },
+        {
+            "i": 461,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Vector"
+        },
+        {
+            "i": 462,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "Machine"
+        },
+        {
+            "i": 463,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "("
+        },
+        {
+            "i": 464,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "SVM"
+        },
+        {
+            "i": 465,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": ")"
+        },
+        {
+            "i": 466,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "with"
+        },
+        {
+            "i": 467,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "a"
+        },
+        {
+            "i": 468,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "linear"
+        },
+        {
+            "i": 469,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "kernel"
+        },
+        {
+            "i": 470,
+            "document": 2,
+            "paragraph": 1,
+            "doc_name": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+            "text": "."
+        },
+        {
+            "i": 471,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "known"
+        },
+        {
+            "i": 472,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "tags"
+        },
+        {
+            "i": 473,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ","
+        },
+        {
+            "i": 474,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "OOVs"
+        },
+        {
+            "i": 475,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "and"
+        },
+        {
+            "i": 476,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "unknown"
+        },
+        {
+            "i": 477,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "word"
+        },
+        {
+            "i": 478,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "-"
+        },
+        {
+            "i": 479,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "tag"
+        },
+        {
+            "i": 480,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "("
+        },
+        {
+            "i": 481,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "UWT"
+        },
+        {
+            "i": 482,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ")"
+        },
+        {
+            "i": 483,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "rate"
+        },
+        {
+            "i": 484,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "."
+        },
+        {
+            "i": 485,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "The"
+        },
+        {
+            "i": 486,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "SANCL"
+        },
+        {
+            "i": 487,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "dataset"
+        },
+        {
+            "i": 488,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "is"
+        },
+        {
+            "i": 489,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "overall"
+        },
+        {
+            "i": 490,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "very"
+        },
+        {
+            "i": 491,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "challenging"
+        },
+        {
+            "i": 492,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ":"
+        },
+        {
+            "i": 493,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "OOV"
+        },
+        {
+            "i": 494,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "rates"
+        },
+        {
+            "i": 495,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "are"
+        },
+        {
+            "i": 496,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "high"
+        },
+        {
+            "i": 497,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "("
+        },
+        {
+            "i": 498,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "6.8"
+        },
+        {
+            "i": 499,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "-"
+        },
+        {
+            "i": 500,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "11"
+        },
+        {
+            "i": 501,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "%"
+        },
+        {
+            "i": 502,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "compared"
+        },
+        {
+            "i": 503,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "to"
+        },
+        {
+            "i": 504,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "2.3"
+        },
+        {
+            "i": 505,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "%"
+        },
+        {
+            "i": 506,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "in"
+        },
+        {
+            "i": 507,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "WSJ"
+        },
+        {
+            "i": 508,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ")"
+        },
+        {
+            "i": 509,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ","
+        },
+        {
+            "i": 510,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "so"
+        },
+        {
+            "i": 511,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "is"
+        },
+        {
+            "i": 512,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "the"
+        },
+        {
+            "i": 513,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "unknown"
+        },
+        {
+            "i": 514,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "word"
+        },
+        {
+            "i": 515,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "-"
+        },
+        {
+            "i": 516,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "tag"
+        },
+        {
+            "i": 517,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "("
+        },
+        {
+            "i": 518,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "UWT"
+        },
+        {
+            "i": 519,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ")"
+        },
+        {
+            "i": 520,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "rate"
+        },
+        {
+            "i": 521,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "("
+        },
+        {
+            "i": 522,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "answers"
+        },
+        {
+            "i": 523,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "and"
+        },
+        {
+            "i": 524,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "emails"
+        },
+        {
+            "i": 525,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "contain"
+        },
+        {
+            "i": 526,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "2.91"
+        },
+        {
+            "i": 527,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "%"
+        },
+        {
+            "i": 528,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "and"
+        },
+        {
+            "i": 529,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "3.47"
+        },
+        {
+            "i": 530,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "%"
+        },
+        {
+            "i": 531,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "UWT"
+        },
+        {
+            "i": 532,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "compared"
+        },
+        {
+            "i": 533,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "to"
+        },
+        {
+            "i": 534,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "0.61"
+        },
+        {
+            "i": 535,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "%"
+        },
+        {
+            "i": 536,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "on"
+        },
+        {
+            "i": 537,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "WSJ"
+        },
+        {
+            "i": 538,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ")"
+        },
+        {
+            "i": 539,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "and"
+        },
+        {
+            "i": 540,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "almost"
+        },
+        {
+            "i": 541,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "all"
+        },
+        {
+            "i": 542,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "target"
+        },
+        {
+            "i": 543,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "domains"
+        },
+        {
+            "i": 544,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "even"
+        },
+        {
+            "i": 545,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "contain"
+        },
+        {
+            "i": 546,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "unknown"
+        },
+        {
+            "i": 547,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "tags"
+        },
+        {
+            "i": 548,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "["
+        },
+        {
+            "i": 549,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "reference"
+        },
+        {
+            "i": 550,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": "]"
+        },
+        {
+            "i": 551,
+            "document": 3,
+            "paragraph": 0,
+            "doc_name": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+            "text": ")"
+        },
+        {
+            "i": 552,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "document"
+        },
+        {
+            "i": 553,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": ":"
+        },
+        {
+            "i": 554,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Multimodal"
+        },
+        {
+            "i": 555,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Sentiment"
+        },
+        {
+            "i": 556,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Analysis"
+        },
+        {
+            "i": 557,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "using"
+        },
+        {
+            "i": 558,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Hierarchical"
+        },
+        {
+            "i": 559,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Fusion"
+        },
+        {
+            "i": 560,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "with"
+        },
+        {
+            "i": 561,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Context"
+        },
+        {
+            "i": 562,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Modeling"
+        },
+        {
+            "i": 563,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "Multimodal"
+        },
+        {
+            "i": 564,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "sentiment"
+        },
+        {
+            "i": 565,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "analysis"
+        },
+        {
+            "i": 566,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "is"
+        },
+        {
+            "i": 567,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "a"
+        },
+        {
+            "i": 568,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "very"
+        },
+        {
+            "i": 569,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "actively"
+        },
+        {
+            "i": 570,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "growing"
+        },
+        {
+            "i": 571,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "field"
+        },
+        {
+            "i": 572,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "of"
+        },
+        {
+            "i": 573,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "research"
+        },
+        {
+            "i": 574,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "."
+        },
+        {
+            "i": 575,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "A"
+        },
+        {
+            "i": 576,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "promising"
+        },
+        {
+            "i": 577,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "area"
+        },
+        {
+            "i": 578,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "of"
+        },
+        {
+            "i": 579,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "opportunity"
+        },
+        {
+            "i": 580,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "in"
+        },
+        {
+            "i": 581,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "this"
+        },
+        {
+            "i": 582,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "field"
+        },
+        {
+            "i": 583,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "is"
+        },
+        {
+            "i": 584,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "to"
+        },
+        {
+            "i": 585,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "improve"
+        },
+        {
+            "i": 586,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "the"
+        },
+        {
+            "i": 587,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "multimodal"
+        },
+        {
+            "i": 588,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "fusion"
+        },
+        {
+            "i": 589,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "mechanism"
+        },
+        {
+            "i": 590,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "."
+        },
+        {
+            "i": 591,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "We"
+        },
+        {
+            "i": 592,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "present"
+        },
+        {
+            "i": 593,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "a"
+        },
+        {
+            "i": 594,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "novel"
+        },
+        {
+            "i": 595,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "feature"
+        },
+        {
+            "i": 596,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "fusion"
+        },
+        {
+            "i": 597,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "strategy"
+        },
+        {
+            "i": 598,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "that"
+        },
+        {
+            "i": 599,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "proceeds"
+        },
+        {
+            "i": 600,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "in"
+        },
+        {
+            "i": 601,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "a"
+        },
+        {
+            "i": 602,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "hierarchical"
+        },
+        {
+            "i": 603,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "fashion"
+        },
+        {
+            "i": 604,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": ","
+        },
+        {
+            "i": 605,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "first"
+        },
+        {
+            "i": 606,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "fusing"
+        },
+        {
+            "i": 607,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "the"
+        },
+        {
+            "i": 608,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "modalities"
+        },
+        {
+            "i": 609,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "two"
+        },
+        {
+            "i": 610,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "in"
+        },
+        {
+            "i": 611,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "two"
+        },
+        {
+            "i": 612,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "and"
+        },
+        {
+            "i": 613,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "only"
+        },
+        {
+            "i": 614,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "then"
+        },
+        {
+            "i": 615,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "fusing"
+        },
+        {
+            "i": 616,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "all"
+        },
+        {
+            "i": 617,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "three"
+        },
+        {
+            "i": 618,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "modalities"
+        },
+        {
+            "i": 619,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "."
+        },
+        {
+            "i": 620,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "On"
+        },
+        {
+            "i": 621,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "multimodal"
+        },
+        {
+            "i": 622,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "sentiment"
+        },
+        {
+            "i": 623,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "analysis"
+        },
+        {
+            "i": 624,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "of"
+        },
+        {
+            "i": 625,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "individual"
+        },
+        {
+            "i": 626,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "utterances"
+        },
+        {
+            "i": 627,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": ","
+        },
+        {
+            "i": 628,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "our"
+        },
+        {
+            "i": 629,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "strategy"
+        },
+        {
+            "i": 630,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "outperforms"
+        },
+        {
+            "i": 631,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "conventional"
+        },
+        {
+            "i": 632,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "concatenation"
+        },
+        {
+            "i": 633,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "of"
+        },
+        {
+            "i": 634,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "features"
+        },
+        {
+            "i": 635,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "by"
+        },
+        {
+            "i": 636,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "1"
+        },
+        {
+            "i": 637,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "%"
+        },
+        {
+            "i": 638,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": ","
+        },
+        {
+            "i": 639,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "which"
+        },
+        {
+            "i": 640,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "amounts"
+        },
+        {
+            "i": 641,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "to"
+        },
+        {
+            "i": 642,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "5"
+        },
+        {
+            "i": 643,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "%"
+        },
+        {
+            "i": 644,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "reduction"
+        },
+        {
+            "i": 645,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "in"
+        },
+        {
+            "i": 646,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "error"
+        },
+        {
+            "i": 647,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "rate"
+        },
+        {
+            "i": 648,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "."
+        },
+        {
+            "i": 649,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "On"
+        },
+        {
+            "i": 650,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "utterance"
+        },
+        {
+            "i": 651,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "-"
+        },
+        {
+            "i": 652,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "level"
+        },
+        {
+            "i": 653,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "multimodal"
+        },
+        {
+            "i": 654,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "sentiment"
+        },
+        {
+            "i": 655,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "analysis"
+        },
+        {
+            "i": 656,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "of"
+        },
+        {
+            "i": 657,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "multi"
+        },
+        {
+            "i": 658,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "-"
+        },
+        {
+            "i": 659,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "utterance"
+        },
+        {
+            "i": 660,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "video"
+        },
+        {
+            "i": 661,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "clips"
+        },
+        {
+            "i": 662,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": ","
+        },
+        {
+            "i": 663,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "for"
+        },
+        {
+            "i": 664,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "which"
+        },
+        {
+            "i": 665,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "current"
+        },
+        {
+            "i": 666,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "state"
+        },
+        {
+            "i": 667,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "-"
+        },
+        {
+            "i": 668,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "of"
+        },
+        {
+            "i": 669,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "-"
+        },
+        {
+            "i": 670,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "the"
+        },
+        {
+            "i": 671,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "-"
+        },
+        {
+            "i": 672,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "art"
+        },
+        {
+            "i": 673,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "techniques"
+        },
+        {
+            "i": 674,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "incorporate"
+        },
+        {
+            "i": 675,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "contextual"
+        },
+        {
+            "i": 676,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "information"
+        },
+        {
+            "i": 677,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "from"
+        },
+        {
+            "i": 678,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "other"
+        },
+        {
+            "i": 679,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "utterances"
+        },
+        {
+            "i": 680,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "of"
+        },
+        {
+            "i": 681,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "the"
+        },
+        {
+            "i": 682,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "same"
+        },
+        {
+            "i": 683,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "clip"
+        },
+        {
+            "i": 684,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": ","
+        },
+        {
+            "i": 685,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "our"
+        },
+        {
+            "i": 686,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "hierarchical"
+        },
+        {
+            "i": 687,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "fusion"
+        },
+        {
+            "i": 688,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "gives"
+        },
+        {
+            "i": 689,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "up"
+        },
+        {
+            "i": 690,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "to"
+        },
+        {
+            "i": 691,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "2.4"
+        },
+        {
+            "i": 692,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "%"
+        },
+        {
+            "i": 693,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "("
+        },
+        {
+            "i": 694,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "almost"
+        },
+        {
+            "i": 695,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "10"
+        },
+        {
+            "i": 696,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "%"
+        },
+        {
+            "i": 697,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "error"
+        },
+        {
+            "i": 698,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "rate"
+        },
+        {
+            "i": 699,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "reduction"
+        },
+        {
+            "i": 700,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": ")"
+        },
+        {
+            "i": 701,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "over"
+        },
+        {
+            "i": 702,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "currently"
+        },
+        {
+            "i": 703,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "used"
+        },
+        {
+            "i": 704,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "concatenation"
+        },
+        {
+            "i": 705,
+            "document": 4,
+            "paragraph": 0,
+            "doc_name": "0b5aef2894d3248fb5ecc955d50501f0aa276036",
+            "text": "."
+        },
+        {
+            "i": 706,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "We"
+        },
+        {
+            "i": 707,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "evaluate"
+        },
+        {
+            "i": 708,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "the"
+        },
+        {
+            "i": 709,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "quality"
+        },
+        {
+            "i": 710,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "of"
+        },
+        {
+            "i": 711,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "our"
+        },
+        {
+            "i": 712,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "approach"
+        },
+        {
+            "i": 713,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "fastTexthttps:"
+        },
+        {
+            "i": 714,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "//"
+        },
+        {
+            "i": 715,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "github.com"
+        },
+        {
+            "i": 716,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "/"
+        },
+        {
+            "i": 717,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "facebookresearch"
+        },
+        {
+            "i": 718,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "/"
+        },
+        {
+            "i": 719,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "fastText"
+        },
+        {
+            "i": 720,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "on"
+        },
+        {
+            "i": 721,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "two"
+        },
+        {
+            "i": 722,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "different"
+        },
+        {
+            "i": 723,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "tasks"
+        },
+        {
+            "i": 724,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": ","
+        },
+        {
+            "i": 725,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "namely"
+        },
+        {
+            "i": 726,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "tag"
+        },
+        {
+            "i": 727,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "prediction"
+        },
+        {
+            "i": 728,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "and"
+        },
+        {
+            "i": 729,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "sentiment"
+        },
+        {
+            "i": 730,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "analysis"
+        },
+        {
+            "i": 731,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "."
+        },
+        {
+            "i": 732,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "section"
+        },
+        {
+            "i": 733,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": ":"
+        },
+        {
+            "i": 734,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "Model"
+        },
+        {
+            "i": 735,
+            "document": 5,
+            "paragraph": 0,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "architecture"
+        },
+        {
+            "i": 736,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "We"
+        },
+        {
+            "i": 737,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "evaluate"
+        },
+        {
+            "i": 738,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "fastText"
+        },
+        {
+            "i": 739,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "on"
+        },
+        {
+            "i": 740,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "two"
+        },
+        {
+            "i": 741,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "different"
+        },
+        {
+            "i": 742,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "tasks"
+        },
+        {
+            "i": 743,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "."
+        },
+        {
+            "i": 744,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "First"
+        },
+        {
+            "i": 745,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": ","
+        },
+        {
+            "i": 746,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "we"
+        },
+        {
+            "i": 747,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "compare"
+        },
+        {
+            "i": 748,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "it"
+        },
+        {
+            "i": 749,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "to"
+        },
+        {
+            "i": 750,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "existing"
+        },
+        {
+            "i": 751,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "text"
+        },
+        {
+            "i": 752,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "classifers"
+        },
+        {
+            "i": 753,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "on"
+        },
+        {
+            "i": 754,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "the"
+        },
+        {
+            "i": 755,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "problem"
+        },
+        {
+            "i": 756,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "of"
+        },
+        {
+            "i": 757,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "sentiment"
+        },
+        {
+            "i": 758,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "analysis"
+        },
+        {
+            "i": 759,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "."
+        },
+        {
+            "i": 760,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "Then"
+        },
+        {
+            "i": 761,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": ","
+        },
+        {
+            "i": 762,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "we"
+        },
+        {
+            "i": 763,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "evaluate"
+        },
+        {
+            "i": 764,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "its"
+        },
+        {
+            "i": 765,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "capacity"
+        },
+        {
+            "i": 766,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "to"
+        },
+        {
+            "i": 767,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "scale"
+        },
+        {
+            "i": 768,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "to"
+        },
+        {
+            "i": 769,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "large"
+        },
+        {
+            "i": 770,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "output"
+        },
+        {
+            "i": 771,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "space"
+        },
+        {
+            "i": 772,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "on"
+        },
+        {
+            "i": 773,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "a"
+        },
+        {
+            "i": 774,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "tag"
+        },
+        {
+            "i": 775,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "prediction"
+        },
+        {
+            "i": 776,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "dataset"
+        },
+        {
+            "i": 777,
+            "document": 5,
+            "paragraph": 1,
+            "doc_name": "023cc7f9f3544436553df9548a7d0575bb309c2e",
+            "text": "."
+        },
+        {
+            "i": 778,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "document"
+        },
+        {
+            "i": 779,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ":"
+        },
+        {
+            "i": 780,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "A"
+        },
+        {
+            "i": 781,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Multi"
+        },
+        {
+            "i": 782,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "-"
+        },
+        {
+            "i": 783,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 784,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "-"
+        },
+        {
+            "i": 785,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "resource"
+        },
+        {
+            "i": 786,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Enhanced"
+        },
+        {
+            "i": 787,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Attention"
+        },
+        {
+            "i": 788,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Network"
+        },
+        {
+            "i": 789,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "for"
+        },
+        {
+            "i": 790,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Sentiment"
+        },
+        {
+            "i": 791,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Classification"
+        },
+        {
+            "i": 792,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Deep"
+        },
+        {
+            "i": 793,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "learning"
+        },
+        {
+            "i": 794,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "approaches"
+        },
+        {
+            "i": 795,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "for"
+        },
+        {
+            "i": 796,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 797,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "classification"
+        },
+        {
+            "i": 798,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "do"
+        },
+        {
+            "i": 799,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "not"
+        },
+        {
+            "i": 800,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "fully"
+        },
+        {
+            "i": 801,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "exploit"
+        },
+        {
+            "i": 802,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 803,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "linguistic"
+        },
+        {
+            "i": 804,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "knowledge"
+        },
+        {
+            "i": 805,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "."
+        },
+        {
+            "i": 806,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "In"
+        },
+        {
+            "i": 807,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "this"
+        },
+        {
+            "i": 808,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "paper"
+        },
+        {
+            "i": 809,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ","
+        },
+        {
+            "i": 810,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "we"
+        },
+        {
+            "i": 811,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "propose"
+        },
+        {
+            "i": 812,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "a"
+        },
+        {
+            "i": 813,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Multi"
+        },
+        {
+            "i": 814,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "-"
+        },
+        {
+            "i": 815,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 816,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "-"
+        },
+        {
+            "i": 817,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "resource"
+        },
+        {
+            "i": 818,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Enhanced"
+        },
+        {
+            "i": 819,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Attention"
+        },
+        {
+            "i": 820,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "Network"
+        },
+        {
+            "i": 821,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "("
+        },
+        {
+            "i": 822,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "MEAN"
+        },
+        {
+            "i": 823,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ")"
+        },
+        {
+            "i": 824,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "to"
+        },
+        {
+            "i": 825,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "alleviate"
+        },
+        {
+            "i": 826,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "the"
+        },
+        {
+            "i": 827,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "problem"
+        },
+        {
+            "i": 828,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "by"
+        },
+        {
+            "i": 829,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "integrating"
+        },
+        {
+            "i": 830,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "three"
+        },
+        {
+            "i": 831,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "kinds"
+        },
+        {
+            "i": 832,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "of"
+        },
+        {
+            "i": 833,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 834,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "linguistic"
+        },
+        {
+            "i": 835,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "knowledge"
+        },
+        {
+            "i": 836,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "("
+        },
+        {
+            "i": 837,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "e.g."
+        },
+        {
+            "i": 838,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ","
+        },
+        {
+            "i": 839,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 840,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "lexicon"
+        },
+        {
+            "i": 841,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ","
+        },
+        {
+            "i": 842,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "negation"
+        },
+        {
+            "i": 843,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "words"
+        },
+        {
+            "i": 844,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ","
+        },
+        {
+            "i": 845,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "intensity"
+        },
+        {
+            "i": 846,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "words"
+        },
+        {
+            "i": 847,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ")"
+        },
+        {
+            "i": 848,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "into"
+        },
+        {
+            "i": 849,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "the"
+        },
+        {
+            "i": 850,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "deep"
+        },
+        {
+            "i": 851,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "neural"
+        },
+        {
+            "i": 852,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "network"
+        },
+        {
+            "i": 853,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "via"
+        },
+        {
+            "i": 854,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "attention"
+        },
+        {
+            "i": 855,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "mechanisms"
+        },
+        {
+            "i": 856,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "."
+        },
+        {
+            "i": 857,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "By"
+        },
+        {
+            "i": 858,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "using"
+        },
+        {
+            "i": 859,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "various"
+        },
+        {
+            "i": 860,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "types"
+        },
+        {
+            "i": 861,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "of"
+        },
+        {
+            "i": 862,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 863,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "resources"
+        },
+        {
+            "i": 864,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ","
+        },
+        {
+            "i": 865,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "MEAN"
+        },
+        {
+            "i": 866,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "utilizes"
+        },
+        {
+            "i": 867,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 868,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "-"
+        },
+        {
+            "i": 869,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "relevant"
+        },
+        {
+            "i": 870,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "information"
+        },
+        {
+            "i": 871,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "from"
+        },
+        {
+            "i": 872,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "different"
+        },
+        {
+            "i": 873,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "representation"
+        },
+        {
+            "i": 874,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sub"
+        },
+        {
+            "i": 875,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "-"
+        },
+        {
+            "i": 876,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "spaces"
+        },
+        {
+            "i": 877,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ","
+        },
+        {
+            "i": 878,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "which"
+        },
+        {
+            "i": 879,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "makes"
+        },
+        {
+            "i": 880,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "it"
+        },
+        {
+            "i": 881,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "more"
+        },
+        {
+            "i": 882,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "effective"
+        },
+        {
+            "i": 883,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "to"
+        },
+        {
+            "i": 884,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "capture"
+        },
+        {
+            "i": 885,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "the"
+        },
+        {
+            "i": 886,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "overall"
+        },
+        {
+            "i": 887,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "semantics"
+        },
+        {
+            "i": 888,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "of"
+        },
+        {
+            "i": 889,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "the"
+        },
+        {
+            "i": 890,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 891,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": ","
+        },
+        {
+            "i": 892,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "negation"
+        },
+        {
+            "i": 893,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "and"
+        },
+        {
+            "i": 894,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "intensity"
+        },
+        {
+            "i": 895,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "words"
+        },
+        {
+            "i": 896,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "for"
+        },
+        {
+            "i": 897,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "sentiment"
+        },
+        {
+            "i": 898,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "prediction"
+        },
+        {
+            "i": 899,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "."
+        },
+        {
+            "i": 900,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "The"
+        },
+        {
+            "i": 901,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "experimental"
+        },
+        {
+            "i": 902,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "results"
+        },
+        {
+            "i": 903,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "demonstrate"
+        },
+        {
+            "i": 904,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "that"
+        },
+        {
+            "i": 905,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "MEAN"
+        },
+        {
+            "i": 906,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "has"
+        },
+        {
+            "i": 907,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "robust"
+        },
+        {
+            "i": 908,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "superiority"
+        },
+        {
+            "i": 909,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "over"
+        },
+        {
+            "i": 910,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "strong"
+        },
+        {
+            "i": 911,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "competitors"
+        },
+        {
+            "i": 912,
+            "document": 6,
+            "paragraph": 0,
+            "doc_name": "06c5b86b638b2f3572b9cdd9ef0be4740b16781b",
+            "text": "."
+        }
+    ],
+    "mentions": [
+        {
+            "start": 22,
+            "end": 26,
+            "first": true,
+            "clustId": "22-26"
+        },
+        {
+            "start": 88,
+            "end": 88,
+            "first": false
+        },
+        {
+            "start": 177,
+            "end": 181,
+            "first": true
+        },
+        {
+            "start": 222,
+            "end": 223,
+            "first": false
+        },
+        {
+            "start": 331,
+            "end": 332,
+            "first": true
+        },
+        {
+            "start": 425,
+            "end": 428,
+            "first": false
+        },
+        {
+            "start": 486,
+            "end": 487,
+            "first": true
+        },
+        {
+            "start": 563,
+            "end": 565,
+            "first": true
+        },
+        {
+            "start": 621,
+            "end": 623,
+            "first": false
+        },
+        {
+            "start": 729,
+            "end": 730,
+            "first": true
+        },
+        {
+            "start": 757,
+            "end": 758,
+            "first": false
+        },
+        {
+            "start": 796,
+            "end": 797,
+            "first": true
+        },
+        {
+            "start": 897,
+            "end": 898,
+            "first": false
+        }
+    ],
+    "selectedCluster": "22-26"
+}

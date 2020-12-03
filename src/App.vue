@@ -107,6 +107,9 @@
       v-show="this.showHypernym">
   </Hypernym>
   </v-container>
+
+  <v-btn block color="#20BF7E" v-if="this.done" @click="submit()">Submit </v-btn>
+
 </v-container>
       
       <!-- <ClusterBank
@@ -125,7 +128,9 @@
         
     </v-main>
 
-    
+    <!-- <v-btn block color="#B0BEC5" v-if="this.hypernym" @click="showHideHypernym()">{{hypernymMessage}} Hypernyms </v-btn> -->
+
+   
 
     <v-snackbar v-model="snackbar" :timeout="snackbarTimeout">
       {{ snackbarText }}
@@ -133,6 +138,7 @@
     </v-snackbar>
 
     <v-tour name="myTour" :steps="tourSteps" />
+
 
     <!-- <v-footer  inset app color="white"
     :fixed="fixedFooter" 
@@ -194,11 +200,19 @@
 <script>
 import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
+// import jsonData from "./data/guided_sentiment.json";
 // import jsonData from "./data/scirex_example_.json";
 // import jsonData from "../../coref-hypernym/data/scirex3/100.json";
+// import jsonData from "../../export_data/arie_sentiment.json";
+
+// import jsonData from "./data/mt_annotation.json";
+
+
+// import jsonData from "./internal_trial/22.json";
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
 import VueTreeList from 'vue-tree-list'
+
 
 
 import {
@@ -234,6 +248,8 @@ Vue.config.productionTip = false;
 import ClusterBank from "./components/ClusterBank.vue";
 import Hypernym from './components/Hypernym.vue';
 
+import VueSimpleAlert from "vue-simple-alert";
+Vue.use(VueSimpleAlert)
 
 export default {
   name: "App",
@@ -506,6 +522,22 @@ export default {
     }
   },
   methods: {
+    submit: function() {
+      let data = {
+        "tokens": this.tokens,
+        "mentions": this.mentions,
+        "id": this.clusterName,
+        "hypernyms": this.clusterTree
+      };
+
+      const a = document.createElement("a");
+      const file = new Blob([JSON.stringify(data, null, 4)], { type: "text/plain" });
+      a.href = URL.createObjectURL(file);
+      a.download = this.clusterName + '.json';
+      a.click();
+      console.log('Submit');
+    },
+
     showHideHypernym: function() {
       this.showHypernym = !this.showHypernym;
     },
@@ -595,19 +627,19 @@ export default {
       //     this.reassignMention(mention.index);
       //     this.$forceUpdate();
       // }
-      if (mention.index != undefined && mention.index != this.curMentionIndex){
-            this.selectCluster(this.mentions[mention.index].clustId);
-      }
-      // if (e.altKey || e.ctrlKey) {
-      //   e.preventDefault();
-      //   if (this.reassignable) {
-      //     this.reassignMention(mention.index);
-      //   }
-      // } else {
-      //   if (mention.index != undefined && mention.index != this.curMentionIndex){
+      // if (mention.index != undefined && mention.index != this.curMentionIndex){
       //       this.selectCluster(this.mentions[mention.index].clustId);
-      //   }
       // }
+      if (e.altKey || e.ctrlKey) {
+        e.preventDefault();
+        if (this.reassignable) {
+          this.reassignMention(mention.index);
+        }
+      } else {
+        if (mention.index != undefined && mention.index != this.curMentionIndex){
+            this.selectCluster(this.mentions[mention.index].clustId);
+        }
+      }
     },
 
     viewedMentionDoubleClicked(e, mention) {
@@ -766,8 +798,12 @@ export default {
       if (this.mentionsViewed < this.mentions.length) {
         this.curMentionIndex = this.mentionsViewed;
       }
-      else{
-        this.done = true;
+      else {
+        if (!this.done) {
+          this.done = true;
+          this.$alert("Coreference part is finished. Please complete the hypernym before submitting the task (you can always modify the coreference clusters).", 'Done', 'info');
+        }
+        
       }
       
     },

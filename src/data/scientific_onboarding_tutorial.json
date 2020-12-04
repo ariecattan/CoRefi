@@ -178,7 +178,7 @@
             "header": {
                 "title": "Assigning a New Cluster"
             },
-            "content": "If the current mention does not belong to any cluster in the cluster bank it can be assigned to new cluster with Ctrl + SPACE (Windows) or ALT + SPACE (MacOS)."
+            "content": "If the current mention does not belong to any cluster in the cluster bank it can be assigned to new cluster with Ctrl + SPACE (Windows) or ALT + SPACE (MacOS), or click on the <span style='color:#2d9cdb;background-color:#ddeff9'> + </span> at the bottom left."
         },
         {
             "target": ".current",

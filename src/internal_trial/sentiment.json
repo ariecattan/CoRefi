@@ -6402,68 +6402,55 @@
         {
             "start": 22,
             "end": 26,
-            "first": true,
             "clustId": "22-26"
         },
         {
             "start": 88,
-            "end": 88,
-            "first": false
+            "end": 88
         },
         {
             "start": 177,
-            "end": 181,
-            "first": true
+            "end": 181
         },
         {
             "start": 222,
-            "end": 223,
-            "first": false
+            "end": 223
         },
         {
             "start": 331,
-            "end": 332,
-            "first": true
+            "end": 332
         },
         {
             "start": 425,
-            "end": 428,
-            "first": false
+            "end": 428
         },
         {
             "start": 486,
-            "end": 487,
-            "first": true
+            "end": 487
         },
         {
             "start": 563,
-            "end": 565,
-            "first": true
+            "end": 565
         },
         {
             "start": 621,
-            "end": 623,
-            "first": false
+            "end": 623
         },
         {
             "start": 729,
-            "end": 730,
-            "first": true
+            "end": 730
         },
         {
             "start": 757,
-            "end": 758,
-            "first": false
+            "end": 758
         },
         {
             "start": 796,
-            "end": 797,
-            "first": true
+            "end": 797
         },
         {
             "start": 897,
-            "end": 898,
-            "first": false
+            "end": 898
         }
     ],
     "selectedCluster": "22-26"

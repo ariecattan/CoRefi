@@ -4640,3611 +4640,734 @@
         },
         {
             "i": 662,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "In"
+            "document": 20,
+            "paragraph": 0,
+            "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
+            "text": "Our"
         },
         {
             "i": 663,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "our"
+            "document": 20,
+            "paragraph": 0,
+            "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
+            "text": "experiments"
         },
         {
             "i": 664,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "synthetic"
-        },
-        {
-            "i": 665,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "data"
-        },
-        {
-            "i": 666,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "experiments"
-        },
-        {
-            "i": 667,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": ","
-        },
-        {
-            "i": 668,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "we"
-        },
-        {
-            "i": 669,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "used"
-        },
-        {
-            "i": 670,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "an"
-        },
-        {
-            "i": 671,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "oracle"
-        },
-        {
-            "i": 672,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "evaluation"
-        },
-        {
-            "i": 673,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "mechanism"
-        },
-        {
-            "i": 674,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "to"
-        },
-        {
-            "i": 675,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "explicitly"
-        },
-        {
-            "i": 676,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "illustrate"
-        },
-        {
-            "i": 677,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "the"
-        },
-        {
-            "i": 678,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "superiority"
-        },
-        {
-            "i": 679,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "of"
-        },
-        {
-            "i": 680,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "SeqGAN"
-        },
-        {
-            "i": 681,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "over"
-        },
-        {
-            "i": 682,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "strong"
-        },
-        {
-            "i": 683,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "baselines"
-        },
-        {
-            "i": 684,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "."
-        },
-        {
-            "i": 685,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "For"
-        },
-        {
-            "i": 686,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "three"
-        },
-        {
-            "i": 687,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "real"
-        },
-        {
-            "i": 688,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "-"
-        },
-        {
-            "i": 689,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "world"
-        },
-        {
-            "i": 690,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "scenarios"
-        },
-        {
-            "i": 691,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": ","
-        },
-        {
-            "i": 692,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "i.e."
-        },
-        {
-            "i": 693,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": ","
-        },
-        {
-            "i": 694,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "poems"
-        },
-        {
-            "i": 695,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": ","
-        },
-        {
-            "i": 696,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "speech"
-        },
-        {
-            "i": 697,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "language"
-        },
-        {
-            "i": 698,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "and"
-        },
-        {
-            "i": 699,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "music"
-        },
-        {
-            "i": 700,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "generation"
-        },
-        {
-            "i": 701,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": ","
-        },
-        {
-            "i": 702,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "SeqGAN"
-        },
-        {
-            "i": 703,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "showed"
-        },
-        {
-            "i": 704,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "excellent"
-        },
-        {
-            "i": 705,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "performance"
-        },
-        {
-            "i": 706,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "on"
-        },
-        {
-            "i": 707,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "generating"
-        },
-        {
-            "i": 708,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "the"
-        },
-        {
-            "i": 709,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "creative"
-        },
-        {
-            "i": 710,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "sequences"
-        },
-        {
-            "i": 711,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "."
-        },
-        {
-            "i": 712,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "We"
-        },
-        {
-            "i": 713,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "also"
-        },
-        {
-            "i": 714,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "performed"
-        },
-        {
-            "i": 715,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "a"
-        },
-        {
-            "i": 716,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "set"
-        },
-        {
-            "i": 717,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "of"
-        },
-        {
-            "i": 718,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "experiments"
-        },
-        {
-            "i": 719,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "to"
-        },
-        {
-            "i": 720,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "investigate"
-        },
-        {
-            "i": 721,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "the"
-        },
-        {
-            "i": 722,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "robustness"
-        },
-        {
-            "i": 723,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "and"
-        },
-        {
-            "i": 724,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "stability"
-        },
-        {
-            "i": 725,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "of"
-        },
-        {
-            "i": 726,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "training"
-        },
-        {
-            "i": 727,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "SeqGAN"
-        },
-        {
-            "i": 728,
-            "document": 17,
-            "paragraph": 2,
-            "doc_name": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
-            "text": "."
-        },
-        {
-            "i": 729,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "Neural"
-        },
-        {
-            "i": 730,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "encoder"
-        },
-        {
-            "i": 731,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "-"
-        },
-        {
-            "i": 732,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "decoder"
-        },
-        {
-            "i": 733,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "models"
-        },
-        {
-            "i": 734,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "have"
-        },
-        {
-            "i": 735,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "been"
-        },
-        {
-            "i": 736,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "successful"
-        },
-        {
-            "i": 737,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "in"
-        },
-        {
-            "i": 738,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "natural"
-        },
-        {
-            "i": 739,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "language"
-        },
-        {
-            "i": 740,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "generation"
-        },
-        {
-            "i": 741,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "tasks"
-        },
-        {
-            "i": 742,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "."
-        },
-        {
-            "i": 743,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "However"
-        },
-        {
-            "i": 744,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": ","
-        },
-        {
-            "i": 745,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "real"
-        },
-        {
-            "i": 746,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "applications"
-        },
-        {
-            "i": 747,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "of"
-        },
-        {
-            "i": 748,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "abstractive"
-        },
-        {
-            "i": 749,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "summarization"
-        },
-        {
-            "i": 750,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "must"
-        },
-        {
-            "i": 751,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "consider"
-        },
-        {
-            "i": 752,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "additional"
-        },
-        {
-            "i": 753,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "constraint"
-        },
-        {
-            "i": 754,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "that"
-        },
-        {
-            "i": 755,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "a"
-        },
-        {
-            "i": 756,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "generated"
-        },
-        {
-            "i": 757,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "summary"
-        },
-        {
-            "i": 758,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "should"
-        },
-        {
-            "i": 759,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "not"
-        },
-        {
-            "i": 760,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "exceed"
-        },
-        {
-            "i": 761,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "a"
-        },
-        {
-            "i": 762,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "desired"
-        },
-        {
-            "i": 763,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "length"
-        },
-        {
-            "i": 764,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "."
-        },
-        {
-            "i": 765,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "In"
-        },
-        {
-            "i": 766,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "this"
-        },
-        {
-            "i": 767,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "paper"
-        },
-        {
-            "i": 768,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": ","
-        },
-        {
-            "i": 769,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "we"
-        },
-        {
-            "i": 770,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "propose"
-        },
-        {
-            "i": 771,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "a"
-        },
-        {
-            "i": 772,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "simple"
-        },
-        {
-            "i": 773,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "but"
-        },
-        {
-            "i": 774,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "effective"
-        },
-        {
-            "i": 775,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "extension"
-        },
-        {
-            "i": 776,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "of"
-        },
-        {
-            "i": 777,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "a"
-        },
-        {
-            "i": 778,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "sinusoidal"
-        },
-        {
-            "i": 779,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "positional"
-        },
-        {
-            "i": 780,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "encoding"
-        },
-        {
-            "i": 781,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "to"
-        },
-        {
-            "i": 782,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "enable"
-        },
-        {
-            "i": 783,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "neural"
-        },
-        {
-            "i": 784,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "encoder"
-        },
-        {
-            "i": 785,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "-"
-        },
-        {
-            "i": 786,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "decoder"
-        },
-        {
-            "i": 787,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "model"
-        },
-        {
-            "i": 788,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "to"
-        },
-        {
-            "i": 789,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "preserves"
-        },
-        {
-            "i": 790,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "the"
-        },
-        {
-            "i": 791,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "length"
-        },
-        {
-            "i": 792,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "constraint"
-        },
-        {
-            "i": 793,
-            "document": 18,
-            "paragraph": 0,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "."
-        },
-        {
-            "i": 794,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "section"
-        },
-        {
-            "i": 795,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": ":"
-        },
-        {
-            "i": 796,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "Introduction"
-        },
-        {
-            "i": 797,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "Neural"
-        },
-        {
-            "i": 798,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "encoder"
-        },
-        {
-            "i": 799,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "-"
-        },
-        {
-            "i": 800,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "decoder"
-        },
-        {
-            "i": 801,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "models"
-        },
-        {
-            "i": 802,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "have"
-        },
-        {
-            "i": 803,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "been"
-        },
-        {
-            "i": 804,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "successfully"
-        },
-        {
-            "i": 805,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "applied"
-        },
-        {
-            "i": 806,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "to"
-        },
-        {
-            "i": 807,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "various"
-        },
-        {
-            "i": 808,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "natural"
-        },
-        {
-            "i": 809,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "language"
-        },
-        {
-            "i": 810,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "generation"
-        },
-        {
-            "i": 811,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "tasks"
-        },
-        {
-            "i": 812,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "including"
-        },
-        {
-            "i": 813,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "machine"
-        },
-        {
-            "i": 814,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "translation"
-        },
-        {
-            "i": 815,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": ","
-        },
-        {
-            "i": 816,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "summarization"
-        },
-        {
-            "i": 817,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": ","
-        },
-        {
-            "i": 818,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "and"
-        },
-        {
-            "i": 819,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "caption"
-        },
-        {
-            "i": 820,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "generation"
-        },
-        {
-            "i": 821,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "."
-        },
-        {
-            "i": 822,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "Still"
-        },
-        {
-            "i": 823,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": ","
-        },
-        {
-            "i": 824,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "it"
-        },
-        {
-            "i": 825,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "is"
-        },
-        {
-            "i": 826,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "necessary"
-        },
-        {
-            "i": 827,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "to"
-        },
-        {
-            "i": 828,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "control"
-        },
-        {
-            "i": 829,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "the"
-        },
-        {
-            "i": 830,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "output"
-        },
-        {
-            "i": 831,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "length"
-        },
-        {
-            "i": 832,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "for"
-        },
-        {
-            "i": 833,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "abstractive"
-        },
-        {
-            "i": 834,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "summarization"
-        },
-        {
-            "i": 835,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": ","
-        },
-        {
-            "i": 836,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "which"
-        },
-        {
-            "i": 837,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "generates"
-        },
-        {
-            "i": 838,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "a"
-        },
-        {
-            "i": 839,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "summary"
-        },
-        {
-            "i": 840,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "for"
-        },
-        {
-            "i": 841,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "a"
-        },
-        {
-            "i": 842,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "given"
-        },
-        {
-            "i": 843,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "text"
-        },
-        {
-            "i": 844,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "while"
-        },
-        {
-            "i": 845,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "satisfying"
-        },
-        {
-            "i": 846,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "a"
-        },
-        {
-            "i": 847,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "space"
-        },
-        {
-            "i": 848,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "constraint"
-        },
-        {
-            "i": 849,
-            "document": 18,
-            "paragraph": 1,
-            "doc_name": "04320b6d3e6e50a5faf0e54ae2b8b8739445a026",
-            "text": "."
-        },
-        {
-            "i": 850,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "document"
-        },
-        {
-            "i": 851,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ":"
-        },
-        {
-            "i": 852,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Abstractive"
-        },
-        {
-            "i": 853,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Text"
-        },
-        {
-            "i": 854,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Summarization"
-        },
-        {
-            "i": 855,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "using"
-        },
-        {
-            "i": 856,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Sequence"
-        },
-        {
-            "i": 857,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 858,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "to"
-        },
-        {
-            "i": 859,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 860,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "sequence"
-        },
-        {
-            "i": 861,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "RNNs"
-        },
-        {
-            "i": 862,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "and"
-        },
-        {
-            "i": 863,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Beyond"
-        },
-        {
-            "i": 864,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "In"
-        },
-        {
-            "i": 865,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "this"
-        },
-        {
-            "i": 866,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "work"
-        },
-        {
-            "i": 867,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 868,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "we"
-        },
-        {
-            "i": 869,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "model"
-        },
-        {
-            "i": 870,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "abstractive"
-        },
-        {
-            "i": 871,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "text"
-        },
-        {
-            "i": 872,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "summarization"
-        },
-        {
-            "i": 873,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "using"
-        },
-        {
-            "i": 874,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Attentional"
-        },
-        {
-            "i": 875,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Encoder"
-        },
-        {
-            "i": 876,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 877,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Decoder"
-        },
-        {
-            "i": 878,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Recurrent"
-        },
-        {
-            "i": 879,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Neural"
-        },
-        {
-            "i": 880,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Networks"
-        },
-        {
-            "i": 881,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 882,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "and"
-        },
-        {
-            "i": 883,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "show"
-        },
-        {
-            "i": 884,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "that"
-        },
-        {
-            "i": 885,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "they"
-        },
-        {
-            "i": 886,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "achieve"
-        },
-        {
-            "i": 887,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "state"
-        },
-        {
-            "i": 888,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 889,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "of"
-        },
-        {
-            "i": 890,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 891,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 892,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 893,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "art"
-        },
-        {
-            "i": 894,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "performance"
-        },
-        {
-            "i": 895,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "on"
-        },
-        {
-            "i": 896,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "two"
-        },
-        {
-            "i": 897,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "different"
-        },
-        {
-            "i": 898,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "corpora"
-        },
-        {
-            "i": 899,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "."
-        },
-        {
-            "i": 900,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "We"
-        },
-        {
-            "i": 901,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "propose"
-        },
-        {
-            "i": 902,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "several"
-        },
-        {
-            "i": 903,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "novel"
-        },
-        {
-            "i": 904,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "models"
-        },
-        {
-            "i": 905,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "that"
-        },
-        {
-            "i": 906,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "address"
-        },
-        {
-            "i": 907,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "critical"
-        },
-        {
-            "i": 908,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "problems"
-        },
-        {
-            "i": 909,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "in"
-        },
-        {
-            "i": 910,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "summarization"
-        },
-        {
-            "i": 911,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "that"
-        },
-        {
-            "i": 912,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "are"
-        },
-        {
-            "i": 913,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "not"
-        },
-        {
-            "i": 914,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "adequately"
-        },
-        {
-            "i": 915,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "modeled"
-        },
-        {
-            "i": 916,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "by"
-        },
-        {
-            "i": 917,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 918,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "basic"
-        },
-        {
-            "i": 919,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "architecture"
-        },
-        {
-            "i": 920,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 921,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "such"
-        },
-        {
-            "i": 922,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "as"
-        },
-        {
-            "i": 923,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "modeling"
-        },
-        {
-            "i": 924,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "key"
-        },
-        {
-            "i": 925,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 926,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "words"
-        },
-        {
-            "i": 927,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 928,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "capturing"
-        },
-        {
-            "i": 929,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 930,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "hierarchy"
-        },
-        {
-            "i": 931,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "of"
-        },
-        {
-            "i": 932,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "sentence"
-        },
-        {
-            "i": 933,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 934,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "to"
-        },
-        {
-            "i": 935,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 936,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "word"
-        },
-        {
-            "i": 937,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "structure"
-        },
-        {
-            "i": 938,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 939,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "and"
-        },
-        {
-            "i": 940,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "emitting"
-        },
-        {
-            "i": 941,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "words"
-        },
-        {
-            "i": 942,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "that"
-        },
-        {
-            "i": 943,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "are"
-        },
-        {
-            "i": 944,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "rare"
-        },
-        {
-            "i": 945,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "or"
-        },
-        {
-            "i": 946,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "unseen"
-        },
-        {
-            "i": 947,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "at"
-        },
-        {
-            "i": 948,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "training"
-        },
-        {
-            "i": 949,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "time"
-        },
-        {
-            "i": 950,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "."
-        },
-        {
-            "i": 951,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Our"
-        },
-        {
-            "i": 952,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "work"
-        },
-        {
-            "i": 953,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "shows"
-        },
-        {
-            "i": 954,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "that"
-        },
-        {
-            "i": 955,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "many"
-        },
-        {
-            "i": 956,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "of"
-        },
-        {
-            "i": 957,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "our"
-        },
-        {
-            "i": 958,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "proposed"
-        },
-        {
-            "i": 959,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "models"
-        },
-        {
-            "i": 960,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "contribute"
-        },
-        {
-            "i": 961,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "to"
-        },
-        {
-            "i": 962,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "further"
-        },
-        {
-            "i": 963,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "improvement"
-        },
-        {
-            "i": 964,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "in"
-        },
-        {
-            "i": 965,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "performance"
-        },
-        {
-            "i": 966,
-            "document": 19,
-            "paragraph": 0,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "."
-        },
-        {
-            "i": 967,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "In"
-        },
-        {
-            "i": 968,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 969,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "framework"
-        },
-        {
-            "i": 970,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "of"
-        },
-        {
-            "i": 971,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "sequence"
-        },
-        {
-            "i": 972,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 973,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "to"
-        },
-        {
-            "i": 974,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 975,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "sequence"
-        },
-        {
-            "i": 976,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "models"
-        },
-        {
-            "i": 977,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 978,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "a"
-        },
-        {
-            "i": 979,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "very"
-        },
-        {
-            "i": 980,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "relevant"
-        },
-        {
-            "i": 981,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "model"
-        },
-        {
-            "i": 982,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "to"
-        },
-        {
-            "i": 983,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "our"
-        },
-        {
-            "i": 984,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "task"
-        },
-        {
-            "i": 985,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "is"
-        },
-        {
-            "i": 986,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 987,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "attentional"
-        },
-        {
-            "i": 988,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Recurrent"
-        },
-        {
-            "i": 989,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Neural"
-        },
-        {
-            "i": 990,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Network"
-        },
-        {
-            "i": 991,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "("
-        },
-        {
-            "i": 992,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "RNN"
-        },
-        {
-            "i": 993,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ")"
-        },
-        {
-            "i": 994,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "encoder"
-        },
-        {
-            "i": 995,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 996,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "decoder"
-        },
-        {
-            "i": 997,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "model"
-        },
-        {
-            "i": 998,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "proposed"
-        },
-        {
-            "i": 999,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "in"
-        },
-        {
-            "i": 1000,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "nmt"
-        },
-        {
-            "i": 1001,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 1002,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "which"
-        },
-        {
-            "i": 1003,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "has"
-        },
-        {
-            "i": 1004,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "produced"
-        },
-        {
-            "i": 1005,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "state"
-        },
-        {
-            "i": 1006,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 1007,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "of"
-        },
-        {
-            "i": 1008,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 1009,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 1010,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "-"
-        },
-        {
-            "i": 1011,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "art"
-        },
-        {
-            "i": 1012,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "performance"
-        },
-        {
-            "i": 1013,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "in"
-        },
-        {
-            "i": 1014,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "machine"
-        },
-        {
-            "i": 1015,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "translation"
-        },
-        {
-            "i": 1016,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "("
-        },
-        {
-            "i": 1017,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "MT"
-        },
-        {
-            "i": 1018,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ")"
-        },
-        {
-            "i": 1019,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 1020,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "which"
-        },
-        {
-            "i": 1021,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "is"
-        },
-        {
-            "i": 1022,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "also"
-        },
-        {
-            "i": 1023,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "a"
-        },
-        {
-            "i": 1024,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "natural"
-        },
-        {
-            "i": 1025,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "language"
-        },
-        {
-            "i": 1026,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "task"
-        },
-        {
-            "i": 1027,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "."
-        },
-        {
-            "i": 1028,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Despite"
-        },
-        {
-            "i": 1029,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 1030,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "similarities"
-        },
-        {
-            "i": 1031,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 1032,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "abstractive"
-        },
-        {
-            "i": 1033,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "summarization"
-        },
-        {
-            "i": 1034,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "is"
-        },
-        {
-            "i": 1035,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "a"
-        },
-        {
-            "i": 1036,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "very"
-        },
-        {
-            "i": 1037,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "different"
-        },
-        {
-            "i": 1038,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "problem"
-        },
-        {
-            "i": 1039,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "from"
-        },
-        {
-            "i": 1040,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "MT"
-        },
-        {
-            "i": 1041,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "."
-        },
-        {
-            "i": 1042,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "Unlike"
-        },
-        {
-            "i": 1043,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "in"
-        },
-        {
-            "i": 1044,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "MT"
-        },
-        {
-            "i": 1045,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ","
-        },
-        {
-            "i": 1046,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 1047,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "target"
-        },
-        {
-            "i": 1048,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "("
-        },
-        {
-            "i": 1049,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "summary"
-        },
-        {
-            "i": 1050,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ")"
-        },
-        {
-            "i": 1051,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "is"
-        },
-        {
-            "i": 1052,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "typically"
-        },
-        {
-            "i": 1053,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "very"
-        },
-        {
-            "i": 1054,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "short"
-        },
-        {
-            "i": 1055,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "and"
-        },
-        {
-            "i": 1056,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "does"
-        },
-        {
-            "i": 1057,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "not"
-        },
-        {
-            "i": 1058,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "depend"
-        },
-        {
-            "i": 1059,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "very"
-        },
-        {
-            "i": 1060,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "much"
-        },
-        {
-            "i": 1061,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "on"
-        },
-        {
-            "i": 1062,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 1063,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "length"
-        },
-        {
-            "i": 1064,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "of"
-        },
-        {
-            "i": 1065,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "the"
-        },
-        {
-            "i": 1066,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "source"
-        },
-        {
-            "i": 1067,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "("
-        },
-        {
-            "i": 1068,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "document"
-        },
-        {
-            "i": 1069,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": ")"
-        },
-        {
-            "i": 1070,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "in"
-        },
-        {
-            "i": 1071,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "summarization"
-        },
-        {
-            "i": 1072,
-            "document": 19,
-            "paragraph": 1,
-            "doc_name": "27e4b65121d3c88643d86dc91a9bdafdf223b988",
-            "text": "."
-        },
-        {
-            "i": 1073,
-            "document": 20,
-            "paragraph": 0,
-            "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
-            "text": "Our"
-        },
-        {
-            "i": 1074,
-            "document": 20,
-            "paragraph": 0,
-            "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
-            "text": "experiments"
-        },
-        {
-            "i": 1075,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "reveal"
         },
         {
-            "i": 1076,
+            "i": 665,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "that"
         },
         {
-            "i": 1077,
+            "i": 666,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1078,
+            "i": 667,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "words"
         },
         {
-            "i": 1079,
+            "i": 668,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "in"
         },
         {
-            "i": 1080,
+            "i": 669,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1081,
+            "i": 670,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "extracted"
         },
         {
-            "i": 1082,
+            "i": 671,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "fact"
         },
         {
-            "i": 1083,
+            "i": 672,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "descriptions"
         },
         {
-            "i": 1084,
+            "i": 673,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "are"
         },
         {
-            "i": 1085,
+            "i": 674,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "40"
         },
         {
-            "i": 1086,
+            "i": 675,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "%"
         },
         {
-            "i": 1087,
+            "i": 676,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "more"
         },
         {
-            "i": 1088,
+            "i": 677,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "likely"
         },
         {
-            "i": 1089,
+            "i": 678,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "to"
         },
         {
-            "i": 1090,
+            "i": 679,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "be"
         },
         {
-            "i": 1091,
+            "i": 680,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "included"
         },
         {
-            "i": 1092,
+            "i": 681,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "in"
         },
         {
-            "i": 1093,
+            "i": 682,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1094,
+            "i": 683,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "actual"
         },
         {
-            "i": 1095,
+            "i": 684,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "summaries"
         },
         {
-            "i": 1096,
+            "i": 685,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "than"
         },
         {
-            "i": 1097,
+            "i": 686,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1098,
+            "i": 687,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "entire"
         },
         {
-            "i": 1099,
+            "i": 688,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "words"
         },
         {
-            "i": 1100,
+            "i": 689,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "in"
         },
         {
-            "i": 1101,
+            "i": 690,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1102,
+            "i": 691,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "source"
         },
         {
-            "i": 1103,
+            "i": 692,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "sentences"
         },
         {
-            "i": 1104,
+            "i": 693,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "."
         },
         {
-            "i": 1105,
+            "i": 694,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "That"
         },
         {
-            "i": 1106,
+            "i": 695,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "is"
         },
         {
-            "i": 1107,
+            "i": 696,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": ","
         },
         {
-            "i": 1108,
+            "i": 697,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "fact"
         },
         {
-            "i": 1109,
+            "i": 698,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "descriptions"
         },
         {
-            "i": 1110,
+            "i": 699,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "clearly"
         },
         {
-            "i": 1111,
+            "i": 700,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "provide"
         },
         {
-            "i": 1112,
+            "i": 701,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1113,
+            "i": 702,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "right"
         },
         {
-            "i": 1114,
+            "i": 703,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "guidance"
         },
         {
-            "i": 1115,
+            "i": 704,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "for"
         },
         {
-            "i": 1116,
+            "i": 705,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "summarization"
         },
         {
-            "i": 1117,
+            "i": 706,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "."
         },
         {
-            "i": 1118,
+            "i": 707,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "Next"
         },
         {
-            "i": 1119,
+            "i": 708,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": ","
         },
         {
-            "i": 1120,
+            "i": 709,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "using"
         },
         {
-            "i": 1121,
+            "i": 710,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "both"
         },
         {
-            "i": 1122,
+            "i": 711,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "source"
         },
         {
-            "i": 1123,
+            "i": 712,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "sentence"
         },
         {
-            "i": 1124,
+            "i": 713,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "and"
         },
         {
-            "i": 1125,
+            "i": 714,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "fact"
         },
         {
-            "i": 1126,
+            "i": 715,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "descriptions"
         },
         {
-            "i": 1127,
+            "i": 716,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "as"
         },
         {
-            "i": 1128,
+            "i": 717,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "input"
         },
         {
-            "i": 1129,
+            "i": 718,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": ","
         },
         {
-            "i": 1130,
+            "i": 719,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "we"
         },
         {
-            "i": 1131,
+            "i": 720,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "extend"
         },
         {
-            "i": 1132,
+            "i": 721,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1133,
+            "i": 722,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "state"
         },
         {
-            "i": 1134,
+            "i": 723,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "-"
         },
         {
-            "i": 1135,
+            "i": 724,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "of"
         },
         {
-            "i": 1136,
+            "i": 725,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "-"
         },
         {
-            "i": 1137,
+            "i": 726,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1138,
+            "i": 727,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "-"
         },
         {
-            "i": 1139,
+            "i": 728,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "art"
         },
         {
-            "i": 1140,
+            "i": 729,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "attentional"
         },
         {
-            "i": 1141,
+            "i": 730,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "s2s"
         },
         {
-            "i": 1142,
+            "i": 731,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "model"
         },
         {
-            "i": 1143,
+            "i": 732,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "to"
         },
         {
-            "i": 1144,
+            "i": 733,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "fully"
         },
         {
-            "i": 1145,
+            "i": 734,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "leverage"
         },
         {
-            "i": 1146,
+            "i": 735,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "their"
         },
         {
-            "i": 1147,
+            "i": 736,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "information"
         },
         {
-            "i": 1148,
+            "i": 737,
             "document": 20,
             "paragraph": 0,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "."
         },
         {
-            "i": 1149,
+            "i": 738,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "Thus"
         },
         {
-            "i": 1150,
+            "i": 739,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": ","
         },
         {
-            "i": 1151,
+            "i": 740,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "without"
         },
         {
-            "i": 1152,
+            "i": 741,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "the"
         },
         {
-            "i": 1153,
+            "i": 742,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "source"
         },
         {
-            "i": 1154,
+            "i": 743,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "sentence"
         },
         {
-            "i": 1155,
+            "i": 744,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": ","
         },
         {
-            "i": 1156,
+            "i": 745,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "we"
         },
         {
-            "i": 1157,
+            "i": 746,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "can"
         },
         {
-            "i": 1158,
+            "i": 747,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "not"
         },
         {
-            "i": 1159,
+            "i": 748,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "reply"
         },
         {
-            "i": 1160,
+            "i": 749,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "on"
         },
         {
-            "i": 1161,
+            "i": 750,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "fact"
         },
         {
-            "i": 1162,
+            "i": 751,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "descriptions"
         },
         {
-            "i": 1163,
+            "i": 752,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "alone"
         },
         {
-            "i": 1164,
+            "i": 753,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "to"
         },
         {
-            "i": 1165,
+            "i": 754,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "generate"
         },
         {
-            "i": 1166,
+            "i": 755,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "summaries"
         },
         {
-            "i": 1167,
+            "i": 756,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "."
         },
         {
-            "i": 1168,
+            "i": 757,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "section"
         },
         {
-            "i": 1169,
+            "i": 758,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": ":"
         },
         {
-            "i": 1170,
+            "i": 759,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "Fact"
         },
         {
-            "i": 1171,
+            "i": 760,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "Aware"
         },
         {
-            "i": 1172,
+            "i": 761,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "Neural"
         },
         {
-            "i": 1173,
+            "i": 762,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "Summarization"
         },
         {
-            "i": 1174,
+            "i": 763,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "subsection"
         },
         {
-            "i": 1175,
+            "i": 764,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": ":"
         },
         {
-            "i": 1176,
+            "i": 765,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
             "text": "Model"
         },
         {
-            "i": 1177,
+            "i": 766,
             "document": 20,
             "paragraph": 1,
             "doc_name": "41232a69c0f8d4b993e6c6e00b16c223442c962f",
@@ -8254,7 +5377,8 @@
     "mentions": [
         {
             "start": 29,
-            "end": 34
+            "end": 34,
+            "clustId": "29-34"
         },
         {
             "start": 157,
@@ -8293,23 +5417,15 @@
             "end": 642
         },
         {
-            "start": 910,
-            "end": 910
+            "start": 705,
+            "end": 705
         },
         {
-            "start": 1032,
-            "end": 1033
-        },
-        {
-            "start": 1116,
-            "end": 1116
-        },
-        {
-            "start": 1170,
-            "end": 1173
+            "start": 759,
+            "end": 762
         }
     ],
-    "selectedCluster": "37-38",
+    "selectedCluster": "29-34",
     "cluster_id": 22,
     "hypernym": true,
     "clusterName": "text_generation"

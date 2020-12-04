@@ -16,7 +16,7 @@
             <li>Assign Mention to Current Cluster: SPACE</li>
             <li>Assign Mention to New Cluster: Ctrl + SPACE (Windows) or Alt + SPACE (MacOS)</li>
             <li>Select Cluster: Click on a previously assigned mention or use the ↔ keys on the keyboard</li>
-            <li>Select Mention to Reassign: Double Click the mention</li>
+            <li>Select Mention to Reassign: Ctrl + Click (Windows) or Alt + Click (MacOS) or Double Click the mention (ALL)</li>
             <!-- <li>Fix Mention Span: Highlight the correct mention span length and press the F key</li>
             <li>Insert New Mention: Highlight text preceeding the current mention that does not belong to another mention and press the N key</li> -->
           </ul>
@@ -208,7 +208,7 @@ import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/mt_annotation.json";
 
 
-// import jsonData from "./internal_trial/22.json";
+// import jsonData from "./internal_trial/image_generation.json"; 
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
 import VueTreeList from 'vue-tree-list'
@@ -527,7 +527,7 @@ export default {
         "tokens": this.tokens,
         "mentions": this.mentions,
         "id": this.clusterName,
-        "hypernyms": this.clusterTree
+        "hypernym": this.clusterTree
       };
 
       const a = document.createElement("a");
@@ -535,7 +535,6 @@ export default {
       a.href = URL.createObjectURL(file);
       a.download = this.clusterName + '.json';
       a.click();
-      console.log('Submit');
     },
 
     showHideHypernym: function() {

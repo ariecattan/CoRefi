@@ -1,0 +1,7454 @@
+{
+    "mode": "annotation",
+    "hypernym": true,
+    "fixableSpans": false,
+    "newMentions": false,
+    "reassignable": true,
+    "tokens": [
+        {
+            "i": 0,
+            "document": 0,
+            "paragraph": 0,
+            "text": "We"
+        },
+        {
+            "i": 1,
+            "document": 0,
+            "paragraph": 0,
+            "text": "evaluate"
+        },
+        {
+            "i": 2,
+            "document": 0,
+            "paragraph": 0,
+            "text": "the"
+        },
+        {
+            "i": 3,
+            "document": 0,
+            "paragraph": 0,
+            "text": "quality"
+        },
+        {
+            "i": 4,
+            "document": 0,
+            "paragraph": 0,
+            "text": "of"
+        },
+        {
+            "i": 5,
+            "document": 0,
+            "paragraph": 0,
+            "text": "our"
+        },
+        {
+            "i": 6,
+            "document": 0,
+            "paragraph": 0,
+            "text": "approach"
+        },
+        {
+            "i": 7,
+            "document": 0,
+            "paragraph": 0,
+            "text": "fastTexthttps:"
+        },
+        {
+            "i": 8,
+            "document": 0,
+            "paragraph": 0,
+            "text": "//"
+        },
+        {
+            "i": 9,
+            "document": 0,
+            "paragraph": 0,
+            "text": "github.com"
+        },
+        {
+            "i": 10,
+            "document": 0,
+            "paragraph": 0,
+            "text": "/"
+        },
+        {
+            "i": 11,
+            "document": 0,
+            "paragraph": 0,
+            "text": "facebookresearch"
+        },
+        {
+            "i": 12,
+            "document": 0,
+            "paragraph": 0,
+            "text": "/"
+        },
+        {
+            "i": 13,
+            "document": 0,
+            "paragraph": 0,
+            "text": "fastText"
+        },
+        {
+            "i": 14,
+            "document": 0,
+            "paragraph": 0,
+            "text": "on"
+        },
+        {
+            "i": 15,
+            "document": 0,
+            "paragraph": 0,
+            "text": "two"
+        },
+        {
+            "i": 16,
+            "document": 0,
+            "paragraph": 0,
+            "text": "different"
+        },
+        {
+            "i": 17,
+            "document": 0,
+            "paragraph": 0,
+            "text": "tasks"
+        },
+        {
+            "i": 18,
+            "document": 0,
+            "paragraph": 0,
+            "text": ","
+        },
+        {
+            "i": 19,
+            "document": 0,
+            "paragraph": 0,
+            "text": "namely"
+        },
+        {
+            "i": 20,
+            "document": 0,
+            "paragraph": 0,
+            "text": "tag"
+        },
+        {
+            "i": 21,
+            "document": 0,
+            "paragraph": 0,
+            "text": "prediction"
+        },
+        {
+            "i": 22,
+            "document": 0,
+            "paragraph": 0,
+            "text": "and"
+        },
+        {
+            "i": 23,
+            "document": 0,
+            "paragraph": 0,
+            "text": "sentiment"
+        },
+        {
+            "i": 24,
+            "document": 0,
+            "paragraph": 0,
+            "text": "analysis"
+        },
+        {
+            "i": 25,
+            "document": 0,
+            "paragraph": 0,
+            "text": "."
+        },
+        {
+            "i": 26,
+            "document": 0,
+            "paragraph": 0,
+            "text": "section"
+        },
+        {
+            "i": 27,
+            "document": 0,
+            "paragraph": 0,
+            "text": ":"
+        },
+        {
+            "i": 28,
+            "document": 0,
+            "paragraph": 0,
+            "text": "Model"
+        },
+        {
+            "i": 29,
+            "document": 0,
+            "paragraph": 0,
+            "text": "architecture"
+        },
+        {
+            "i": 30,
+            "document": 0,
+            "paragraph": 1,
+            "text": "We"
+        },
+        {
+            "i": 31,
+            "document": 0,
+            "paragraph": 1,
+            "text": "consider"
+        },
+        {
+            "i": 32,
+            "document": 0,
+            "paragraph": 1,
+            "text": "a"
+        },
+        {
+            "i": 33,
+            "document": 0,
+            "paragraph": 1,
+            "text": "frequency"
+        },
+        {
+            "i": 34,
+            "document": 0,
+            "paragraph": 1,
+            "text": "-"
+        },
+        {
+            "i": 35,
+            "document": 0,
+            "paragraph": 1,
+            "text": "based"
+        },
+        {
+            "i": 36,
+            "document": 0,
+            "paragraph": 1,
+            "text": "baseline"
+        },
+        {
+            "i": 37,
+            "document": 0,
+            "paragraph": 1,
+            "text": "which"
+        },
+        {
+            "i": 38,
+            "document": 0,
+            "paragraph": 1,
+            "text": "predicts"
+        },
+        {
+            "i": 39,
+            "document": 0,
+            "paragraph": 1,
+            "text": "the"
+        },
+        {
+            "i": 40,
+            "document": 0,
+            "paragraph": 1,
+            "text": "most"
+        },
+        {
+            "i": 41,
+            "document": 0,
+            "paragraph": 1,
+            "text": "frequent"
+        },
+        {
+            "i": 42,
+            "document": 0,
+            "paragraph": 1,
+            "text": "tag"
+        },
+        {
+            "i": 43,
+            "document": 0,
+            "paragraph": 1,
+            "text": "."
+        },
+        {
+            "i": 44,
+            "document": 0,
+            "paragraph": 1,
+            "text": "We"
+        },
+        {
+            "i": 45,
+            "document": 0,
+            "paragraph": 1,
+            "text": "also"
+        },
+        {
+            "i": 46,
+            "document": 0,
+            "paragraph": 1,
+            "text": "compare"
+        },
+        {
+            "i": 47,
+            "document": 0,
+            "paragraph": 1,
+            "text": "with"
+        },
+        {
+            "i": 48,
+            "document": 0,
+            "paragraph": 1,
+            "text": "Tagspace"
+        },
+        {
+            "i": 49,
+            "document": 0,
+            "paragraph": 1,
+            "text": ","
+        },
+        {
+            "i": 50,
+            "document": 0,
+            "paragraph": 1,
+            "text": "which"
+        },
+        {
+            "i": 51,
+            "document": 0,
+            "paragraph": 1,
+            "text": "is"
+        },
+        {
+            "i": 52,
+            "document": 0,
+            "paragraph": 1,
+            "text": "a"
+        },
+        {
+            "i": 53,
+            "document": 0,
+            "paragraph": 1,
+            "text": "tag"
+        },
+        {
+            "i": 54,
+            "document": 0,
+            "paragraph": 1,
+            "text": "prediction"
+        },
+        {
+            "i": 55,
+            "document": 0,
+            "paragraph": 1,
+            "text": "model"
+        },
+        {
+            "i": 56,
+            "document": 0,
+            "paragraph": 1,
+            "text": "similar"
+        },
+        {
+            "i": 57,
+            "document": 0,
+            "paragraph": 1,
+            "text": "to"
+        },
+        {
+            "i": 58,
+            "document": 0,
+            "paragraph": 1,
+            "text": "ours"
+        },
+        {
+            "i": 59,
+            "document": 0,
+            "paragraph": 1,
+            "text": ","
+        },
+        {
+            "i": 60,
+            "document": 0,
+            "paragraph": 1,
+            "text": "but"
+        },
+        {
+            "i": 61,
+            "document": 0,
+            "paragraph": 1,
+            "text": "based"
+        },
+        {
+            "i": 62,
+            "document": 0,
+            "paragraph": 1,
+            "text": "on"
+        },
+        {
+            "i": 63,
+            "document": 0,
+            "paragraph": 1,
+            "text": "the"
+        },
+        {
+            "i": 64,
+            "document": 0,
+            "paragraph": 1,
+            "text": "Wsabie"
+        },
+        {
+            "i": 65,
+            "document": 0,
+            "paragraph": 1,
+            "text": "model"
+        },
+        {
+            "i": 66,
+            "document": 0,
+            "paragraph": 1,
+            "text": "of"
+        },
+        {
+            "i": 67,
+            "document": 0,
+            "paragraph": 1,
+            "text": "weston2011wsabie"
+        },
+        {
+            "i": 68,
+            "document": 0,
+            "paragraph": 1,
+            "text": "."
+        },
+        {
+            "i": 69,
+            "document": 0,
+            "paragraph": 1,
+            "text": "While"
+        },
+        {
+            "i": 70,
+            "document": 0,
+            "paragraph": 1,
+            "text": "the"
+        },
+        {
+            "i": 71,
+            "document": 0,
+            "paragraph": 1,
+            "text": "Tagspace"
+        },
+        {
+            "i": 72,
+            "document": 0,
+            "paragraph": 1,
+            "text": "model"
+        },
+        {
+            "i": 73,
+            "document": 0,
+            "paragraph": 1,
+            "text": "is"
+        },
+        {
+            "i": 74,
+            "document": 0,
+            "paragraph": 1,
+            "text": "described"
+        },
+        {
+            "i": 75,
+            "document": 0,
+            "paragraph": 1,
+            "text": "using"
+        },
+        {
+            "i": 76,
+            "document": 0,
+            "paragraph": 1,
+            "text": "convolutions"
+        },
+        {
+            "i": 77,
+            "document": 0,
+            "paragraph": 1,
+            "text": ","
+        },
+        {
+            "i": 78,
+            "document": 0,
+            "paragraph": 1,
+            "text": "we"
+        },
+        {
+            "i": 79,
+            "document": 0,
+            "paragraph": 1,
+            "text": "consider"
+        },
+        {
+            "i": 80,
+            "document": 0,
+            "paragraph": 1,
+            "text": "the"
+        },
+        {
+            "i": 81,
+            "document": 0,
+            "paragraph": 1,
+            "text": "linear"
+        },
+        {
+            "i": 82,
+            "document": 0,
+            "paragraph": 1,
+            "text": "version"
+        },
+        {
+            "i": 83,
+            "document": 0,
+            "paragraph": 1,
+            "text": ","
+        },
+        {
+            "i": 84,
+            "document": 0,
+            "paragraph": 1,
+            "text": "which"
+        },
+        {
+            "i": 85,
+            "document": 0,
+            "paragraph": 1,
+            "text": "achieves"
+        },
+        {
+            "i": 86,
+            "document": 0,
+            "paragraph": 1,
+            "text": "comparable"
+        },
+        {
+            "i": 87,
+            "document": 0,
+            "paragraph": 1,
+            "text": "performance"
+        },
+        {
+            "i": 88,
+            "document": 0,
+            "paragraph": 1,
+            "text": "but"
+        },
+        {
+            "i": 89,
+            "document": 0,
+            "paragraph": 1,
+            "text": "is"
+        },
+        {
+            "i": 90,
+            "document": 0,
+            "paragraph": 1,
+            "text": "much"
+        },
+        {
+            "i": 91,
+            "document": 0,
+            "paragraph": 1,
+            "text": "faster"
+        },
+        {
+            "i": 92,
+            "document": 0,
+            "paragraph": 1,
+            "text": "."
+        },
+        {
+            "i": 93,
+            "document": 1,
+            "paragraph": 2,
+            "text": "subsection"
+        },
+        {
+            "i": 94,
+            "document": 1,
+            "paragraph": 2,
+            "text": ":"
+        },
+        {
+            "i": 95,
+            "document": 1,
+            "paragraph": 2,
+            "text": "CRF"
+        },
+        {
+            "i": 96,
+            "document": 1,
+            "paragraph": 2,
+            "text": "Tagging"
+        },
+        {
+            "i": 97,
+            "document": 1,
+            "paragraph": 2,
+            "text": "Models"
+        },
+        {
+            "i": 98,
+            "document": 1,
+            "paragraph": 2,
+            "text": "A"
+        },
+        {
+            "i": 99,
+            "document": 1,
+            "paragraph": 2,
+            "text": "very"
+        },
+        {
+            "i": 100,
+            "document": 1,
+            "paragraph": 2,
+            "text": "simple"
+        },
+        {
+            "i": 101,
+            "document": 1,
+            "paragraph": 2,
+            "text": "\u2014"
+        },
+        {
+            "i": 102,
+            "document": 1,
+            "paragraph": 2,
+            "text": "but"
+        },
+        {
+            "i": 103,
+            "document": 1,
+            "paragraph": 2,
+            "text": "surprisingly"
+        },
+        {
+            "i": 104,
+            "document": 1,
+            "paragraph": 2,
+            "text": "effective"
+        },
+        {
+            "i": 105,
+            "document": 1,
+            "paragraph": 2,
+            "text": "\u2014"
+        },
+        {
+            "i": 106,
+            "document": 1,
+            "paragraph": 2,
+            "text": "tagging"
+        },
+        {
+            "i": 107,
+            "document": 1,
+            "paragraph": 2,
+            "text": "model"
+        },
+        {
+            "i": 108,
+            "document": 1,
+            "paragraph": 2,
+            "text": "is"
+        },
+        {
+            "i": 109,
+            "document": 1,
+            "paragraph": 2,
+            "text": "to"
+        },
+        {
+            "i": 110,
+            "document": 1,
+            "paragraph": 2,
+            "text": "use"
+        },
+        {
+            "i": 111,
+            "document": 1,
+            "paragraph": 2,
+            "text": "the"
+        },
+        {
+            "i": 112,
+            "document": 1,
+            "paragraph": 2,
+            "text": "\u2019s"
+        },
+        {
+            "i": 113,
+            "document": 1,
+            "paragraph": 2,
+            "text": "as"
+        },
+        {
+            "i": 114,
+            "document": 1,
+            "paragraph": 2,
+            "text": "features"
+        },
+        {
+            "i": 115,
+            "document": 1,
+            "paragraph": 2,
+            "text": "to"
+        },
+        {
+            "i": 116,
+            "document": 1,
+            "paragraph": 2,
+            "text": "make"
+        },
+        {
+            "i": 117,
+            "document": 1,
+            "paragraph": 2,
+            "text": "independent"
+        },
+        {
+            "i": 118,
+            "document": 1,
+            "paragraph": 2,
+            "text": "tagging"
+        },
+        {
+            "i": 119,
+            "document": 1,
+            "paragraph": 2,
+            "text": "decisions"
+        },
+        {
+            "i": 120,
+            "document": 1,
+            "paragraph": 2,
+            "text": "for"
+        },
+        {
+            "i": 121,
+            "document": 1,
+            "paragraph": 2,
+            "text": "each"
+        },
+        {
+            "i": 122,
+            "document": 1,
+            "paragraph": 2,
+            "text": "output"
+        },
+        {
+            "i": 123,
+            "document": 1,
+            "paragraph": 2,
+            "text": "."
+        },
+        {
+            "i": 124,
+            "document": 1,
+            "paragraph": 2,
+            "text": "Despite"
+        },
+        {
+            "i": 125,
+            "document": 1,
+            "paragraph": 2,
+            "text": "this"
+        },
+        {
+            "i": 126,
+            "document": 1,
+            "paragraph": 2,
+            "text": "model"
+        },
+        {
+            "i": 127,
+            "document": 1,
+            "paragraph": 2,
+            "text": "\u2019s"
+        },
+        {
+            "i": 128,
+            "document": 1,
+            "paragraph": 2,
+            "text": "success"
+        },
+        {
+            "i": 129,
+            "document": 1,
+            "paragraph": 2,
+            "text": "in"
+        },
+        {
+            "i": 130,
+            "document": 1,
+            "paragraph": 2,
+            "text": "simple"
+        },
+        {
+            "i": 131,
+            "document": 1,
+            "paragraph": 2,
+            "text": "problems"
+        },
+        {
+            "i": 132,
+            "document": 1,
+            "paragraph": 2,
+            "text": "like"
+        },
+        {
+            "i": 133,
+            "document": 1,
+            "paragraph": 2,
+            "text": "POS"
+        },
+        {
+            "i": 134,
+            "document": 1,
+            "paragraph": 2,
+            "text": "tagging"
+        },
+        {
+            "i": 135,
+            "document": 1,
+            "paragraph": 2,
+            "text": ","
+        },
+        {
+            "i": 136,
+            "document": 1,
+            "paragraph": 2,
+            "text": "its"
+        },
+        {
+            "i": 137,
+            "document": 1,
+            "paragraph": 2,
+            "text": "independent"
+        },
+        {
+            "i": 138,
+            "document": 1,
+            "paragraph": 2,
+            "text": "classification"
+        },
+        {
+            "i": 139,
+            "document": 1,
+            "paragraph": 2,
+            "text": "decisions"
+        },
+        {
+            "i": 140,
+            "document": 1,
+            "paragraph": 2,
+            "text": "are"
+        },
+        {
+            "i": 141,
+            "document": 1,
+            "paragraph": 2,
+            "text": "limiting"
+        },
+        {
+            "i": 142,
+            "document": 1,
+            "paragraph": 2,
+            "text": "when"
+        },
+        {
+            "i": 143,
+            "document": 1,
+            "paragraph": 2,
+            "text": "there"
+        },
+        {
+            "i": 144,
+            "document": 1,
+            "paragraph": 2,
+            "text": "are"
+        },
+        {
+            "i": 145,
+            "document": 1,
+            "paragraph": 2,
+            "text": "strong"
+        },
+        {
+            "i": 146,
+            "document": 1,
+            "paragraph": 2,
+            "text": "dependencies"
+        },
+        {
+            "i": 147,
+            "document": 1,
+            "paragraph": 2,
+            "text": "across"
+        },
+        {
+            "i": 148,
+            "document": 1,
+            "paragraph": 2,
+            "text": "output"
+        },
+        {
+            "i": 149,
+            "document": 1,
+            "paragraph": 2,
+            "text": "labels"
+        },
+        {
+            "i": 150,
+            "document": 1,
+            "paragraph": 2,
+            "text": "."
+        },
+        {
+            "i": 151,
+            "document": 1,
+            "paragraph": 3,
+            "text": "Using"
+        },
+        {
+            "i": 152,
+            "document": 1,
+            "paragraph": 3,
+            "text": "this"
+        },
+        {
+            "i": 153,
+            "document": 1,
+            "paragraph": 3,
+            "text": "scheme"
+        },
+        {
+            "i": 154,
+            "document": 1,
+            "paragraph": 3,
+            "text": ","
+        },
+        {
+            "i": 155,
+            "document": 1,
+            "paragraph": 3,
+            "text": "tagging"
+        },
+        {
+            "i": 156,
+            "document": 1,
+            "paragraph": 3,
+            "text": "a"
+        },
+        {
+            "i": 157,
+            "document": 1,
+            "paragraph": 3,
+            "text": "word"
+        },
+        {
+            "i": 158,
+            "document": 1,
+            "paragraph": 3,
+            "text": "as"
+        },
+        {
+            "i": 159,
+            "document": 1,
+            "paragraph": 3,
+            "text": "I"
+        },
+        {
+            "i": 160,
+            "document": 1,
+            "paragraph": 3,
+            "text": "-"
+        },
+        {
+            "i": 161,
+            "document": 1,
+            "paragraph": 3,
+            "text": "label"
+        },
+        {
+            "i": 162,
+            "document": 1,
+            "paragraph": 3,
+            "text": "with"
+        },
+        {
+            "i": 163,
+            "document": 1,
+            "paragraph": 3,
+            "text": "high"
+        },
+        {
+            "i": 164,
+            "document": 1,
+            "paragraph": 3,
+            "text": "-"
+        },
+        {
+            "i": 165,
+            "document": 1,
+            "paragraph": 3,
+            "text": "confidence"
+        },
+        {
+            "i": 166,
+            "document": 1,
+            "paragraph": 3,
+            "text": "narrows"
+        },
+        {
+            "i": 167,
+            "document": 1,
+            "paragraph": 3,
+            "text": "down"
+        },
+        {
+            "i": 168,
+            "document": 1,
+            "paragraph": 3,
+            "text": "the"
+        },
+        {
+            "i": 169,
+            "document": 1,
+            "paragraph": 3,
+            "text": "choices"
+        },
+        {
+            "i": 170,
+            "document": 1,
+            "paragraph": 3,
+            "text": "for"
+        },
+        {
+            "i": 171,
+            "document": 1,
+            "paragraph": 3,
+            "text": "the"
+        },
+        {
+            "i": 172,
+            "document": 1,
+            "paragraph": 3,
+            "text": "subsequent"
+        },
+        {
+            "i": 173,
+            "document": 1,
+            "paragraph": 3,
+            "text": "word"
+        },
+        {
+            "i": 174,
+            "document": 1,
+            "paragraph": 3,
+            "text": "to"
+        },
+        {
+            "i": 175,
+            "document": 1,
+            "paragraph": 3,
+            "text": "I"
+        },
+        {
+            "i": 176,
+            "document": 1,
+            "paragraph": 3,
+            "text": "-"
+        },
+        {
+            "i": 177,
+            "document": 1,
+            "paragraph": 3,
+            "text": "label"
+        },
+        {
+            "i": 178,
+            "document": 1,
+            "paragraph": 3,
+            "text": "or"
+        },
+        {
+            "i": 179,
+            "document": 1,
+            "paragraph": 3,
+            "text": "E"
+        },
+        {
+            "i": 180,
+            "document": 1,
+            "paragraph": 3,
+            "text": "-"
+        },
+        {
+            "i": 181,
+            "document": 1,
+            "paragraph": 3,
+            "text": "label"
+        },
+        {
+            "i": 182,
+            "document": 1,
+            "paragraph": 3,
+            "text": ","
+        },
+        {
+            "i": 183,
+            "document": 1,
+            "paragraph": 3,
+            "text": "however"
+        },
+        {
+            "i": 184,
+            "document": 1,
+            "paragraph": 3,
+            "text": ","
+        },
+        {
+            "i": 185,
+            "document": 1,
+            "paragraph": 3,
+            "text": "the"
+        },
+        {
+            "i": 186,
+            "document": 1,
+            "paragraph": 3,
+            "text": "IOB"
+        },
+        {
+            "i": 187,
+            "document": 1,
+            "paragraph": 3,
+            "text": "scheme"
+        },
+        {
+            "i": 188,
+            "document": 1,
+            "paragraph": 3,
+            "text": "is"
+        },
+        {
+            "i": 189,
+            "document": 1,
+            "paragraph": 3,
+            "text": "only"
+        },
+        {
+            "i": 190,
+            "document": 1,
+            "paragraph": 3,
+            "text": "capable"
+        },
+        {
+            "i": 191,
+            "document": 1,
+            "paragraph": 3,
+            "text": "of"
+        },
+        {
+            "i": 192,
+            "document": 1,
+            "paragraph": 3,
+            "text": "determining"
+        },
+        {
+            "i": 193,
+            "document": 1,
+            "paragraph": 3,
+            "text": "that"
+        },
+        {
+            "i": 194,
+            "document": 1,
+            "paragraph": 3,
+            "text": "the"
+        },
+        {
+            "i": 195,
+            "document": 1,
+            "paragraph": 3,
+            "text": "subsequent"
+        },
+        {
+            "i": 196,
+            "document": 1,
+            "paragraph": 3,
+            "text": "word"
+        },
+        {
+            "i": 197,
+            "document": 1,
+            "paragraph": 3,
+            "text": "can"
+        },
+        {
+            "i": 198,
+            "document": 1,
+            "paragraph": 3,
+            "text": "not"
+        },
+        {
+            "i": 199,
+            "document": 1,
+            "paragraph": 3,
+            "text": "be"
+        },
+        {
+            "i": 200,
+            "document": 1,
+            "paragraph": 3,
+            "text": "the"
+        },
+        {
+            "i": 201,
+            "document": 1,
+            "paragraph": 3,
+            "text": "interior"
+        },
+        {
+            "i": 202,
+            "document": 1,
+            "paragraph": 3,
+            "text": "of"
+        },
+        {
+            "i": 203,
+            "document": 1,
+            "paragraph": 3,
+            "text": "another"
+        },
+        {
+            "i": 204,
+            "document": 1,
+            "paragraph": 3,
+            "text": "label"
+        },
+        {
+            "i": 205,
+            "document": 1,
+            "paragraph": 3,
+            "text": "."
+        },
+        {
+            "i": 206,
+            "document": 1,
+            "paragraph": 3,
+            "text": "ratinov2009design"
+        },
+        {
+            "i": 207,
+            "document": 1,
+            "paragraph": 3,
+            "text": "and"
+        },
+        {
+            "i": 208,
+            "document": 1,
+            "paragraph": 3,
+            "text": "dai2015enhancing"
+        },
+        {
+            "i": 209,
+            "document": 1,
+            "paragraph": 3,
+            "text": "showed"
+        },
+        {
+            "i": 210,
+            "document": 1,
+            "paragraph": 3,
+            "text": "that"
+        },
+        {
+            "i": 211,
+            "document": 1,
+            "paragraph": 3,
+            "text": "using"
+        },
+        {
+            "i": 212,
+            "document": 1,
+            "paragraph": 3,
+            "text": "a"
+        },
+        {
+            "i": 213,
+            "document": 1,
+            "paragraph": 3,
+            "text": "more"
+        },
+        {
+            "i": 214,
+            "document": 1,
+            "paragraph": 3,
+            "text": "expressive"
+        },
+        {
+            "i": 215,
+            "document": 1,
+            "paragraph": 3,
+            "text": "tagging"
+        },
+        {
+            "i": 216,
+            "document": 1,
+            "paragraph": 3,
+            "text": "scheme"
+        },
+        {
+            "i": 217,
+            "document": 1,
+            "paragraph": 3,
+            "text": "like"
+        },
+        {
+            "i": 218,
+            "document": 1,
+            "paragraph": 3,
+            "text": "IOBES"
+        },
+        {
+            "i": 219,
+            "document": 1,
+            "paragraph": 3,
+            "text": "improves"
+        },
+        {
+            "i": 220,
+            "document": 1,
+            "paragraph": 3,
+            "text": "model"
+        },
+        {
+            "i": 221,
+            "document": 1,
+            "paragraph": 3,
+            "text": "performance"
+        },
+        {
+            "i": 222,
+            "document": 1,
+            "paragraph": 3,
+            "text": "marginally"
+        },
+        {
+            "i": 223,
+            "document": 1,
+            "paragraph": 3,
+            "text": "."
+        },
+        {
+            "i": 224,
+            "document": 1,
+            "paragraph": 3,
+            "text": "However"
+        },
+        {
+            "i": 225,
+            "document": 1,
+            "paragraph": 3,
+            "text": ","
+        },
+        {
+            "i": 226,
+            "document": 1,
+            "paragraph": 3,
+            "text": "we"
+        },
+        {
+            "i": 227,
+            "document": 1,
+            "paragraph": 3,
+            "text": "did"
+        },
+        {
+            "i": 228,
+            "document": 1,
+            "paragraph": 3,
+            "text": "not"
+        },
+        {
+            "i": 229,
+            "document": 1,
+            "paragraph": 3,
+            "text": "observe"
+        },
+        {
+            "i": 230,
+            "document": 1,
+            "paragraph": 3,
+            "text": "a"
+        },
+        {
+            "i": 231,
+            "document": 1,
+            "paragraph": 3,
+            "text": "significant"
+        },
+        {
+            "i": 232,
+            "document": 1,
+            "paragraph": 3,
+            "text": "improvement"
+        },
+        {
+            "i": 233,
+            "document": 1,
+            "paragraph": 3,
+            "text": "over"
+        },
+        {
+            "i": 234,
+            "document": 1,
+            "paragraph": 3,
+            "text": "the"
+        },
+        {
+            "i": 235,
+            "document": 1,
+            "paragraph": 3,
+            "text": "IOB"
+        },
+        {
+            "i": 236,
+            "document": 1,
+            "paragraph": 3,
+            "text": "tagging"
+        },
+        {
+            "i": 237,
+            "document": 1,
+            "paragraph": 3,
+            "text": "scheme"
+        },
+        {
+            "i": 238,
+            "document": 1,
+            "paragraph": 3,
+            "text": "."
+        },
+        {
+            "i": 239,
+            "document": 2,
+            "paragraph": 4,
+            "text": "The"
+        },
+        {
+            "i": 240,
+            "document": 2,
+            "paragraph": 4,
+            "text": "effect"
+        },
+        {
+            "i": 241,
+            "document": 2,
+            "paragraph": 4,
+            "text": "is"
+        },
+        {
+            "i": 242,
+            "document": 2,
+            "paragraph": 4,
+            "text": "magnified"
+        },
+        {
+            "i": 243,
+            "document": 2,
+            "paragraph": 4,
+            "text": "by"
+        },
+        {
+            "i": 244,
+            "document": 2,
+            "paragraph": 4,
+            "text": "the"
+        },
+        {
+            "i": 245,
+            "document": 2,
+            "paragraph": 4,
+            "text": "unreliability"
+        },
+        {
+            "i": 246,
+            "document": 2,
+            "paragraph": 4,
+            "text": "of"
+        },
+        {
+            "i": 247,
+            "document": 2,
+            "paragraph": 4,
+            "text": "AMT"
+        },
+        {
+            "i": 248,
+            "document": 2,
+            "paragraph": 4,
+            "text": "workers"
+        },
+        {
+            "i": 249,
+            "document": 2,
+            "paragraph": 4,
+            "text": ","
+        },
+        {
+            "i": 250,
+            "document": 2,
+            "paragraph": 4,
+            "text": "motivating"
+        },
+        {
+            "i": 251,
+            "document": 2,
+            "paragraph": 4,
+            "text": "our"
+        },
+        {
+            "i": 252,
+            "document": 2,
+            "paragraph": 4,
+            "text": "strategy"
+        },
+        {
+            "i": 253,
+            "document": 2,
+            "paragraph": 4,
+            "text": "of"
+        },
+        {
+            "i": 254,
+            "document": 2,
+            "paragraph": 4,
+            "text": "collecting"
+        },
+        {
+            "i": 255,
+            "document": 2,
+            "paragraph": 4,
+            "text": "several"
+        },
+        {
+            "i": 256,
+            "document": 2,
+            "paragraph": 4,
+            "text": "noisy"
+        },
+        {
+            "i": 257,
+            "document": 2,
+            "paragraph": 4,
+            "text": "annotations"
+        },
+        {
+            "i": 258,
+            "document": 2,
+            "paragraph": 4,
+            "text": "and"
+        },
+        {
+            "i": 259,
+            "document": 2,
+            "paragraph": 4,
+            "text": "aggregating"
+        },
+        {
+            "i": 260,
+            "document": 2,
+            "paragraph": 4,
+            "text": "over"
+        },
+        {
+            "i": 261,
+            "document": 2,
+            "paragraph": 4,
+            "text": "them"
+        },
+        {
+            "i": 262,
+            "document": 2,
+            "paragraph": 4,
+            "text": "to"
+        },
+        {
+            "i": 263,
+            "document": 2,
+            "paragraph": 4,
+            "text": "produce"
+        },
+        {
+            "i": 264,
+            "document": 2,
+            "paragraph": 4,
+            "text": "a"
+        },
+        {
+            "i": 265,
+            "document": 2,
+            "paragraph": 4,
+            "text": "single"
+        },
+        {
+            "i": 266,
+            "document": 2,
+            "paragraph": 4,
+            "text": "cleaner"
+        },
+        {
+            "i": 267,
+            "document": 2,
+            "paragraph": 4,
+            "text": "annotation"
+        },
+        {
+            "i": 268,
+            "document": 2,
+            "paragraph": 4,
+            "text": "."
+        },
+        {
+            "i": 269,
+            "document": 2,
+            "paragraph": 4,
+            "text": "We"
+        },
+        {
+            "i": 270,
+            "document": 2,
+            "paragraph": 4,
+            "text": "tested"
+        },
+        {
+            "i": 271,
+            "document": 2,
+            "paragraph": 4,
+            "text": "three"
+        },
+        {
+            "i": 272,
+            "document": 2,
+            "paragraph": 4,
+            "text": "different"
+        },
+        {
+            "i": 273,
+            "document": 2,
+            "paragraph": 4,
+            "text": "aggregation"
+        },
+        {
+            "i": 274,
+            "document": 2,
+            "paragraph": 4,
+            "text": "strategies"
+        },
+        {
+            "i": 275,
+            "document": 2,
+            "paragraph": 4,
+            "text": ":"
+        },
+        {
+            "i": 276,
+            "document": 2,
+            "paragraph": 4,
+            "text": "a"
+        },
+        {
+            "i": 277,
+            "document": 2,
+            "paragraph": 4,
+            "text": "simple"
+        },
+        {
+            "i": 278,
+            "document": 2,
+            "paragraph": 4,
+            "text": "majority"
+        },
+        {
+            "i": 279,
+            "document": 2,
+            "paragraph": 4,
+            "text": "vote"
+        },
+        {
+            "i": 280,
+            "document": 2,
+            "paragraph": 4,
+            "text": ","
+        },
+        {
+            "i": 281,
+            "document": 2,
+            "paragraph": 4,
+            "text": "the"
+        },
+        {
+            "i": 282,
+            "document": 2,
+            "paragraph": 4,
+            "text": "Dawid"
+        },
+        {
+            "i": 283,
+            "document": 2,
+            "paragraph": 4,
+            "text": "-"
+        },
+        {
+            "i": 284,
+            "document": 2,
+            "paragraph": 4,
+            "text": "Skene"
+        },
+        {
+            "i": 285,
+            "document": 2,
+            "paragraph": 4,
+            "text": "model"
+        },
+        {
+            "i": 286,
+            "document": 2,
+            "paragraph": 4,
+            "text": "which"
+        },
+        {
+            "i": 287,
+            "document": 2,
+            "paragraph": 4,
+            "text": "estimates"
+        },
+        {
+            "i": 288,
+            "document": 2,
+            "paragraph": 4,
+            "text": "worker"
+        },
+        {
+            "i": 289,
+            "document": 2,
+            "paragraph": 4,
+            "text": "reliability"
+        },
+        {
+            "i": 290,
+            "document": 2,
+            "paragraph": 4,
+            "text": ","
+        },
+        {
+            "i": 291,
+            "document": 2,
+            "paragraph": 4,
+            "text": "and"
+        },
+        {
+            "i": 292,
+            "document": 2,
+            "paragraph": 4,
+            "text": "HMMCrowd"
+        },
+        {
+            "i": 293,
+            "document": 2,
+            "paragraph": 4,
+            "text": ","
+        },
+        {
+            "i": 294,
+            "document": 2,
+            "paragraph": 4,
+            "text": "a"
+        },
+        {
+            "i": 295,
+            "document": 2,
+            "paragraph": 4,
+            "text": "recent"
+        },
+        {
+            "i": 296,
+            "document": 2,
+            "paragraph": 4,
+            "text": "extension"
+        },
+        {
+            "i": 297,
+            "document": 2,
+            "paragraph": 4,
+            "text": "to"
+        },
+        {
+            "i": 298,
+            "document": 2,
+            "paragraph": 4,
+            "text": "Dawid"
+        },
+        {
+            "i": 299,
+            "document": 2,
+            "paragraph": 4,
+            "text": "-"
+        },
+        {
+            "i": 300,
+            "document": 2,
+            "paragraph": 4,
+            "text": "Skene"
+        },
+        {
+            "i": 301,
+            "document": 2,
+            "paragraph": 4,
+            "text": "that"
+        },
+        {
+            "i": 302,
+            "document": 2,
+            "paragraph": 4,
+            "text": "includes"
+        },
+        {
+            "i": 303,
+            "document": 2,
+            "paragraph": 4,
+            "text": "a"
+        },
+        {
+            "i": 304,
+            "document": 2,
+            "paragraph": 4,
+            "text": "HMM"
+        },
+        {
+            "i": 305,
+            "document": 2,
+            "paragraph": 4,
+            "text": "component"
+        },
+        {
+            "i": 306,
+            "document": 2,
+            "paragraph": 4,
+            "text": ","
+        },
+        {
+            "i": 307,
+            "document": 2,
+            "paragraph": 4,
+            "text": "thus"
+        },
+        {
+            "i": 308,
+            "document": 2,
+            "paragraph": 4,
+            "text": "explicitly"
+        },
+        {
+            "i": 309,
+            "document": 2,
+            "paragraph": 4,
+            "text": "leveraging"
+        },
+        {
+            "i": 310,
+            "document": 2,
+            "paragraph": 4,
+            "text": "the"
+        },
+        {
+            "i": 311,
+            "document": 2,
+            "paragraph": 4,
+            "text": "sequential"
+        },
+        {
+            "i": 312,
+            "document": 2,
+            "paragraph": 4,
+            "text": "structure"
+        },
+        {
+            "i": 313,
+            "document": 2,
+            "paragraph": 4,
+            "text": "of"
+        },
+        {
+            "i": 314,
+            "document": 2,
+            "paragraph": 4,
+            "text": "contiguous"
+        },
+        {
+            "i": 315,
+            "document": 2,
+            "paragraph": 4,
+            "text": "spans"
+        },
+        {
+            "i": 316,
+            "document": 2,
+            "paragraph": 4,
+            "text": "of"
+        },
+        {
+            "i": 317,
+            "document": 2,
+            "paragraph": 4,
+            "text": "words"
+        },
+        {
+            "i": 318,
+            "document": 2,
+            "paragraph": 4,
+            "text": "nguyen2017aggregating"
+        },
+        {
+            "i": 319,
+            "document": 2,
+            "paragraph": 4,
+            "text": "."
+        },
+        {
+            "i": 320,
+            "document": 2,
+            "paragraph": 4,
+            "text": "For"
+        },
+        {
+            "i": 321,
+            "document": 2,
+            "paragraph": 4,
+            "text": "each"
+        },
+        {
+            "i": 322,
+            "document": 2,
+            "paragraph": 4,
+            "text": "aggregation"
+        },
+        {
+            "i": 323,
+            "document": 2,
+            "paragraph": 4,
+            "text": "strategy"
+        },
+        {
+            "i": 324,
+            "document": 2,
+            "paragraph": 4,
+            "text": ","
+        },
+        {
+            "i": 325,
+            "document": 2,
+            "paragraph": 4,
+            "text": "we"
+        },
+        {
+            "i": 326,
+            "document": 2,
+            "paragraph": 4,
+            "text": "compute"
+        },
+        {
+            "i": 327,
+            "document": 2,
+            "paragraph": 4,
+            "text": "the"
+        },
+        {
+            "i": 328,
+            "document": 2,
+            "paragraph": 4,
+            "text": "token"
+        },
+        {
+            "i": 329,
+            "document": 2,
+            "paragraph": 4,
+            "text": "-"
+        },
+        {
+            "i": 330,
+            "document": 2,
+            "paragraph": 4,
+            "text": "wise"
+        },
+        {
+            "i": 331,
+            "document": 2,
+            "paragraph": 4,
+            "text": "precision"
+        },
+        {
+            "i": 332,
+            "document": 2,
+            "paragraph": 4,
+            "text": "and"
+        },
+        {
+            "i": 333,
+            "document": 2,
+            "paragraph": 4,
+            "text": "recall"
+        },
+        {
+            "i": 334,
+            "document": 2,
+            "paragraph": 4,
+            "text": "of"
+        },
+        {
+            "i": 335,
+            "document": 2,
+            "paragraph": 4,
+            "text": "the"
+        },
+        {
+            "i": 336,
+            "document": 2,
+            "paragraph": 4,
+            "text": "output"
+        },
+        {
+            "i": 337,
+            "document": 2,
+            "paragraph": 4,
+            "text": "labels"
+        },
+        {
+            "i": 338,
+            "document": 2,
+            "paragraph": 4,
+            "text": "against"
+        },
+        {
+            "i": 339,
+            "document": 2,
+            "paragraph": 4,
+            "text": "the"
+        },
+        {
+            "i": 340,
+            "document": 2,
+            "paragraph": 4,
+            "text": "unioned"
+        },
+        {
+            "i": 341,
+            "document": 2,
+            "paragraph": 4,
+            "text": "expert"
+        },
+        {
+            "i": 342,
+            "document": 2,
+            "paragraph": 4,
+            "text": "labels"
+        },
+        {
+            "i": 343,
+            "document": 2,
+            "paragraph": 4,
+            "text": "."
+        },
+        {
+            "i": 344,
+            "document": 3,
+            "paragraph": 5,
+            "text": "paragraph"
+        },
+        {
+            "i": 345,
+            "document": 3,
+            "paragraph": 5,
+            "text": ":"
+        },
+        {
+            "i": 346,
+            "document": 3,
+            "paragraph": 5,
+            "text": "Invariance"
+        },
+        {
+            "i": 347,
+            "document": 3,
+            "paragraph": 5,
+            "text": "as"
+        },
+        {
+            "i": 348,
+            "document": 3,
+            "paragraph": 5,
+            "text": "a"
+        },
+        {
+            "i": 349,
+            "document": 3,
+            "paragraph": 5,
+            "text": "training"
+        },
+        {
+            "i": 350,
+            "document": 3,
+            "paragraph": 5,
+            "text": "objective"
+        },
+        {
+            "i": 351,
+            "document": 3,
+            "paragraph": 5,
+            "text": "."
+        },
+        {
+            "i": 352,
+            "document": 3,
+            "paragraph": 5,
+            "text": "Optimising"
+        },
+        {
+            "i": 353,
+            "document": 3,
+            "paragraph": 5,
+            "text": "for"
+        },
+        {
+            "i": 354,
+            "document": 3,
+            "paragraph": 5,
+            "text": "function"
+        },
+        {
+            "i": 355,
+            "document": 3,
+            "paragraph": 5,
+            "text": "outputs"
+        },
+        {
+            "i": 356,
+            "document": 3,
+            "paragraph": 5,
+            "text": "to"
+        },
+        {
+            "i": 357,
+            "document": 3,
+            "paragraph": 5,
+            "text": "be"
+        },
+        {
+            "i": 358,
+            "document": 3,
+            "paragraph": 5,
+            "text": "persistent"
+        },
+        {
+            "i": 359,
+            "document": 3,
+            "paragraph": 5,
+            "text": "through"
+        },
+        {
+            "i": 360,
+            "document": 3,
+            "paragraph": 5,
+            "text": "spatio"
+        },
+        {
+            "i": 361,
+            "document": 3,
+            "paragraph": 5,
+            "text": "-"
+        },
+        {
+            "i": 362,
+            "document": 3,
+            "paragraph": 5,
+            "text": "temporal"
+        },
+        {
+            "i": 363,
+            "document": 3,
+            "paragraph": 5,
+            "text": "or"
+        },
+        {
+            "i": 364,
+            "document": 3,
+            "paragraph": 5,
+            "text": "non"
+        },
+        {
+            "i": 365,
+            "document": 3,
+            "paragraph": 5,
+            "text": "-"
+        },
+        {
+            "i": 366,
+            "document": 3,
+            "paragraph": 5,
+            "text": "material"
+        },
+        {
+            "i": 367,
+            "document": 3,
+            "paragraph": 5,
+            "text": "distortion"
+        },
+        {
+            "i": 368,
+            "document": 3,
+            "paragraph": 5,
+            "text": "is"
+        },
+        {
+            "i": 369,
+            "document": 3,
+            "paragraph": 5,
+            "text": "an"
+        },
+        {
+            "i": 370,
+            "document": 3,
+            "paragraph": 5,
+            "text": "idea"
+        },
+        {
+            "i": 371,
+            "document": 3,
+            "paragraph": 5,
+            "text": "shared"
+        },
+        {
+            "i": 372,
+            "document": 3,
+            "paragraph": 5,
+            "text": "by"
+        },
+        {
+            "i": 373,
+            "document": 3,
+            "paragraph": 5,
+            "text": "IIC"
+        },
+        {
+            "i": 374,
+            "document": 3,
+            "paragraph": 5,
+            "text": "with"
+        },
+        {
+            "i": 375,
+            "document": 3,
+            "paragraph": 5,
+            "text": "several"
+        },
+        {
+            "i": 376,
+            "document": 3,
+            "paragraph": 5,
+            "text": "works"
+        },
+        {
+            "i": 377,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 378,
+            "document": 3,
+            "paragraph": 5,
+            "text": "including"
+        },
+        {
+            "i": 379,
+            "document": 3,
+            "paragraph": 5,
+            "text": "exemplars"
+        },
+        {
+            "i": 380,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 381,
+            "document": 3,
+            "paragraph": 5,
+            "text": "IMSAT"
+        },
+        {
+            "i": 382,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 383,
+            "document": 3,
+            "paragraph": 5,
+            "text": "proximity"
+        },
+        {
+            "i": 384,
+            "document": 3,
+            "paragraph": 5,
+            "text": "prediction"
+        },
+        {
+            "i": 385,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 386,
+            "document": 3,
+            "paragraph": 5,
+            "text": "the"
+        },
+        {
+            "i": 387,
+            "document": 3,
+            "paragraph": 5,
+            "text": "denoising"
+        },
+        {
+            "i": 388,
+            "document": 3,
+            "paragraph": 5,
+            "text": "objective"
+        },
+        {
+            "i": 389,
+            "document": 3,
+            "paragraph": 5,
+            "text": "of"
+        },
+        {
+            "i": 390,
+            "document": 3,
+            "paragraph": 5,
+            "text": "Tagger"
+        },
+        {
+            "i": 391,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 392,
+            "document": 3,
+            "paragraph": 5,
+            "text": "temporal"
+        },
+        {
+            "i": 393,
+            "document": 3,
+            "paragraph": 5,
+            "text": "slowness"
+        },
+        {
+            "i": 394,
+            "document": 3,
+            "paragraph": 5,
+            "text": "constraints"
+        },
+        {
+            "i": 395,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 396,
+            "document": 3,
+            "paragraph": 5,
+            "text": "and"
+        },
+        {
+            "i": 397,
+            "document": 3,
+            "paragraph": 5,
+            "text": "optimising"
+        },
+        {
+            "i": 398,
+            "document": 3,
+            "paragraph": 5,
+            "text": "for"
+        },
+        {
+            "i": 399,
+            "document": 3,
+            "paragraph": 5,
+            "text": "features"
+        },
+        {
+            "i": 400,
+            "document": 3,
+            "paragraph": 5,
+            "text": "to"
+        },
+        {
+            "i": 401,
+            "document": 3,
+            "paragraph": 5,
+            "text": "be"
+        },
+        {
+            "i": 402,
+            "document": 3,
+            "paragraph": 5,
+            "text": "invariant"
+        },
+        {
+            "i": 403,
+            "document": 3,
+            "paragraph": 5,
+            "text": "to"
+        },
+        {
+            "i": 404,
+            "document": 3,
+            "paragraph": 5,
+            "text": "local"
+        },
+        {
+            "i": 405,
+            "document": 3,
+            "paragraph": 5,
+            "text": "image"
+        },
+        {
+            "i": 406,
+            "document": 3,
+            "paragraph": 5,
+            "text": "transformations"
+        },
+        {
+            "i": 407,
+            "document": 3,
+            "paragraph": 5,
+            "text": "."
+        },
+        {
+            "i": 408,
+            "document": 3,
+            "paragraph": 5,
+            "text": "More"
+        },
+        {
+            "i": 409,
+            "document": 3,
+            "paragraph": 5,
+            "text": "broadly"
+        },
+        {
+            "i": 410,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 411,
+            "document": 3,
+            "paragraph": 5,
+            "text": "the"
+        },
+        {
+            "i": 412,
+            "document": 3,
+            "paragraph": 5,
+            "text": "problem"
+        },
+        {
+            "i": 413,
+            "document": 3,
+            "paragraph": 5,
+            "text": "of"
+        },
+        {
+            "i": 414,
+            "document": 3,
+            "paragraph": 5,
+            "text": "modelling"
+        },
+        {
+            "i": 415,
+            "document": 3,
+            "paragraph": 5,
+            "text": "data"
+        },
+        {
+            "i": 416,
+            "document": 3,
+            "paragraph": 5,
+            "text": "transformation"
+        },
+        {
+            "i": 417,
+            "document": 3,
+            "paragraph": 5,
+            "text": "has"
+        },
+        {
+            "i": 418,
+            "document": 3,
+            "paragraph": 5,
+            "text": "received"
+        },
+        {
+            "i": 419,
+            "document": 3,
+            "paragraph": 5,
+            "text": "significant"
+        },
+        {
+            "i": 420,
+            "document": 3,
+            "paragraph": 5,
+            "text": "attention"
+        },
+        {
+            "i": 421,
+            "document": 3,
+            "paragraph": 5,
+            "text": "in"
+        },
+        {
+            "i": 422,
+            "document": 3,
+            "paragraph": 5,
+            "text": "deep"
+        },
+        {
+            "i": 423,
+            "document": 3,
+            "paragraph": 5,
+            "text": "learning"
+        },
+        {
+            "i": 424,
+            "document": 3,
+            "paragraph": 5,
+            "text": ","
+        },
+        {
+            "i": 425,
+            "document": 3,
+            "paragraph": 5,
+            "text": "one"
+        },
+        {
+            "i": 426,
+            "document": 3,
+            "paragraph": 5,
+            "text": "example"
+        },
+        {
+            "i": 427,
+            "document": 3,
+            "paragraph": 5,
+            "text": "being"
+        },
+        {
+            "i": 428,
+            "document": 3,
+            "paragraph": 5,
+            "text": "the"
+        },
+        {
+            "i": 429,
+            "document": 3,
+            "paragraph": 5,
+            "text": "transforming"
+        },
+        {
+            "i": 430,
+            "document": 3,
+            "paragraph": 5,
+            "text": "autoencoder"
+        },
+        {
+            "i": 431,
+            "document": 3,
+            "paragraph": 5,
+            "text": "."
+        },
+        {
+            "i": 432,
+            "document": 4,
+            "paragraph": 6,
+            "text": "Stanford"
+        },
+        {
+            "i": 433,
+            "document": 4,
+            "paragraph": 6,
+            "text": "CoreNLP"
+        },
+        {
+            "i": 434,
+            "document": 4,
+            "paragraph": 6,
+            "text": "("
+        },
+        {
+            "i": 435,
+            "document": 4,
+            "paragraph": 6,
+            "text": "Manning"
+        },
+        {
+            "i": 436,
+            "document": 4,
+            "paragraph": 6,
+            "text": "et"
+        },
+        {
+            "i": 437,
+            "document": 4,
+            "paragraph": 6,
+            "text": "al"
+        },
+        {
+            "i": 438,
+            "document": 4,
+            "paragraph": 6,
+            "text": "."
+        },
+        {
+            "i": 439,
+            "document": 4,
+            "paragraph": 6,
+            "text": ","
+        },
+        {
+            "i": 440,
+            "document": 4,
+            "paragraph": 6,
+            "text": "2014"
+        },
+        {
+            "i": 441,
+            "document": 4,
+            "paragraph": 6,
+            "text": ")"
+        },
+        {
+            "i": 442,
+            "document": 4,
+            "paragraph": 6,
+            "text": "."
+        },
+        {
+            "i": 443,
+            "document": 4,
+            "paragraph": 6,
+            "text": "We"
+        },
+        {
+            "i": 444,
+            "document": 4,
+            "paragraph": 6,
+            "text": "also"
+        },
+        {
+            "i": 445,
+            "document": 4,
+            "paragraph": 6,
+            "text": "use"
+        },
+        {
+            "i": 446,
+            "document": 4,
+            "paragraph": 6,
+            "text": "part"
+        },
+        {
+            "i": 447,
+            "document": 4,
+            "paragraph": 6,
+            "text": "-"
+        },
+        {
+            "i": 448,
+            "document": 4,
+            "paragraph": 6,
+            "text": "of"
+        },
+        {
+            "i": 449,
+            "document": 4,
+            "paragraph": 6,
+            "text": "-"
+        },
+        {
+            "i": 450,
+            "document": 4,
+            "paragraph": 6,
+            "text": "speech"
+        },
+        {
+            "i": 451,
+            "document": 4,
+            "paragraph": 6,
+            "text": "tagger"
+        },
+        {
+            "i": 452,
+            "document": 4,
+            "paragraph": 6,
+            "text": "and"
+        },
+        {
+            "i": 453,
+            "document": 4,
+            "paragraph": 6,
+            "text": "named"
+        },
+        {
+            "i": 454,
+            "document": 4,
+            "paragraph": 6,
+            "text": "-"
+        },
+        {
+            "i": 455,
+            "document": 4,
+            "paragraph": 6,
+            "text": "entity"
+        },
+        {
+            "i": 456,
+            "document": 4,
+            "paragraph": 6,
+            "text": "recognition"
+        },
+        {
+            "i": 457,
+            "document": 4,
+            "paragraph": 6,
+            "text": "tagger"
+        },
+        {
+            "i": 458,
+            "document": 4,
+            "paragraph": 6,
+            "text": "in"
+        },
+        {
+            "i": 459,
+            "document": 4,
+            "paragraph": 6,
+            "text": "Stanford"
+        },
+        {
+            "i": 460,
+            "document": 4,
+            "paragraph": 6,
+            "text": "CoreNLP"
+        },
+        {
+            "i": 461,
+            "document": 4,
+            "paragraph": 6,
+            "text": "utilities"
+        },
+        {
+            "i": 462,
+            "document": 4,
+            "paragraph": 6,
+            "text": "to"
+        },
+        {
+            "i": 463,
+            "document": 4,
+            "paragraph": 6,
+            "text": "transform"
+        },
+        {
+            "i": 464,
+            "document": 4,
+            "paragraph": 6,
+            "text": "the"
+        },
+        {
+            "i": 465,
+            "document": 4,
+            "paragraph": 6,
+            "text": "passage"
+        },
+        {
+            "i": 466,
+            "document": 4,
+            "paragraph": 6,
+            "text": "and"
+        },
+        {
+            "i": 467,
+            "document": 4,
+            "paragraph": 6,
+            "text": "question"
+        },
+        {
+            "i": 468,
+            "document": 4,
+            "paragraph": 6,
+            "text": "."
+        },
+        {
+            "i": 469,
+            "document": 4,
+            "paragraph": 6,
+            "text": "For"
+        },
+        {
+            "i": 470,
+            "document": 4,
+            "paragraph": 6,
+            "text": "the"
+        },
+        {
+            "i": 471,
+            "document": 4,
+            "paragraph": 6,
+            "text": "skip"
+        },
+        {
+            "i": 472,
+            "document": 4,
+            "paragraph": 6,
+            "text": "-"
+        },
+        {
+            "i": 473,
+            "document": 4,
+            "paragraph": 6,
+            "text": "gram"
+        },
+        {
+            "i": 474,
+            "document": 4,
+            "paragraph": 6,
+            "text": "model"
+        },
+        {
+            "i": 475,
+            "document": 4,
+            "paragraph": 6,
+            "text": ","
+        },
+        {
+            "i": 476,
+            "document": 4,
+            "paragraph": 6,
+            "text": "our"
+        },
+        {
+            "i": 477,
+            "document": 4,
+            "paragraph": 6,
+            "text": "model"
+        },
+        {
+            "i": 478,
+            "document": 4,
+            "paragraph": 6,
+            "text": "refers"
+        },
+        {
+            "i": 479,
+            "document": 4,
+            "paragraph": 6,
+            "text": "to"
+        },
+        {
+            "i": 480,
+            "document": 4,
+            "paragraph": 6,
+            "text": "the"
+        },
+        {
+            "i": 481,
+            "document": 4,
+            "paragraph": 6,
+            "text": "word2vec"
+        },
+        {
+            "i": 482,
+            "document": 4,
+            "paragraph": 6,
+            "text": "module"
+        },
+        {
+            "i": 483,
+            "document": 4,
+            "paragraph": 6,
+            "text": "in"
+        },
+        {
+            "i": 484,
+            "document": 4,
+            "paragraph": 6,
+            "text": "open"
+        },
+        {
+            "i": 485,
+            "document": 4,
+            "paragraph": 6,
+            "text": "source"
+        },
+        {
+            "i": 486,
+            "document": 4,
+            "paragraph": 6,
+            "text": "software"
+        },
+        {
+            "i": 487,
+            "document": 4,
+            "paragraph": 6,
+            "text": "library"
+        },
+        {
+            "i": 488,
+            "document": 4,
+            "paragraph": 6,
+            "text": ","
+        },
+        {
+            "i": 489,
+            "document": 4,
+            "paragraph": 6,
+            "text": "Tensorflow"
+        },
+        {
+            "i": 490,
+            "document": 4,
+            "paragraph": 6,
+            "text": ","
+        },
+        {
+            "i": 491,
+            "document": 4,
+            "paragraph": 6,
+            "text": "the"
+        },
+        {
+            "i": 492,
+            "document": 4,
+            "paragraph": 6,
+            "text": "skip"
+        },
+        {
+            "i": 493,
+            "document": 4,
+            "paragraph": 6,
+            "text": "window"
+        },
+        {
+            "i": 494,
+            "document": 4,
+            "paragraph": 6,
+            "text": "is"
+        },
+        {
+            "i": 495,
+            "document": 4,
+            "paragraph": 6,
+            "text": "set"
+        },
+        {
+            "i": 496,
+            "document": 4,
+            "paragraph": 6,
+            "text": "as"
+        },
+        {
+            "i": 497,
+            "document": 4,
+            "paragraph": 6,
+            "text": "2"
+        },
+        {
+            "i": 498,
+            "document": 4,
+            "paragraph": 6,
+            "text": "."
+        },
+        {
+            "i": 499,
+            "document": 5,
+            "paragraph": 7,
+            "text": "Application"
+        },
+        {
+            "i": 500,
+            "document": 5,
+            "paragraph": 7,
+            "text": "of"
+        },
+        {
+            "i": 501,
+            "document": 5,
+            "paragraph": 7,
+            "text": "attention"
+        },
+        {
+            "i": 502,
+            "document": 5,
+            "paragraph": 7,
+            "text": "-"
+        },
+        {
+            "i": 503,
+            "document": 5,
+            "paragraph": 7,
+            "text": "based"
+        },
+        {
+            "i": 504,
+            "document": 5,
+            "paragraph": 7,
+            "text": "models"
+        },
+        {
+            "i": 505,
+            "document": 5,
+            "paragraph": 7,
+            "text": "to"
+        },
+        {
+            "i": 506,
+            "document": 5,
+            "paragraph": 7,
+            "text": "speech"
+        },
+        {
+            "i": 507,
+            "document": 5,
+            "paragraph": 7,
+            "text": "recognition"
+        },
+        {
+            "i": 508,
+            "document": 5,
+            "paragraph": 7,
+            "text": "is"
+        },
+        {
+            "i": 509,
+            "document": 5,
+            "paragraph": 7,
+            "text": "also"
+        },
+        {
+            "i": 510,
+            "document": 5,
+            "paragraph": 7,
+            "text": "an"
+        },
+        {
+            "i": 511,
+            "document": 5,
+            "paragraph": 7,
+            "text": "important"
+        },
+        {
+            "i": 512,
+            "document": 5,
+            "paragraph": 7,
+            "text": "step"
+        },
+        {
+            "i": 513,
+            "document": 5,
+            "paragraph": 7,
+            "text": "toward"
+        },
+        {
+            "i": 514,
+            "document": 5,
+            "paragraph": 7,
+            "text": "building"
+        },
+        {
+            "i": 515,
+            "document": 5,
+            "paragraph": 7,
+            "text": "fully"
+        },
+        {
+            "i": 516,
+            "document": 5,
+            "paragraph": 7,
+            "text": "end"
+        },
+        {
+            "i": 517,
+            "document": 5,
+            "paragraph": 7,
+            "text": "-"
+        },
+        {
+            "i": 518,
+            "document": 5,
+            "paragraph": 7,
+            "text": "to"
+        },
+        {
+            "i": 519,
+            "document": 5,
+            "paragraph": 7,
+            "text": "-"
+        },
+        {
+            "i": 520,
+            "document": 5,
+            "paragraph": 7,
+            "text": "end"
+        },
+        {
+            "i": 521,
+            "document": 5,
+            "paragraph": 7,
+            "text": "trainable"
+        },
+        {
+            "i": 522,
+            "document": 5,
+            "paragraph": 7,
+            "text": "speech"
+        },
+        {
+            "i": 523,
+            "document": 5,
+            "paragraph": 7,
+            "text": "recognition"
+        },
+        {
+            "i": 524,
+            "document": 5,
+            "paragraph": 7,
+            "text": "systems"
+        },
+        {
+            "i": 525,
+            "document": 5,
+            "paragraph": 7,
+            "text": ","
+        },
+        {
+            "i": 526,
+            "document": 5,
+            "paragraph": 7,
+            "text": "which"
+        },
+        {
+            "i": 527,
+            "document": 5,
+            "paragraph": 7,
+            "text": "is"
+        },
+        {
+            "i": 528,
+            "document": 5,
+            "paragraph": 7,
+            "text": "an"
+        },
+        {
+            "i": 529,
+            "document": 5,
+            "paragraph": 7,
+            "text": "active"
+        },
+        {
+            "i": 530,
+            "document": 5,
+            "paragraph": 7,
+            "text": "area"
+        },
+        {
+            "i": 531,
+            "document": 5,
+            "paragraph": 7,
+            "text": "of"
+        },
+        {
+            "i": 532,
+            "document": 5,
+            "paragraph": 7,
+            "text": "research"
+        },
+        {
+            "i": 533,
+            "document": 5,
+            "paragraph": 7,
+            "text": "."
+        },
+        {
+            "i": 534,
+            "document": 5,
+            "paragraph": 7,
+            "text": "The"
+        },
+        {
+            "i": 535,
+            "document": 5,
+            "paragraph": 7,
+            "text": "dominant"
+        },
+        {
+            "i": 536,
+            "document": 5,
+            "paragraph": 7,
+            "text": "approach"
+        },
+        {
+            "i": 537,
+            "document": 5,
+            "paragraph": 7,
+            "text": "is"
+        },
+        {
+            "i": 538,
+            "document": 5,
+            "paragraph": 7,
+            "text": "still"
+        },
+        {
+            "i": 539,
+            "document": 5,
+            "paragraph": 7,
+            "text": "based"
+        },
+        {
+            "i": 540,
+            "document": 5,
+            "paragraph": 7,
+            "text": "on"
+        },
+        {
+            "i": 541,
+            "document": 5,
+            "paragraph": 7,
+            "text": "hybrid"
+        },
+        {
+            "i": 542,
+            "document": 5,
+            "paragraph": 7,
+            "text": "systems"
+        },
+        {
+            "i": 543,
+            "document": 5,
+            "paragraph": 7,
+            "text": "consisting"
+        },
+        {
+            "i": 544,
+            "document": 5,
+            "paragraph": 7,
+            "text": "of"
+        },
+        {
+            "i": 545,
+            "document": 5,
+            "paragraph": 7,
+            "text": "a"
+        },
+        {
+            "i": 546,
+            "document": 5,
+            "paragraph": 7,
+            "text": "deep"
+        },
+        {
+            "i": 547,
+            "document": 5,
+            "paragraph": 7,
+            "text": "neural"
+        },
+        {
+            "i": 548,
+            "document": 5,
+            "paragraph": 7,
+            "text": "acoustic"
+        },
+        {
+            "i": 549,
+            "document": 5,
+            "paragraph": 7,
+            "text": "model"
+        },
+        {
+            "i": 550,
+            "document": 5,
+            "paragraph": 7,
+            "text": ","
+        },
+        {
+            "i": 551,
+            "document": 5,
+            "paragraph": 7,
+            "text": "a"
+        },
+        {
+            "i": 552,
+            "document": 5,
+            "paragraph": 7,
+            "text": "triphone"
+        },
+        {
+            "i": 553,
+            "document": 5,
+            "paragraph": 7,
+            "text": "HMM"
+        },
+        {
+            "i": 554,
+            "document": 5,
+            "paragraph": 7,
+            "text": "model"
+        },
+        {
+            "i": 555,
+            "document": 5,
+            "paragraph": 7,
+            "text": "and"
+        },
+        {
+            "i": 556,
+            "document": 5,
+            "paragraph": 7,
+            "text": "an"
+        },
+        {
+            "i": 557,
+            "document": 5,
+            "paragraph": 7,
+            "text": "n"
+        },
+        {
+            "i": 558,
+            "document": 5,
+            "paragraph": 7,
+            "text": "-"
+        },
+        {
+            "i": 559,
+            "document": 5,
+            "paragraph": 7,
+            "text": "gram"
+        },
+        {
+            "i": 560,
+            "document": 5,
+            "paragraph": 7,
+            "text": "language"
+        },
+        {
+            "i": 561,
+            "document": 5,
+            "paragraph": 7,
+            "text": "model"
+        },
+        {
+            "i": 562,
+            "document": 5,
+            "paragraph": 7,
+            "text": "."
+        },
+        {
+            "i": 563,
+            "document": 5,
+            "paragraph": 7,
+            "text": "This"
+        },
+        {
+            "i": 564,
+            "document": 5,
+            "paragraph": 7,
+            "text": "requires"
+        },
+        {
+            "i": 565,
+            "document": 5,
+            "paragraph": 7,
+            "text": "dictionaries"
+        },
+        {
+            "i": 566,
+            "document": 5,
+            "paragraph": 7,
+            "text": "of"
+        },
+        {
+            "i": 567,
+            "document": 5,
+            "paragraph": 7,
+            "text": "hand"
+        },
+        {
+            "i": 568,
+            "document": 5,
+            "paragraph": 7,
+            "text": "-"
+        },
+        {
+            "i": 569,
+            "document": 5,
+            "paragraph": 7,
+            "text": "crafted"
+        },
+        {
+            "i": 570,
+            "document": 5,
+            "paragraph": 7,
+            "text": "pronunciation"
+        },
+        {
+            "i": 571,
+            "document": 5,
+            "paragraph": 7,
+            "text": "and"
+        },
+        {
+            "i": 572,
+            "document": 5,
+            "paragraph": 7,
+            "text": "phoneme"
+        },
+        {
+            "i": 573,
+            "document": 5,
+            "paragraph": 7,
+            "text": "lexicons"
+        },
+        {
+            "i": 574,
+            "document": 5,
+            "paragraph": 7,
+            "text": ","
+        },
+        {
+            "i": 575,
+            "document": 5,
+            "paragraph": 7,
+            "text": "and"
+        },
+        {
+            "i": 576,
+            "document": 5,
+            "paragraph": 7,
+            "text": "a"
+        },
+        {
+            "i": 577,
+            "document": 5,
+            "paragraph": 7,
+            "text": "multi"
+        },
+        {
+            "i": 578,
+            "document": 5,
+            "paragraph": 7,
+            "text": "-"
+        },
+        {
+            "i": 579,
+            "document": 5,
+            "paragraph": 7,
+            "text": "stage"
+        },
+        {
+            "i": 580,
+            "document": 5,
+            "paragraph": 7,
+            "text": "training"
+        },
+        {
+            "i": 581,
+            "document": 5,
+            "paragraph": 7,
+            "text": "procedure"
+        },
+        {
+            "i": 582,
+            "document": 5,
+            "paragraph": 7,
+            "text": "to"
+        },
+        {
+            "i": 583,
+            "document": 5,
+            "paragraph": 7,
+            "text": "make"
+        },
+        {
+            "i": 584,
+            "document": 5,
+            "paragraph": 7,
+            "text": "the"
+        },
+        {
+            "i": 585,
+            "document": 5,
+            "paragraph": 7,
+            "text": "components"
+        },
+        {
+            "i": 586,
+            "document": 5,
+            "paragraph": 7,
+            "text": "work"
+        },
+        {
+            "i": 587,
+            "document": 5,
+            "paragraph": 7,
+            "text": "together"
+        },
+        {
+            "i": 588,
+            "document": 5,
+            "paragraph": 7,
+            "text": "."
+        },
+        {
+            "i": 589,
+            "document": 6,
+            "paragraph": 8,
+            "text": "ea:2015"
+        },
+        {
+            "i": 590,
+            "document": 6,
+            "paragraph": 8,
+            "text": "."
+        },
+        {
+            "i": 591,
+            "document": 6,
+            "paragraph": 8,
+            "text": "We"
+        },
+        {
+            "i": 592,
+            "document": 6,
+            "paragraph": 8,
+            "text": "complement"
+        },
+        {
+            "i": 593,
+            "document": 6,
+            "paragraph": 8,
+            "text": "the"
+        },
+        {
+            "i": 594,
+            "document": 6,
+            "paragraph": 8,
+            "text": "NN"
+        },
+        {
+            "i": 595,
+            "document": 6,
+            "paragraph": 8,
+            "text": "-"
+        },
+        {
+            "i": 596,
+            "document": 6,
+            "paragraph": 8,
+            "text": "based"
+        },
+        {
+            "i": 597,
+            "document": 6,
+            "paragraph": 8,
+            "text": "and"
+        },
+        {
+            "i": 598,
+            "document": 6,
+            "paragraph": 8,
+            "text": "HMM"
+        },
+        {
+            "i": 599,
+            "document": 6,
+            "paragraph": 8,
+            "text": "-"
+        },
+        {
+            "i": 600,
+            "document": 6,
+            "paragraph": 8,
+            "text": "based"
+        },
+        {
+            "i": 601,
+            "document": 6,
+            "paragraph": 8,
+            "text": "tagger"
+        },
+        {
+            "i": 602,
+            "document": 6,
+            "paragraph": 8,
+            "text": "with"
+        },
+        {
+            "i": 603,
+            "document": 6,
+            "paragraph": 8,
+            "text": "a"
+        },
+        {
+            "i": 604,
+            "document": 6,
+            "paragraph": 8,
+            "text": "CRF"
+        },
+        {
+            "i": 605,
+            "document": 6,
+            "paragraph": 8,
+            "text": "tagger"
+        },
+        {
+            "i": 606,
+            "document": 6,
+            "paragraph": 8,
+            "text": ","
+        },
+        {
+            "i": 607,
+            "document": 6,
+            "paragraph": 8,
+            "text": "using"
+        },
+        {
+            "i": 608,
+            "document": 6,
+            "paragraph": 8,
+            "text": "a"
+        },
+        {
+            "i": 609,
+            "document": 6,
+            "paragraph": 8,
+            "text": "freely"
+        },
+        {
+            "i": 610,
+            "document": 6,
+            "paragraph": 8,
+            "text": "available"
+        },
+        {
+            "i": 611,
+            "document": 6,
+            "paragraph": 8,
+            "text": "implementation"
+        },
+        {
+            "i": 612,
+            "document": 6,
+            "paragraph": 8,
+            "text": "based"
+        },
+        {
+            "i": 613,
+            "document": 6,
+            "paragraph": 8,
+            "text": "on"
+        },
+        {
+            "i": 614,
+            "document": 6,
+            "paragraph": 8,
+            "text": "crfsuite"
+        },
+        {
+            "i": 615,
+            "document": 6,
+            "paragraph": 8,
+            "text": "."
+        },
+        {
+            "i": 616,
+            "document": 6,
+            "paragraph": 8,
+            "text": "subsection"
+        },
+        {
+            "i": 617,
+            "document": 6,
+            "paragraph": 8,
+            "text": ":"
+        },
+        {
+            "i": 618,
+            "document": 6,
+            "paragraph": 8,
+            "text": "Datasets"
+        },
+        {
+            "i": 619,
+            "document": 6,
+            "paragraph": 9,
+            "text": "Combining"
+        },
+        {
+            "i": 620,
+            "document": 6,
+            "paragraph": 9,
+            "text": "them"
+        },
+        {
+            "i": 621,
+            "document": 6,
+            "paragraph": 9,
+            "text": "with"
+        },
+        {
+            "i": 622,
+            "document": 6,
+            "paragraph": 9,
+            "text": "word"
+        },
+        {
+            "i": 623,
+            "document": 6,
+            "paragraph": 9,
+            "text": "embeddings"
+        },
+        {
+            "i": 624,
+            "document": 6,
+            "paragraph": 9,
+            "text": "in"
+        },
+        {
+            "i": 625,
+            "document": 6,
+            "paragraph": 9,
+            "text": "a"
+        },
+        {
+            "i": 626,
+            "document": 6,
+            "paragraph": 9,
+            "text": "hierarchical"
+        },
+        {
+            "i": 627,
+            "document": 6,
+            "paragraph": 9,
+            "text": "network"
+        },
+        {
+            "i": 628,
+            "document": 6,
+            "paragraph": 9,
+            "text": "provides"
+        },
+        {
+            "i": 629,
+            "document": 6,
+            "paragraph": 9,
+            "text": "the"
+        },
+        {
+            "i": 630,
+            "document": 6,
+            "paragraph": 9,
+            "text": "best"
+        },
+        {
+            "i": 631,
+            "document": 6,
+            "paragraph": 9,
+            "text": "representation"
+        },
+        {
+            "i": 632,
+            "document": 6,
+            "paragraph": 9,
+            "text": "."
+        },
+        {
+            "i": 633,
+            "document": 6,
+            "paragraph": 9,
+            "text": "The"
+        },
+        {
+            "i": 634,
+            "document": 6,
+            "paragraph": 9,
+            "text": "bi"
+        },
+        {
+            "i": 635,
+            "document": 6,
+            "paragraph": 9,
+            "text": "-"
+        },
+        {
+            "i": 636,
+            "document": 6,
+            "paragraph": 9,
+            "text": "LSTM"
+        },
+        {
+            "i": 637,
+            "document": 6,
+            "paragraph": 9,
+            "text": "tagger"
+        },
+        {
+            "i": 638,
+            "document": 6,
+            "paragraph": 9,
+            "text": "is"
+        },
+        {
+            "i": 639,
+            "document": 6,
+            "paragraph": 9,
+            "text": "as"
+        },
+        {
+            "i": 640,
+            "document": 6,
+            "paragraph": 9,
+            "text": "effective"
+        },
+        {
+            "i": 641,
+            "document": 6,
+            "paragraph": 9,
+            "text": "as"
+        },
+        {
+            "i": 642,
+            "document": 6,
+            "paragraph": 9,
+            "text": "the"
+        },
+        {
+            "i": 643,
+            "document": 6,
+            "paragraph": 9,
+            "text": "CRF"
+        },
+        {
+            "i": 644,
+            "document": 6,
+            "paragraph": 9,
+            "text": "and"
+        },
+        {
+            "i": 645,
+            "document": 6,
+            "paragraph": 9,
+            "text": "HMM"
+        },
+        {
+            "i": 646,
+            "document": 6,
+            "paragraph": 9,
+            "text": "taggers"
+        },
+        {
+            "i": 647,
+            "document": 6,
+            "paragraph": 9,
+            "text": "with"
+        },
+        {
+            "i": 648,
+            "document": 6,
+            "paragraph": 9,
+            "text": "already"
+        },
+        {
+            "i": 649,
+            "document": 6,
+            "paragraph": 9,
+            "text": "as"
+        },
+        {
+            "i": 650,
+            "document": 6,
+            "paragraph": 9,
+            "text": "little"
+        },
+        {
+            "i": 651,
+            "document": 6,
+            "paragraph": 9,
+            "text": "as"
+        },
+        {
+            "i": 652,
+            "document": 6,
+            "paragraph": 9,
+            "text": "500"
+        },
+        {
+            "i": 653,
+            "document": 6,
+            "paragraph": 9,
+            "text": "training"
+        },
+        {
+            "i": 654,
+            "document": 6,
+            "paragraph": 9,
+            "text": "sentences"
+        },
+        {
+            "i": 655,
+            "document": 6,
+            "paragraph": 9,
+            "text": ","
+        },
+        {
+            "i": 656,
+            "document": 6,
+            "paragraph": 9,
+            "text": "but"
+        },
+        {
+            "i": 657,
+            "document": 6,
+            "paragraph": 9,
+            "text": "is"
+        },
+        {
+            "i": 658,
+            "document": 6,
+            "paragraph": 9,
+            "text": "less"
+        },
+        {
+            "i": 659,
+            "document": 6,
+            "paragraph": 9,
+            "text": "robust"
+        },
+        {
+            "i": 660,
+            "document": 6,
+            "paragraph": 9,
+            "text": "to"
+        },
+        {
+            "i": 661,
+            "document": 6,
+            "paragraph": 9,
+            "text": "label"
+        },
+        {
+            "i": 662,
+            "document": 6,
+            "paragraph": 9,
+            "text": "noise"
+        },
+        {
+            "i": 663,
+            "document": 6,
+            "paragraph": 9,
+            "text": "("
+        },
+        {
+            "i": 664,
+            "document": 6,
+            "paragraph": 9,
+            "text": "at"
+        },
+        {
+            "i": 665,
+            "document": 6,
+            "paragraph": 9,
+            "text": "higher"
+        },
+        {
+            "i": 666,
+            "document": 6,
+            "paragraph": 9,
+            "text": "noise"
+        },
+        {
+            "i": 667,
+            "document": 6,
+            "paragraph": 9,
+            "text": "rates"
+        },
+        {
+            "i": 668,
+            "document": 6,
+            "paragraph": 9,
+            "text": ")"
+        },
+        {
+            "i": 669,
+            "document": 6,
+            "paragraph": 9,
+            "text": "."
+        },
+        {
+            "i": 670,
+            "document": 6,
+            "paragraph": 9,
+            "text": "section"
+        },
+        {
+            "i": 671,
+            "document": 6,
+            "paragraph": 9,
+            "text": ":"
+        },
+        {
+            "i": 672,
+            "document": 6,
+            "paragraph": 9,
+            "text": "Acknowledgments"
+        },
+        {
+            "i": 673,
+            "document": 7,
+            "paragraph": 10,
+            "text": "The"
+        },
+        {
+            "i": 674,
+            "document": 7,
+            "paragraph": 10,
+            "text": "DNN"
+        },
+        {
+            "i": 675,
+            "document": 7,
+            "paragraph": 10,
+            "text": "is"
+        },
+        {
+            "i": 676,
+            "document": 7,
+            "paragraph": 10,
+            "text": "normally"
+        },
+        {
+            "i": 677,
+            "document": 7,
+            "paragraph": 10,
+            "text": "employed"
+        },
+        {
+            "i": 678,
+            "document": 7,
+            "paragraph": 10,
+            "text": "for"
+        },
+        {
+            "i": 679,
+            "document": 7,
+            "paragraph": 10,
+            "text": "acoustic"
+        },
+        {
+            "i": 680,
+            "document": 7,
+            "paragraph": 10,
+            "text": "modeling"
+        },
+        {
+            "i": 681,
+            "document": 7,
+            "paragraph": 10,
+            "text": "purposes"
+        },
+        {
+            "i": 682,
+            "document": 7,
+            "paragraph": 10,
+            "text": "to"
+        },
+        {
+            "i": 683,
+            "document": 7,
+            "paragraph": 10,
+            "text": "predict"
+        },
+        {
+            "i": 684,
+            "document": 7,
+            "paragraph": 10,
+            "text": "context"
+        },
+        {
+            "i": 685,
+            "document": 7,
+            "paragraph": 10,
+            "text": "-"
+        },
+        {
+            "i": 686,
+            "document": 7,
+            "paragraph": 10,
+            "text": "dependent"
+        },
+        {
+            "i": 687,
+            "document": 7,
+            "paragraph": 10,
+            "text": "phone"
+        },
+        {
+            "i": 688,
+            "document": 7,
+            "paragraph": 10,
+            "text": "targets"
+        },
+        {
+            "i": 689,
+            "document": 7,
+            "paragraph": 10,
+            "text": "."
+        },
+        {
+            "i": 690,
+            "document": 7,
+            "paragraph": 10,
+            "text": "The"
+        },
+        {
+            "i": 691,
+            "document": 7,
+            "paragraph": 10,
+            "text": "acoustic"
+        },
+        {
+            "i": 692,
+            "document": 7,
+            "paragraph": 10,
+            "text": "-"
+        },
+        {
+            "i": 693,
+            "document": 7,
+            "paragraph": 10,
+            "text": "level"
+        },
+        {
+            "i": 694,
+            "document": 7,
+            "paragraph": 10,
+            "text": "predictions"
+        },
+        {
+            "i": 695,
+            "document": 7,
+            "paragraph": 10,
+            "text": "are"
+        },
+        {
+            "i": 696,
+            "document": 7,
+            "paragraph": 10,
+            "text": "later"
+        },
+        {
+            "i": 697,
+            "document": 7,
+            "paragraph": 10,
+            "text": "embedded"
+        },
+        {
+            "i": 698,
+            "document": 7,
+            "paragraph": 10,
+            "text": "in"
+        },
+        {
+            "i": 699,
+            "document": 7,
+            "paragraph": 10,
+            "text": "an"
+        },
+        {
+            "i": 700,
+            "document": 7,
+            "paragraph": 10,
+            "text": "HMM"
+        },
+        {
+            "i": 701,
+            "document": 7,
+            "paragraph": 10,
+            "text": "-"
+        },
+        {
+            "i": 702,
+            "document": 7,
+            "paragraph": 10,
+            "text": "based"
+        },
+        {
+            "i": 703,
+            "document": 7,
+            "paragraph": 10,
+            "text": "framework"
+        },
+        {
+            "i": 704,
+            "document": 7,
+            "paragraph": 10,
+            "text": ","
+        },
+        {
+            "i": 705,
+            "document": 7,
+            "paragraph": 10,
+            "text": "that"
+        },
+        {
+            "i": 706,
+            "document": 7,
+            "paragraph": 10,
+            "text": "also"
+        },
+        {
+            "i": 707,
+            "document": 7,
+            "paragraph": 10,
+            "text": "integrates"
+        },
+        {
+            "i": 708,
+            "document": 7,
+            "paragraph": 10,
+            "text": "phone"
+        },
+        {
+            "i": 709,
+            "document": 7,
+            "paragraph": 10,
+            "text": "-"
+        },
+        {
+            "i": 710,
+            "document": 7,
+            "paragraph": 10,
+            "text": "transitions"
+        },
+        {
+            "i": 711,
+            "document": 7,
+            "paragraph": 10,
+            "text": ","
+        },
+        {
+            "i": 712,
+            "document": 7,
+            "paragraph": 10,
+            "text": "lexicon"
+        },
+        {
+            "i": 713,
+            "document": 7,
+            "paragraph": 10,
+            "text": ","
+        },
+        {
+            "i": 714,
+            "document": 7,
+            "paragraph": 10,
+            "text": "and"
+        },
+        {
+            "i": 715,
+            "document": 7,
+            "paragraph": 10,
+            "text": "language"
+        },
+        {
+            "i": 716,
+            "document": 7,
+            "paragraph": 10,
+            "text": "model"
+        },
+        {
+            "i": 717,
+            "document": 7,
+            "paragraph": 10,
+            "text": "information"
+        },
+        {
+            "i": 718,
+            "document": 7,
+            "paragraph": 10,
+            "text": "to"
+        },
+        {
+            "i": 719,
+            "document": 7,
+            "paragraph": 10,
+            "text": "retrieve"
+        },
+        {
+            "i": 720,
+            "document": 7,
+            "paragraph": 10,
+            "text": "the"
+        },
+        {
+            "i": 721,
+            "document": 7,
+            "paragraph": 10,
+            "text": "final"
+        },
+        {
+            "i": 722,
+            "document": 7,
+            "paragraph": 10,
+            "text": "sequence"
+        },
+        {
+            "i": 723,
+            "document": 7,
+            "paragraph": 10,
+            "text": "of"
+        },
+        {
+            "i": 724,
+            "document": 7,
+            "paragraph": 10,
+            "text": "words"
+        },
+        {
+            "i": 725,
+            "document": 7,
+            "paragraph": 10,
+            "text": "."
+        },
+        {
+            "i": 726,
+            "document": 7,
+            "paragraph": 10,
+            "text": "An"
+        },
+        {
+            "i": 727,
+            "document": 7,
+            "paragraph": 10,
+            "text": "emerging"
+        },
+        {
+            "i": 728,
+            "document": 7,
+            "paragraph": 10,
+            "text": "alternative"
+        },
+        {
+            "i": 729,
+            "document": 7,
+            "paragraph": 10,
+            "text": "is"
+        },
+        {
+            "i": 730,
+            "document": 7,
+            "paragraph": 10,
+            "text": "end"
+        },
+        {
+            "i": 731,
+            "document": 7,
+            "paragraph": 10,
+            "text": "-"
+        },
+        {
+            "i": 732,
+            "document": 7,
+            "paragraph": 10,
+            "text": "to"
+        },
+        {
+            "i": 733,
+            "document": 7,
+            "paragraph": 10,
+            "text": "-"
+        },
+        {
+            "i": 734,
+            "document": 7,
+            "paragraph": 10,
+            "text": "end"
+        },
+        {
+            "i": 735,
+            "document": 7,
+            "paragraph": 10,
+            "text": "speech"
+        },
+        {
+            "i": 736,
+            "document": 7,
+            "paragraph": 10,
+            "text": "recognition"
+        },
+        {
+            "i": 737,
+            "document": 7,
+            "paragraph": 10,
+            "text": ","
+        },
+        {
+            "i": 738,
+            "document": 7,
+            "paragraph": 10,
+            "text": "that"
+        },
+        {
+            "i": 739,
+            "document": 7,
+            "paragraph": 10,
+            "text": "aims"
+        },
+        {
+            "i": 740,
+            "document": 7,
+            "paragraph": 10,
+            "text": "to"
+        },
+        {
+            "i": 741,
+            "document": 7,
+            "paragraph": 10,
+            "text": "drastically"
+        },
+        {
+            "i": 742,
+            "document": 7,
+            "paragraph": 10,
+            "text": "simplify"
+        },
+        {
+            "i": 743,
+            "document": 7,
+            "paragraph": 10,
+            "text": "the"
+        },
+        {
+            "i": 744,
+            "document": 7,
+            "paragraph": 10,
+            "text": "current"
+        },
+        {
+            "i": 745,
+            "document": 7,
+            "paragraph": 10,
+            "text": "ASR"
+        },
+        {
+            "i": 746,
+            "document": 7,
+            "paragraph": 10,
+            "text": "pipeline"
+        },
+        {
+            "i": 747,
+            "document": 7,
+            "paragraph": 10,
+            "text": "by"
+        },
+        {
+            "i": 748,
+            "document": 7,
+            "paragraph": 10,
+            "text": "using"
+        },
+        {
+            "i": 749,
+            "document": 7,
+            "paragraph": 10,
+            "text": "fully"
+        },
+        {
+            "i": 750,
+            "document": 7,
+            "paragraph": 10,
+            "text": "discriminative"
+        },
+        {
+            "i": 751,
+            "document": 7,
+            "paragraph": 10,
+            "text": "systems"
+        },
+        {
+            "i": 752,
+            "document": 7,
+            "paragraph": 10,
+            "text": "that"
+        },
+        {
+            "i": 753,
+            "document": 7,
+            "paragraph": 10,
+            "text": "learn"
+        },
+        {
+            "i": 754,
+            "document": 7,
+            "paragraph": 10,
+            "text": "everything"
+        },
+        {
+            "i": 755,
+            "document": 7,
+            "paragraph": 10,
+            "text": "from"
+        },
+        {
+            "i": 756,
+            "document": 7,
+            "paragraph": 10,
+            "text": "data"
+        },
+        {
+            "i": 757,
+            "document": 7,
+            "paragraph": 10,
+            "text": "without"
+        },
+        {
+            "i": 758,
+            "document": 7,
+            "paragraph": 10,
+            "text": "("
+        },
+        {
+            "i": 759,
+            "document": 7,
+            "paragraph": 10,
+            "text": "ideally"
+        },
+        {
+            "i": 760,
+            "document": 7,
+            "paragraph": 10,
+            "text": ")"
+        },
+        {
+            "i": 761,
+            "document": 7,
+            "paragraph": 10,
+            "text": "any"
+        },
+        {
+            "i": 762,
+            "document": 7,
+            "paragraph": 10,
+            "text": "additional"
+        },
+        {
+            "i": 763,
+            "document": 7,
+            "paragraph": 10,
+            "text": "human"
+        },
+        {
+            "i": 764,
+            "document": 7,
+            "paragraph": 10,
+            "text": "effort"
+        },
+        {
+            "i": 765,
+            "document": 7,
+            "paragraph": 10,
+            "text": "."
+        },
+        {
+            "i": 766,
+            "document": 7,
+            "paragraph": 11,
+            "text": "During"
+        },
+        {
+            "i": 767,
+            "document": 7,
+            "paragraph": 11,
+            "text": "test"
+        },
+        {
+            "i": 768,
+            "document": 7,
+            "paragraph": 11,
+            "text": ","
+        },
+        {
+            "i": 769,
+            "document": 7,
+            "paragraph": 11,
+            "text": "the"
+        },
+        {
+            "i": 770,
+            "document": 7,
+            "paragraph": 11,
+            "text": "posterior"
+        },
+        {
+            "i": 771,
+            "document": 7,
+            "paragraph": 11,
+            "text": "probabilities"
+        },
+        {
+            "i": 772,
+            "document": 7,
+            "paragraph": 11,
+            "text": "generated"
+        },
+        {
+            "i": 773,
+            "document": 7,
+            "paragraph": 11,
+            "text": "for"
+        },
+        {
+            "i": 774,
+            "document": 7,
+            "paragraph": 11,
+            "text": "each"
+        },
+        {
+            "i": 775,
+            "document": 7,
+            "paragraph": 11,
+            "text": "frame"
+        },
+        {
+            "i": 776,
+            "document": 7,
+            "paragraph": 11,
+            "text": "by"
+        },
+        {
+            "i": 777,
+            "document": 7,
+            "paragraph": 11,
+            "text": "the"
+        },
+        {
+            "i": 778,
+            "document": 7,
+            "paragraph": 11,
+            "text": "RNN"
+        },
+        {
+            "i": 779,
+            "document": 7,
+            "paragraph": 11,
+            "text": "are"
+        },
+        {
+            "i": 780,
+            "document": 7,
+            "paragraph": 11,
+            "text": "normalized"
+        },
+        {
+            "i": 781,
+            "document": 7,
+            "paragraph": 11,
+            "text": "by"
+        },
+        {
+            "i": 782,
+            "document": 7,
+            "paragraph": 11,
+            "text": "their"
+        },
+        {
+            "i": 783,
+            "document": 7,
+            "paragraph": 11,
+            "text": "prior"
+        },
+        {
+            "i": 784,
+            "document": 7,
+            "paragraph": 11,
+            "text": "probabilities"
+        },
+        {
+            "i": 785,
+            "document": 7,
+            "paragraph": 11,
+            "text": "."
+        },
+        {
+            "i": 786,
+            "document": 7,
+            "paragraph": 11,
+            "text": "The"
+        },
+        {
+            "i": 787,
+            "document": 7,
+            "paragraph": 11,
+            "text": "obtained"
+        },
+        {
+            "i": 788,
+            "document": 7,
+            "paragraph": 11,
+            "text": "likelihoods"
+        },
+        {
+            "i": 789,
+            "document": 7,
+            "paragraph": 11,
+            "text": "are"
+        },
+        {
+            "i": 790,
+            "document": 7,
+            "paragraph": 11,
+            "text": "processed"
+        },
+        {
+            "i": 791,
+            "document": 7,
+            "paragraph": 11,
+            "text": "by"
+        },
+        {
+            "i": 792,
+            "document": 7,
+            "paragraph": 11,
+            "text": "an"
+        },
+        {
+            "i": 793,
+            "document": 7,
+            "paragraph": 11,
+            "text": "HMM"
+        },
+        {
+            "i": 794,
+            "document": 7,
+            "paragraph": 11,
+            "text": "-"
+        },
+        {
+            "i": 795,
+            "document": 7,
+            "paragraph": 11,
+            "text": "based"
+        },
+        {
+            "i": 796,
+            "document": 7,
+            "paragraph": 11,
+            "text": "decoder"
+        },
+        {
+            "i": 797,
+            "document": 7,
+            "paragraph": 11,
+            "text": ","
+        },
+        {
+            "i": 798,
+            "document": 7,
+            "paragraph": 11,
+            "text": "that"
+        },
+        {
+            "i": 799,
+            "document": 7,
+            "paragraph": 11,
+            "text": ","
+        },
+        {
+            "i": 800,
+            "document": 7,
+            "paragraph": 11,
+            "text": "after"
+        },
+        {
+            "i": 801,
+            "document": 7,
+            "paragraph": 11,
+            "text": "integrating"
+        },
+        {
+            "i": 802,
+            "document": 7,
+            "paragraph": 11,
+            "text": "the"
+        },
+        {
+            "i": 803,
+            "document": 7,
+            "paragraph": 11,
+            "text": "acoustic"
+        },
+        {
+            "i": 804,
+            "document": 7,
+            "paragraph": 11,
+            "text": ","
+        },
+        {
+            "i": 805,
+            "document": 7,
+            "paragraph": 11,
+            "text": "lexicon"
+        },
+        {
+            "i": 806,
+            "document": 7,
+            "paragraph": 11,
+            "text": "and"
+        },
+        {
+            "i": 807,
+            "document": 7,
+            "paragraph": 11,
+            "text": "language"
+        },
+        {
+            "i": 808,
+            "document": 7,
+            "paragraph": 11,
+            "text": "model"
+        },
+        {
+            "i": 809,
+            "document": 7,
+            "paragraph": 11,
+            "text": "information"
+        },
+        {
+            "i": 810,
+            "document": 7,
+            "paragraph": 11,
+            "text": "in"
+        },
+        {
+            "i": 811,
+            "document": 7,
+            "paragraph": 11,
+            "text": "a"
+        },
+        {
+            "i": 812,
+            "document": 7,
+            "paragraph": 11,
+            "text": "single"
+        },
+        {
+            "i": 813,
+            "document": 7,
+            "paragraph": 11,
+            "text": "search"
+        },
+        {
+            "i": 814,
+            "document": 7,
+            "paragraph": 11,
+            "text": "graph"
+        },
+        {
+            "i": 815,
+            "document": 7,
+            "paragraph": 11,
+            "text": ","
+        },
+        {
+            "i": 816,
+            "document": 7,
+            "paragraph": 11,
+            "text": "finally"
+        },
+        {
+            "i": 817,
+            "document": 7,
+            "paragraph": 11,
+            "text": "estimates"
+        },
+        {
+            "i": 818,
+            "document": 7,
+            "paragraph": 11,
+            "text": "the"
+        },
+        {
+            "i": 819,
+            "document": 7,
+            "paragraph": 11,
+            "text": "sequence"
+        },
+        {
+            "i": 820,
+            "document": 7,
+            "paragraph": 11,
+            "text": "of"
+        },
+        {
+            "i": 821,
+            "document": 7,
+            "paragraph": 11,
+            "text": "words"
+        },
+        {
+            "i": 822,
+            "document": 7,
+            "paragraph": 11,
+            "text": "uttered"
+        },
+        {
+            "i": 823,
+            "document": 7,
+            "paragraph": 11,
+            "text": "by"
+        },
+        {
+            "i": 824,
+            "document": 7,
+            "paragraph": 11,
+            "text": "the"
+        },
+        {
+            "i": 825,
+            "document": 7,
+            "paragraph": 11,
+            "text": "speaker"
+        },
+        {
+            "i": 826,
+            "document": 7,
+            "paragraph": 11,
+            "text": "."
+        },
+        {
+            "i": 827,
+            "document": 7,
+            "paragraph": 11,
+            "text": "The"
+        },
+        {
+            "i": 828,
+            "document": 7,
+            "paragraph": 11,
+            "text": "RNN"
+        },
+        {
+            "i": 829,
+            "document": 7,
+            "paragraph": 11,
+            "text": "part"
+        },
+        {
+            "i": 830,
+            "document": 7,
+            "paragraph": 11,
+            "text": "of"
+        },
+        {
+            "i": 831,
+            "document": 7,
+            "paragraph": 11,
+            "text": "the"
+        },
+        {
+            "i": 832,
+            "document": 7,
+            "paragraph": 11,
+            "text": "ASR"
+        },
+        {
+            "i": 833,
+            "document": 7,
+            "paragraph": 11,
+            "text": "system"
+        },
+        {
+            "i": 834,
+            "document": 7,
+            "paragraph": 11,
+            "text": "was"
+        },
+        {
+            "i": 835,
+            "document": 7,
+            "paragraph": 11,
+            "text": "implemented"
+        },
+        {
+            "i": 836,
+            "document": 7,
+            "paragraph": 11,
+            "text": "with"
+        },
+        {
+            "i": 837,
+            "document": 7,
+            "paragraph": 11,
+            "text": "Theano"
+        },
+        {
+            "i": 838,
+            "document": 7,
+            "paragraph": 11,
+            "text": ","
+        },
+        {
+            "i": 839,
+            "document": 7,
+            "paragraph": 11,
+            "text": "that"
+        },
+        {
+            "i": 840,
+            "document": 7,
+            "paragraph": 11,
+            "text": "was"
+        },
+        {
+            "i": 841,
+            "document": 7,
+            "paragraph": 11,
+            "text": "coupled"
+        },
+        {
+            "i": 842,
+            "document": 7,
+            "paragraph": 11,
+            "text": "with"
+        },
+        {
+            "i": 843,
+            "document": 7,
+            "paragraph": 11,
+            "text": "the"
+        },
+        {
+            "i": 844,
+            "document": 7,
+            "paragraph": 11,
+            "text": "Kaldi"
+        },
+        {
+            "i": 845,
+            "document": 7,
+            "paragraph": 11,
+            "text": "decoder"
+        },
+        {
+            "i": 846,
+            "document": 7,
+            "paragraph": 11,
+            "text": "to"
+        },
+        {
+            "i": 847,
+            "document": 7,
+            "paragraph": 11,
+            "text": "form"
+        },
+        {
+            "i": 848,
+            "document": 7,
+            "paragraph": 11,
+            "text": "a"
+        },
+        {
+            "i": 849,
+            "document": 7,
+            "paragraph": 11,
+            "text": "context"
+        },
+        {
+            "i": 850,
+            "document": 7,
+            "paragraph": 11,
+            "text": "-"
+        },
+        {
+            "i": 851,
+            "document": 7,
+            "paragraph": 11,
+            "text": "dependent"
+        },
+        {
+            "i": 852,
+            "document": 7,
+            "paragraph": 11,
+            "text": "RNN"
+        },
+        {
+            "i": 853,
+            "document": 7,
+            "paragraph": 11,
+            "text": "-"
+        },
+        {
+            "i": 854,
+            "document": 7,
+            "paragraph": 11,
+            "text": "HMM"
+        },
+        {
+            "i": 855,
+            "document": 7,
+            "paragraph": 11,
+            "text": "speech"
+        },
+        {
+            "i": 856,
+            "document": 7,
+            "paragraph": 11,
+            "text": "recognizer"
+        },
+        {
+            "i": 857,
+            "document": 7,
+            "paragraph": 11,
+            "text": "."
+        },
+        {
+            "i": 858,
+            "document": 8,
+            "paragraph": 12,
+            "text": "First"
+        },
+        {
+            "i": 859,
+            "document": 8,
+            "paragraph": 12,
+            "text": "case"
+        },
+        {
+            "i": 860,
+            "document": 8,
+            "paragraph": 12,
+            "text": "in"
+        },
+        {
+            "i": 861,
+            "document": 8,
+            "paragraph": 12,
+            "text": "point"
+        },
+        {
+            "i": 862,
+            "document": 8,
+            "paragraph": 12,
+            "text": ":"
+        },
+        {
+            "i": 863,
+            "document": 8,
+            "paragraph": 12,
+            "text": "front"
+        },
+        {
+            "i": 864,
+            "document": 8,
+            "paragraph": 12,
+            "text": "-"
+        },
+        {
+            "i": 865,
+            "document": 8,
+            "paragraph": 12,
+            "text": "end"
+        },
+        {
+            "i": 866,
+            "document": 8,
+            "paragraph": 12,
+            "text": "processing"
+        },
+        {
+            "i": 867,
+            "document": 8,
+            "paragraph": 12,
+            "text": "has"
+        },
+        {
+            "i": 868,
+            "document": 8,
+            "paragraph": 12,
+            "text": "been"
+        },
+        {
+            "i": 869,
+            "document": 8,
+            "paragraph": 12,
+            "text": "simplified"
+        },
+        {
+            "i": 870,
+            "document": 8,
+            "paragraph": 12,
+            "text": "considerably"
+        },
+        {
+            "i": 871,
+            "document": 8,
+            "paragraph": 12,
+            "text": "with"
+        },
+        {
+            "i": 872,
+            "document": 8,
+            "paragraph": 12,
+            "text": "the"
+        },
+        {
+            "i": 873,
+            "document": 8,
+            "paragraph": 12,
+            "text": "use"
+        },
+        {
+            "i": 874,
+            "document": 8,
+            "paragraph": 12,
+            "text": "of"
+        },
+        {
+            "i": 875,
+            "document": 8,
+            "paragraph": 12,
+            "text": "CNNs"
+        },
+        {
+            "i": 876,
+            "document": 8,
+            "paragraph": 12,
+            "text": "which"
+        },
+        {
+            "i": 877,
+            "document": 8,
+            "paragraph": 12,
+            "text": "treat"
+        },
+        {
+            "i": 878,
+            "document": 8,
+            "paragraph": 12,
+            "text": "the"
+        },
+        {
+            "i": 879,
+            "document": 8,
+            "paragraph": 12,
+            "text": "log"
+        },
+        {
+            "i": 880,
+            "document": 8,
+            "paragraph": 12,
+            "text": "-"
+        },
+        {
+            "i": 881,
+            "document": 8,
+            "paragraph": 12,
+            "text": "mel"
+        },
+        {
+            "i": 882,
+            "document": 8,
+            "paragraph": 12,
+            "text": "spectral"
+        },
+        {
+            "i": 883,
+            "document": 8,
+            "paragraph": 12,
+            "text": "representation"
+        },
+        {
+            "i": 884,
+            "document": 8,
+            "paragraph": 12,
+            "text": "as"
+        },
+        {
+            "i": 885,
+            "document": 8,
+            "paragraph": 12,
+            "text": "an"
+        },
+        {
+            "i": 886,
+            "document": 8,
+            "paragraph": 12,
+            "text": "image"
+        },
+        {
+            "i": 887,
+            "document": 8,
+            "paragraph": 12,
+            "text": "and"
+        },
+        {
+            "i": 888,
+            "document": 8,
+            "paragraph": 12,
+            "text": "do"
+        },
+        {
+            "i": 889,
+            "document": 8,
+            "paragraph": 12,
+            "text": "n\u2019t"
+        },
+        {
+            "i": 890,
+            "document": 8,
+            "paragraph": 12,
+            "text": "require"
+        },
+        {
+            "i": 891,
+            "document": 8,
+            "paragraph": 12,
+            "text": "extra"
+        },
+        {
+            "i": 892,
+            "document": 8,
+            "paragraph": 12,
+            "text": "processing"
+        },
+        {
+            "i": 893,
+            "document": 8,
+            "paragraph": 12,
+            "text": "steps"
+        },
+        {
+            "i": 894,
+            "document": 8,
+            "paragraph": 12,
+            "text": "such"
+        },
+        {
+            "i": 895,
+            "document": 8,
+            "paragraph": 12,
+            "text": "as"
+        },
+        {
+            "i": 896,
+            "document": 8,
+            "paragraph": 12,
+            "text": "PLP"
+        },
+        {
+            "i": 897,
+            "document": 8,
+            "paragraph": 12,
+            "text": "cepstra"
+        },
+        {
+            "i": 898,
+            "document": 8,
+            "paragraph": 12,
+            "text": ","
+        },
+        {
+            "i": 899,
+            "document": 8,
+            "paragraph": 12,
+            "text": "LDA"
+        },
+        {
+            "i": 900,
+            "document": 8,
+            "paragraph": 12,
+            "text": ","
+        },
+        {
+            "i": 901,
+            "document": 8,
+            "paragraph": 12,
+            "text": "FMLLR"
+        },
+        {
+            "i": 902,
+            "document": 8,
+            "paragraph": 12,
+            "text": ","
+        },
+        {
+            "i": 903,
+            "document": 8,
+            "paragraph": 12,
+            "text": "fMPE"
+        },
+        {
+            "i": 904,
+            "document": 8,
+            "paragraph": 12,
+            "text": "transforms"
+        },
+        {
+            "i": 905,
+            "document": 8,
+            "paragraph": 12,
+            "text": ","
+        },
+        {
+            "i": 906,
+            "document": 8,
+            "paragraph": 12,
+            "text": "etc"
+        },
+        {
+            "i": 907,
+            "document": 8,
+            "paragraph": 12,
+            "text": "."
+        },
+        {
+            "i": 908,
+            "document": 8,
+            "paragraph": 12,
+            "text": "Second"
+        },
+        {
+            "i": 909,
+            "document": 8,
+            "paragraph": 12,
+            "text": "case"
+        },
+        {
+            "i": 910,
+            "document": 8,
+            "paragraph": 12,
+            "text": "in"
+        },
+        {
+            "i": 911,
+            "document": 8,
+            "paragraph": 12,
+            "text": "point"
+        },
+        {
+            "i": 912,
+            "document": 8,
+            "paragraph": 12,
+            "text": ":"
+        },
+        {
+            "i": 913,
+            "document": 8,
+            "paragraph": 12,
+            "text": "end"
+        },
+        {
+            "i": 914,
+            "document": 8,
+            "paragraph": 12,
+            "text": "-"
+        },
+        {
+            "i": 915,
+            "document": 8,
+            "paragraph": 12,
+            "text": "to"
+        },
+        {
+            "i": 916,
+            "document": 8,
+            "paragraph": 12,
+            "text": "-"
+        },
+        {
+            "i": 917,
+            "document": 8,
+            "paragraph": 12,
+            "text": "end"
+        },
+        {
+            "i": 918,
+            "document": 8,
+            "paragraph": 12,
+            "text": "ASR"
+        },
+        {
+            "i": 919,
+            "document": 8,
+            "paragraph": 12,
+            "text": "systems"
+        },
+        {
+            "i": 920,
+            "document": 8,
+            "paragraph": 12,
+            "text": "such"
+        },
+        {
+            "i": 921,
+            "document": 8,
+            "paragraph": 12,
+            "text": "as"
+        },
+        {
+            "i": 922,
+            "document": 8,
+            "paragraph": 12,
+            "text": "bypass"
+        },
+        {
+            "i": 923,
+            "document": 8,
+            "paragraph": 12,
+            "text": "the"
+        },
+        {
+            "i": 924,
+            "document": 8,
+            "paragraph": 12,
+            "text": "need"
+        },
+        {
+            "i": 925,
+            "document": 8,
+            "paragraph": 12,
+            "text": "of"
+        },
+        {
+            "i": 926,
+            "document": 8,
+            "paragraph": 12,
+            "text": "having"
+        },
+        {
+            "i": 927,
+            "document": 8,
+            "paragraph": 12,
+            "text": "phonetic"
+        },
+        {
+            "i": 928,
+            "document": 8,
+            "paragraph": 12,
+            "text": "context"
+        },
+        {
+            "i": 929,
+            "document": 8,
+            "paragraph": 12,
+            "text": "decision"
+        },
+        {
+            "i": 930,
+            "document": 8,
+            "paragraph": 12,
+            "text": "trees"
+        },
+        {
+            "i": 931,
+            "document": 8,
+            "paragraph": 12,
+            "text": "and"
+        },
+        {
+            "i": 932,
+            "document": 8,
+            "paragraph": 12,
+            "text": "HMMs"
+        },
+        {
+            "i": 933,
+            "document": 8,
+            "paragraph": 12,
+            "text": "altogether"
+        },
+        {
+            "i": 934,
+            "document": 8,
+            "paragraph": 12,
+            "text": "and"
+        },
+        {
+            "i": 935,
+            "document": 8,
+            "paragraph": 12,
+            "text": "directly"
+        },
+        {
+            "i": 936,
+            "document": 8,
+            "paragraph": 12,
+            "text": "map"
+        },
+        {
+            "i": 937,
+            "document": 8,
+            "paragraph": 12,
+            "text": "the"
+        },
+        {
+            "i": 938,
+            "document": 8,
+            "paragraph": 12,
+            "text": "sequence"
+        },
+        {
+            "i": 939,
+            "document": 8,
+            "paragraph": 12,
+            "text": "of"
+        },
+        {
+            "i": 940,
+            "document": 8,
+            "paragraph": 12,
+            "text": "acoustic"
+        },
+        {
+            "i": 941,
+            "document": 8,
+            "paragraph": 12,
+            "text": "features"
+        },
+        {
+            "i": 942,
+            "document": 8,
+            "paragraph": 12,
+            "text": "to"
+        },
+        {
+            "i": 943,
+            "document": 8,
+            "paragraph": 12,
+            "text": "a"
+        },
+        {
+            "i": 944,
+            "document": 8,
+            "paragraph": 12,
+            "text": "sequence"
+        },
+        {
+            "i": 945,
+            "document": 8,
+            "paragraph": 12,
+            "text": "of"
+        },
+        {
+            "i": 946,
+            "document": 8,
+            "paragraph": 12,
+            "text": "characters"
+        },
+        {
+            "i": 947,
+            "document": 8,
+            "paragraph": 12,
+            "text": "or"
+        },
+        {
+            "i": 948,
+            "document": 8,
+            "paragraph": 12,
+            "text": "context"
+        },
+        {
+            "i": 949,
+            "document": 8,
+            "paragraph": 12,
+            "text": "independent"
+        },
+        {
+            "i": 950,
+            "document": 8,
+            "paragraph": 12,
+            "text": "phones"
+        },
+        {
+            "i": 951,
+            "document": 8,
+            "paragraph": 12,
+            "text": "."
+        },
+        {
+            "i": 952,
+            "document": 8,
+            "paragraph": 12,
+            "text": "Third"
+        },
+        {
+            "i": 953,
+            "document": 8,
+            "paragraph": 12,
+            "text": "case"
+        },
+        {
+            "i": 954,
+            "document": 8,
+            "paragraph": 12,
+            "text": "in"
+        },
+        {
+            "i": 955,
+            "document": 8,
+            "paragraph": 12,
+            "text": "point"
+        },
+        {
+            "i": 956,
+            "document": 8,
+            "paragraph": 12,
+            "text": ":"
+        },
+        {
+            "i": 957,
+            "document": 8,
+            "paragraph": 12,
+            "text": "training"
+        },
+        {
+            "i": 958,
+            "document": 8,
+            "paragraph": 12,
+            "text": "algorithms"
+        },
+        {
+            "i": 959,
+            "document": 8,
+            "paragraph": 12,
+            "text": "such"
+        },
+        {
+            "i": 960,
+            "document": 8,
+            "paragraph": 12,
+            "text": "as"
+        },
+        {
+            "i": 961,
+            "document": 8,
+            "paragraph": 12,
+            "text": "connectionist"
+        },
+        {
+            "i": 962,
+            "document": 8,
+            "paragraph": 12,
+            "text": "temporal"
+        },
+        {
+            "i": 963,
+            "document": 8,
+            "paragraph": 12,
+            "text": "classification"
+        },
+        {
+            "i": 964,
+            "document": 9,
+            "paragraph": 13,
+            "text": "Training"
+        },
+        {
+            "i": 965,
+            "document": 9,
+            "paragraph": 13,
+            "text": "Larger"
+        },
+        {
+            "i": 966,
+            "document": 9,
+            "paragraph": 13,
+            "text": "Models"
+        },
+        {
+            "i": 967,
+            "document": 9,
+            "paragraph": 13,
+            "text": "."
+        },
+        {
+            "i": 968,
+            "document": 9,
+            "paragraph": 13,
+            "text": "Most"
+        },
+        {
+            "i": 969,
+            "document": 9,
+            "paragraph": 13,
+            "text": "sequence"
+        },
+        {
+            "i": 970,
+            "document": 9,
+            "paragraph": 13,
+            "text": "taggers"
+        },
+        {
+            "i": 971,
+            "document": 9,
+            "paragraph": 13,
+            "text": "and"
+        },
+        {
+            "i": 972,
+            "document": 9,
+            "paragraph": 13,
+            "text": "dependency"
+        },
+        {
+            "i": 973,
+            "document": 9,
+            "paragraph": 13,
+            "text": "parsers"
+        },
+        {
+            "i": 974,
+            "document": 9,
+            "paragraph": 13,
+            "text": "in"
+        },
+        {
+            "i": 975,
+            "document": 9,
+            "paragraph": 13,
+            "text": "prior"
+        },
+        {
+            "i": 976,
+            "document": 9,
+            "paragraph": 13,
+            "text": "work"
+        },
+        {
+            "i": 977,
+            "document": 9,
+            "paragraph": 13,
+            "text": "use"
+        },
+        {
+            "i": 978,
+            "document": 9,
+            "paragraph": 13,
+            "text": "small"
+        },
+        {
+            "i": 979,
+            "document": 9,
+            "paragraph": 13,
+            "text": "LSTMs"
+        },
+        {
+            "i": 980,
+            "document": 9,
+            "paragraph": 13,
+            "text": "("
+        },
+        {
+            "i": 981,
+            "document": 9,
+            "paragraph": 13,
+            "text": "hidden"
+        },
+        {
+            "i": 982,
+            "document": 9,
+            "paragraph": 13,
+            "text": "state"
+        },
+        {
+            "i": 983,
+            "document": 9,
+            "paragraph": 13,
+            "text": "sizes"
+        },
+        {
+            "i": 984,
+            "document": 9,
+            "paragraph": 13,
+            "text": "of"
+        },
+        {
+            "i": 985,
+            "document": 9,
+            "paragraph": 13,
+            "text": "around"
+        },
+        {
+            "i": 986,
+            "document": 9,
+            "paragraph": 13,
+            "text": "300"
+        },
+        {
+            "i": 987,
+            "document": 9,
+            "paragraph": 13,
+            "text": ")"
+        },
+        {
+            "i": 988,
+            "document": 9,
+            "paragraph": 13,
+            "text": "because"
+        },
+        {
+            "i": 989,
+            "document": 9,
+            "paragraph": 13,
+            "text": "larger"
+        },
+        {
+            "i": 990,
+            "document": 9,
+            "paragraph": 13,
+            "text": "models"
+        },
+        {
+            "i": 991,
+            "document": 9,
+            "paragraph": 13,
+            "text": "yield"
+        },
+        {
+            "i": 992,
+            "document": 9,
+            "paragraph": 13,
+            "text": "little"
+        },
+        {
+            "i": 993,
+            "document": 9,
+            "paragraph": 13,
+            "text": "to"
+        },
+        {
+            "i": 994,
+            "document": 9,
+            "paragraph": 13,
+            "text": "no"
+        },
+        {
+            "i": 995,
+            "document": 9,
+            "paragraph": 13,
+            "text": "gains"
+        },
+        {
+            "i": 996,
+            "document": 9,
+            "paragraph": 13,
+            "text": "in"
+        },
+        {
+            "i": 997,
+            "document": 9,
+            "paragraph": 13,
+            "text": "performance"
+        },
+        {
+            "i": 998,
+            "document": 9,
+            "paragraph": 13,
+            "text": "reimers2017reporting"
+        },
+        {
+            "i": 999,
+            "document": 9,
+            "paragraph": 13,
+            "text": "."
+        },
+        {
+            "i": 1000,
+            "document": 9,
+            "paragraph": 13,
+            "text": "We"
+        },
+        {
+            "i": 1001,
+            "document": 9,
+            "paragraph": 13,
+            "text": "found"
+        },
+        {
+            "i": 1002,
+            "document": 9,
+            "paragraph": 13,
+            "text": "our"
+        },
+        {
+            "i": 1003,
+            "document": 9,
+            "paragraph": 13,
+            "text": "own"
+        },
+        {
+            "i": 1004,
+            "document": 9,
+            "paragraph": 13,
+            "text": "supervised"
+        },
+        {
+            "i": 1005,
+            "document": 9,
+            "paragraph": 13,
+            "text": "approaches"
+        },
+        {
+            "i": 1006,
+            "document": 9,
+            "paragraph": 13,
+            "text": "also"
+        },
+        {
+            "i": 1007,
+            "document": 9,
+            "paragraph": 13,
+            "text": "do"
+        },
+        {
+            "i": 1008,
+            "document": 9,
+            "paragraph": 13,
+            "text": "not"
+        },
+        {
+            "i": 1009,
+            "document": 9,
+            "paragraph": 13,
+            "text": "benefit"
+        },
+        {
+            "i": 1010,
+            "document": 9,
+            "paragraph": 13,
+            "text": "greatly"
+        },
+        {
+            "i": 1011,
+            "document": 9,
+            "paragraph": 13,
+            "text": "from"
+        },
+        {
+            "i": 1012,
+            "document": 9,
+            "paragraph": 13,
+            "text": "increasing"
+        },
+        {
+            "i": 1013,
+            "document": 9,
+            "paragraph": 13,
+            "text": "the"
+        },
+        {
+            "i": 1014,
+            "document": 9,
+            "paragraph": 13,
+            "text": "model"
+        },
+        {
+            "i": 1015,
+            "document": 9,
+            "paragraph": 13,
+            "text": "size"
+        },
+        {
+            "i": 1016,
+            "document": 9,
+            "paragraph": 13,
+            "text": "."
+        },
+        {
+            "i": 1017,
+            "document": 9,
+            "paragraph": 14,
+            "text": "CVT"
+        },
+        {
+            "i": 1018,
+            "document": 9,
+            "paragraph": 14,
+            "text": "can"
+        },
+        {
+            "i": 1019,
+            "document": 9,
+            "paragraph": 14,
+            "text": "be"
+        },
+        {
+            "i": 1020,
+            "document": 9,
+            "paragraph": 14,
+            "text": "applied"
+        },
+        {
+            "i": 1021,
+            "document": 9,
+            "paragraph": 14,
+            "text": "to"
+        },
+        {
+            "i": 1022,
+            "document": 9,
+            "paragraph": 14,
+            "text": "a"
+        },
+        {
+            "i": 1023,
+            "document": 9,
+            "paragraph": 14,
+            "text": "variety"
+        },
+        {
+            "i": 1024,
+            "document": 9,
+            "paragraph": 14,
+            "text": "of"
+        },
+        {
+            "i": 1025,
+            "document": 9,
+            "paragraph": 14,
+            "text": "tasks"
+        },
+        {
+            "i": 1026,
+            "document": 9,
+            "paragraph": 14,
+            "text": "and"
+        },
+        {
+            "i": 1027,
+            "document": 9,
+            "paragraph": 14,
+            "text": "neural"
+        },
+        {
+            "i": 1028,
+            "document": 9,
+            "paragraph": 14,
+            "text": "architectures"
+        },
+        {
+            "i": 1029,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1030,
+            "document": 9,
+            "paragraph": 14,
+            "text": "but"
+        },
+        {
+            "i": 1031,
+            "document": 9,
+            "paragraph": 14,
+            "text": "we"
+        },
+        {
+            "i": 1032,
+            "document": 9,
+            "paragraph": 14,
+            "text": "focus"
+        },
+        {
+            "i": 1033,
+            "document": 9,
+            "paragraph": 14,
+            "text": "on"
+        },
+        {
+            "i": 1034,
+            "document": 9,
+            "paragraph": 14,
+            "text": "sequence"
+        },
+        {
+            "i": 1035,
+            "document": 9,
+            "paragraph": 14,
+            "text": "modeling"
+        },
+        {
+            "i": 1036,
+            "document": 9,
+            "paragraph": 14,
+            "text": "tasks"
+        },
+        {
+            "i": 1037,
+            "document": 9,
+            "paragraph": 14,
+            "text": "where"
+        },
+        {
+            "i": 1038,
+            "document": 9,
+            "paragraph": 14,
+            "text": "the"
+        },
+        {
+            "i": 1039,
+            "document": 9,
+            "paragraph": 14,
+            "text": "prediction"
+        },
+        {
+            "i": 1040,
+            "document": 9,
+            "paragraph": 14,
+            "text": "modules"
+        },
+        {
+            "i": 1041,
+            "document": 9,
+            "paragraph": 14,
+            "text": "are"
+        },
+        {
+            "i": 1042,
+            "document": 9,
+            "paragraph": 14,
+            "text": "attached"
+        },
+        {
+            "i": 1043,
+            "document": 9,
+            "paragraph": 14,
+            "text": "to"
+        },
+        {
+            "i": 1044,
+            "document": 9,
+            "paragraph": 14,
+            "text": "a"
+        },
+        {
+            "i": 1045,
+            "document": 9,
+            "paragraph": 14,
+            "text": "shared"
+        },
+        {
+            "i": 1046,
+            "document": 9,
+            "paragraph": 14,
+            "text": "Bi"
+        },
+        {
+            "i": 1047,
+            "document": 9,
+            "paragraph": 14,
+            "text": "-"
+        },
+        {
+            "i": 1048,
+            "document": 9,
+            "paragraph": 14,
+            "text": "LSTM"
+        },
+        {
+            "i": 1049,
+            "document": 9,
+            "paragraph": 14,
+            "text": "encoder"
+        },
+        {
+            "i": 1050,
+            "document": 9,
+            "paragraph": 14,
+            "text": "."
+        },
+        {
+            "i": 1051,
+            "document": 9,
+            "paragraph": 14,
+            "text": "We"
+        },
+        {
+            "i": 1052,
+            "document": 9,
+            "paragraph": 14,
+            "text": "propose"
+        },
+        {
+            "i": 1053,
+            "document": 9,
+            "paragraph": 14,
+            "text": "auxiliary"
+        },
+        {
+            "i": 1054,
+            "document": 9,
+            "paragraph": 14,
+            "text": "prediction"
+        },
+        {
+            "i": 1055,
+            "document": 9,
+            "paragraph": 14,
+            "text": "modules"
+        },
+        {
+            "i": 1056,
+            "document": 9,
+            "paragraph": 14,
+            "text": "that"
+        },
+        {
+            "i": 1057,
+            "document": 9,
+            "paragraph": 14,
+            "text": "work"
+        },
+        {
+            "i": 1058,
+            "document": 9,
+            "paragraph": 14,
+            "text": "well"
+        },
+        {
+            "i": 1059,
+            "document": 9,
+            "paragraph": 14,
+            "text": "for"
+        },
+        {
+            "i": 1060,
+            "document": 9,
+            "paragraph": 14,
+            "text": "sequence"
+        },
+        {
+            "i": 1061,
+            "document": 9,
+            "paragraph": 14,
+            "text": "taggers"
+        },
+        {
+            "i": 1062,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1063,
+            "document": 9,
+            "paragraph": 14,
+            "text": "graph"
+        },
+        {
+            "i": 1064,
+            "document": 9,
+            "paragraph": 14,
+            "text": "-"
+        },
+        {
+            "i": 1065,
+            "document": 9,
+            "paragraph": 14,
+            "text": "based"
+        },
+        {
+            "i": 1066,
+            "document": 9,
+            "paragraph": 14,
+            "text": "dependency"
+        },
+        {
+            "i": 1067,
+            "document": 9,
+            "paragraph": 14,
+            "text": "parsers"
+        },
+        {
+            "i": 1068,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1069,
+            "document": 9,
+            "paragraph": 14,
+            "text": "and"
+        },
+        {
+            "i": 1070,
+            "document": 9,
+            "paragraph": 14,
+            "text": "sequence"
+        },
+        {
+            "i": 1071,
+            "document": 9,
+            "paragraph": 14,
+            "text": "-"
+        },
+        {
+            "i": 1072,
+            "document": 9,
+            "paragraph": 14,
+            "text": "to"
+        },
+        {
+            "i": 1073,
+            "document": 9,
+            "paragraph": 14,
+            "text": "-"
+        },
+        {
+            "i": 1074,
+            "document": 9,
+            "paragraph": 14,
+            "text": "sequence"
+        },
+        {
+            "i": 1075,
+            "document": 9,
+            "paragraph": 14,
+            "text": "models"
+        },
+        {
+            "i": 1076,
+            "document": 9,
+            "paragraph": 14,
+            "text": "."
+        },
+        {
+            "i": 1077,
+            "document": 9,
+            "paragraph": 14,
+            "text": "We"
+        },
+        {
+            "i": 1078,
+            "document": 9,
+            "paragraph": 14,
+            "text": "evaluate"
+        },
+        {
+            "i": 1079,
+            "document": 9,
+            "paragraph": 14,
+            "text": "our"
+        },
+        {
+            "i": 1080,
+            "document": 9,
+            "paragraph": 14,
+            "text": "approach"
+        },
+        {
+            "i": 1081,
+            "document": 9,
+            "paragraph": 14,
+            "text": "on"
+        },
+        {
+            "i": 1082,
+            "document": 9,
+            "paragraph": 14,
+            "text": "English"
+        },
+        {
+            "i": 1083,
+            "document": 9,
+            "paragraph": 14,
+            "text": "dependency"
+        },
+        {
+            "i": 1084,
+            "document": 9,
+            "paragraph": 14,
+            "text": "parsing"
+        },
+        {
+            "i": 1085,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1086,
+            "document": 9,
+            "paragraph": 14,
+            "text": "combinatory"
+        },
+        {
+            "i": 1087,
+            "document": 9,
+            "paragraph": 14,
+            "text": "categorial"
+        },
+        {
+            "i": 1088,
+            "document": 9,
+            "paragraph": 14,
+            "text": "grammar"
+        },
+        {
+            "i": 1089,
+            "document": 9,
+            "paragraph": 14,
+            "text": "supertagging"
+        },
+        {
+            "i": 1090,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1091,
+            "document": 9,
+            "paragraph": 14,
+            "text": "named"
+        },
+        {
+            "i": 1092,
+            "document": 9,
+            "paragraph": 14,
+            "text": "entity"
+        },
+        {
+            "i": 1093,
+            "document": 9,
+            "paragraph": 14,
+            "text": "recognition"
+        },
+        {
+            "i": 1094,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1095,
+            "document": 9,
+            "paragraph": 14,
+            "text": "part"
+        },
+        {
+            "i": 1096,
+            "document": 9,
+            "paragraph": 14,
+            "text": "-"
+        },
+        {
+            "i": 1097,
+            "document": 9,
+            "paragraph": 14,
+            "text": "of"
+        },
+        {
+            "i": 1098,
+            "document": 9,
+            "paragraph": 14,
+            "text": "-"
+        },
+        {
+            "i": 1099,
+            "document": 9,
+            "paragraph": 14,
+            "text": "speech"
+        },
+        {
+            "i": 1100,
+            "document": 9,
+            "paragraph": 14,
+            "text": "tagging"
+        },
+        {
+            "i": 1101,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1102,
+            "document": 9,
+            "paragraph": 14,
+            "text": "and"
+        },
+        {
+            "i": 1103,
+            "document": 9,
+            "paragraph": 14,
+            "text": "text"
+        },
+        {
+            "i": 1104,
+            "document": 9,
+            "paragraph": 14,
+            "text": "chunking"
+        },
+        {
+            "i": 1105,
+            "document": 9,
+            "paragraph": 14,
+            "text": ","
+        },
+        {
+            "i": 1106,
+            "document": 9,
+            "paragraph": 14,
+            "text": "as"
+        },
+        {
+            "i": 1107,
+            "document": 9,
+            "paragraph": 14,
+            "text": "well"
+        },
+        {
+            "i": 1108,
+            "document": 9,
+            "paragraph": 14,
+            "text": "as"
+        },
+        {
+            "i": 1109,
+            "document": 9,
+            "paragraph": 14,
+            "text": "English"
+        },
+        {
+            "i": 1110,
+            "document": 9,
+            "paragraph": 14,
+            "text": "to"
+        },
+        {
+            "i": 1111,
+            "document": 9,
+            "paragraph": 14,
+            "text": "Vietnamese"
+        },
+        {
+            "i": 1112,
+            "document": 9,
+            "paragraph": 14,
+            "text": "machine"
+        },
+        {
+            "i": 1113,
+            "document": 9,
+            "paragraph": 14,
+            "text": "translation"
+        },
+        {
+            "i": 1114,
+            "document": 9,
+            "paragraph": 14,
+            "text": "."
+        },
+        {
+            "i": 1115,
+            "document": 9,
+            "paragraph": 15,
+            "text": "Figure"
+        },
+        {
+            "i": 1116,
+            "document": 9,
+            "paragraph": 15,
+            "text": "["
+        },
+        {
+            "i": 1117,
+            "document": 9,
+            "paragraph": 15,
+            "text": "reference"
+        },
+        {
+            "i": 1118,
+            "document": 9,
+            "paragraph": 15,
+            "text": "]"
+        },
+        {
+            "i": 1119,
+            "document": 9,
+            "paragraph": 15,
+            "text": "shows"
+        },
+        {
+            "i": 1120,
+            "document": 9,
+            "paragraph": 15,
+            "text": "an"
+        },
+        {
+            "i": 1121,
+            "document": 9,
+            "paragraph": 15,
+            "text": "example"
+        },
+        {
+            "i": 1122,
+            "document": 9,
+            "paragraph": 15,
+            "text": "win"
+        },
+        {
+            "i": 1123,
+            "document": 9,
+            "paragraph": 15,
+            "text": "for"
+        },
+        {
+            "i": 1124,
+            "document": 9,
+            "paragraph": 15,
+            "text": "CVT"
+        },
+        {
+            "i": 1125,
+            "document": 9,
+            "paragraph": 15,
+            "text": "over"
+        },
+        {
+            "i": 1126,
+            "document": 9,
+            "paragraph": 15,
+            "text": "supervised"
+        },
+        {
+            "i": 1127,
+            "document": 9,
+            "paragraph": 15,
+            "text": "learning"
+        },
+        {
+            "i": 1128,
+            "document": 9,
+            "paragraph": 15,
+            "text": "."
+        },
+        {
+            "i": 1129,
+            "document": 9,
+            "paragraph": 15,
+            "text": "."
+        },
+        {
+            "i": 1130,
+            "document": 9,
+            "paragraph": 15,
+            "text": "Of"
+        },
+        {
+            "i": 1131,
+            "document": 9,
+            "paragraph": 15,
+            "text": "the"
+        },
+        {
+            "i": 1132,
+            "document": 9,
+            "paragraph": 15,
+            "text": "prior"
+        },
+        {
+            "i": 1133,
+            "document": 9,
+            "paragraph": 15,
+            "text": "results"
+        },
+        {
+            "i": 1134,
+            "document": 9,
+            "paragraph": 15,
+            "text": "listed"
+        },
+        {
+            "i": 1135,
+            "document": 9,
+            "paragraph": 15,
+            "text": "in"
+        },
+        {
+            "i": 1136,
+            "document": 9,
+            "paragraph": 15,
+            "text": "Table"
+        },
+        {
+            "i": 1137,
+            "document": 9,
+            "paragraph": 15,
+            "text": "["
+        },
+        {
+            "i": 1138,
+            "document": 9,
+            "paragraph": 15,
+            "text": "reference"
+        },
+        {
+            "i": 1139,
+            "document": 9,
+            "paragraph": 15,
+            "text": "]"
+        },
+        {
+            "i": 1140,
+            "document": 9,
+            "paragraph": 15,
+            "text": ","
+        },
+        {
+            "i": 1141,
+            "document": 9,
+            "paragraph": 15,
+            "text": "only"
+        },
+        {
+            "i": 1142,
+            "document": 9,
+            "paragraph": 15,
+            "text": "TagLM"
+        },
+        {
+            "i": 1143,
+            "document": 9,
+            "paragraph": 15,
+            "text": "and"
+        },
+        {
+            "i": 1144,
+            "document": 9,
+            "paragraph": 15,
+            "text": "ELMo"
+        },
+        {
+            "i": 1145,
+            "document": 9,
+            "paragraph": 15,
+            "text": "are"
+        },
+        {
+            "i": 1146,
+            "document": 9,
+            "paragraph": 15,
+            "text": "semi"
+        },
+        {
+            "i": 1147,
+            "document": 9,
+            "paragraph": 15,
+            "text": "-"
+        },
+        {
+            "i": 1148,
+            "document": 9,
+            "paragraph": 15,
+            "text": "supervised"
+        },
+        {
+            "i": 1149,
+            "document": 9,
+            "paragraph": 15,
+            "text": "."
+        },
+        {
+            "i": 1150,
+            "document": 9,
+            "paragraph": 15,
+            "text": "These"
+        },
+        {
+            "i": 1151,
+            "document": 9,
+            "paragraph": 15,
+            "text": "methods"
+        },
+        {
+            "i": 1152,
+            "document": 9,
+            "paragraph": 15,
+            "text": "first"
+        },
+        {
+            "i": 1153,
+            "document": 9,
+            "paragraph": 15,
+            "text": "train"
+        },
+        {
+            "i": 1154,
+            "document": 9,
+            "paragraph": 15,
+            "text": "an"
+        },
+        {
+            "i": 1155,
+            "document": 9,
+            "paragraph": 15,
+            "text": "enormous"
+        },
+        {
+            "i": 1156,
+            "document": 9,
+            "paragraph": 15,
+            "text": "language"
+        },
+        {
+            "i": 1157,
+            "document": 9,
+            "paragraph": 15,
+            "text": "model"
+        },
+        {
+            "i": 1158,
+            "document": 9,
+            "paragraph": 15,
+            "text": "on"
+        },
+        {
+            "i": 1159,
+            "document": 9,
+            "paragraph": 15,
+            "text": "unlabeled"
+        },
+        {
+            "i": 1160,
+            "document": 9,
+            "paragraph": 15,
+            "text": "data"
+        },
+        {
+            "i": 1161,
+            "document": 9,
+            "paragraph": 15,
+            "text": "and"
+        },
+        {
+            "i": 1162,
+            "document": 9,
+            "paragraph": 15,
+            "text": "incorporate"
+        },
+        {
+            "i": 1163,
+            "document": 9,
+            "paragraph": 15,
+            "text": "the"
+        },
+        {
+            "i": 1164,
+            "document": 9,
+            "paragraph": 15,
+            "text": "representations"
+        },
+        {
+            "i": 1165,
+            "document": 9,
+            "paragraph": 15,
+            "text": "produced"
+        },
+        {
+            "i": 1166,
+            "document": 9,
+            "paragraph": 15,
+            "text": "by"
+        },
+        {
+            "i": 1167,
+            "document": 9,
+            "paragraph": 15,
+            "text": "the"
+        },
+        {
+            "i": 1168,
+            "document": 9,
+            "paragraph": 15,
+            "text": "language"
+        },
+        {
+            "i": 1169,
+            "document": 9,
+            "paragraph": 15,
+            "text": "model"
+        },
+        {
+            "i": 1170,
+            "document": 9,
+            "paragraph": 15,
+            "text": "into"
+        },
+        {
+            "i": 1171,
+            "document": 9,
+            "paragraph": 15,
+            "text": "a"
+        },
+        {
+            "i": 1172,
+            "document": 9,
+            "paragraph": 15,
+            "text": "supervised"
+        },
+        {
+            "i": 1173,
+            "document": 9,
+            "paragraph": 15,
+            "text": "classifier"
+        },
+        {
+            "i": 1174,
+            "document": 9,
+            "paragraph": 15,
+            "text": "."
+        },
+        {
+            "i": 1175,
+            "document": 10,
+            "paragraph": 16,
+            "text": "["
+        },
+        {
+            "i": 1176,
+            "document": 10,
+            "paragraph": 16,
+            "text": "reference"
+        },
+        {
+            "i": 1177,
+            "document": 10,
+            "paragraph": 16,
+            "text": "]"
+        },
+        {
+            "i": 1178,
+            "document": 10,
+            "paragraph": 16,
+            "text": "."
+        },
+        {
+            "i": 1179,
+            "document": 10,
+            "paragraph": 16,
+            "text": "Indeed"
+        },
+        {
+            "i": 1180,
+            "document": 10,
+            "paragraph": 16,
+            "text": ","
+        },
+        {
+            "i": 1181,
+            "document": 10,
+            "paragraph": 16,
+            "text": "DANN"
+        },
+        {
+            "i": 1182,
+            "document": 10,
+            "paragraph": 16,
+            "text": "directly"
+        },
+        {
+            "i": 1183,
+            "document": 10,
+            "paragraph": 16,
+            "text": "optimizes"
+        },
+        {
+            "i": 1184,
+            "document": 10,
+            "paragraph": 16,
+            "text": "the"
+        },
+        {
+            "i": 1185,
+            "document": 10,
+            "paragraph": 16,
+            "text": "notion"
+        },
+        {
+            "i": 1186,
+            "document": 10,
+            "paragraph": 16,
+            "text": "of"
+        },
+        {
+            "i": 1187,
+            "document": 10,
+            "paragraph": 16,
+            "text": "H"
+        },
+        {
+            "i": 1188,
+            "document": 10,
+            "paragraph": 16,
+            "text": "-"
+        },
+        {
+            "i": 1189,
+            "document": 10,
+            "paragraph": 16,
+            "text": "divergence"
+        },
+        {
+            "i": 1190,
+            "document": 10,
+            "paragraph": 16,
+            "text": "."
+        },
+        {
+            "i": 1191,
+            "document": 10,
+            "paragraph": 16,
+            "text": "We"
+        },
+        {
+            "i": 1192,
+            "document": 10,
+            "paragraph": 16,
+            "text": "do"
+        },
+        {
+            "i": 1193,
+            "document": 10,
+            "paragraph": 16,
+            "text": "note"
+        },
+        {
+            "i": 1194,
+            "document": 10,
+            "paragraph": 16,
+            "text": "the"
+        },
+        {
+            "i": 1195,
+            "document": 10,
+            "paragraph": 16,
+            "text": "work"
+        },
+        {
+            "i": 1196,
+            "document": 10,
+            "paragraph": 16,
+            "text": "of"
+        },
+        {
+            "i": 1197,
+            "document": 10,
+            "paragraph": 16,
+            "text": "["
+        },
+        {
+            "i": 1198,
+            "document": 10,
+            "paragraph": 16,
+            "text": "reference"
+        },
+        {
+            "i": 1199,
+            "document": 10,
+            "paragraph": 16,
+            "text": "]"
+        },
+        {
+            "i": 1200,
+            "document": 10,
+            "paragraph": 16,
+            "text": ","
+        },
+        {
+            "i": 1201,
+            "document": 10,
+            "paragraph": 16,
+            "text": "in"
+        },
+        {
+            "i": 1202,
+            "document": 10,
+            "paragraph": 16,
+            "text": "which"
+        },
+        {
+            "i": 1203,
+            "document": 10,
+            "paragraph": 16,
+            "text": "HMM"
+        },
+        {
+            "i": 1204,
+            "document": 10,
+            "paragraph": 16,
+            "text": "representations"
+        },
+        {
+            "i": 1205,
+            "document": 10,
+            "paragraph": 16,
+            "text": "are"
+        },
+        {
+            "i": 1206,
+            "document": 10,
+            "paragraph": 16,
+            "text": "learned"
+        },
+        {
+            "i": 1207,
+            "document": 10,
+            "paragraph": 16,
+            "text": "for"
+        },
+        {
+            "i": 1208,
+            "document": 10,
+            "paragraph": 16,
+            "text": "word"
+        },
+        {
+            "i": 1209,
+            "document": 10,
+            "paragraph": 16,
+            "text": "tagging"
+        },
+        {
+            "i": 1210,
+            "document": 10,
+            "paragraph": 16,
+            "text": "using"
+        },
+        {
+            "i": 1211,
+            "document": 10,
+            "paragraph": 16,
+            "text": "a"
+        },
+        {
+            "i": 1212,
+            "document": 10,
+            "paragraph": 16,
+            "text": "posterior"
+        },
+        {
+            "i": 1213,
+            "document": 10,
+            "paragraph": 16,
+            "text": "regularizer"
+        },
+        {
+            "i": 1214,
+            "document": 10,
+            "paragraph": 16,
+            "text": "that"
+        },
+        {
+            "i": 1215,
+            "document": 10,
+            "paragraph": 16,
+            "text": "is"
+        },
+        {
+            "i": 1216,
+            "document": 10,
+            "paragraph": 16,
+            "text": "also"
+        },
+        {
+            "i": 1217,
+            "document": 10,
+            "paragraph": 16,
+            "text": "inspired"
+        },
+        {
+            "i": 1218,
+            "document": 10,
+            "paragraph": 16,
+            "text": "by"
+        },
+        {
+            "i": 1219,
+            "document": 10,
+            "paragraph": 16,
+            "text": "Ben"
+        },
+        {
+            "i": 1220,
+            "document": 10,
+            "paragraph": 16,
+            "text": "-"
+        },
+        {
+            "i": 1221,
+            "document": 10,
+            "paragraph": 16,
+            "text": "David"
+        },
+        {
+            "i": 1222,
+            "document": 10,
+            "paragraph": 16,
+            "text": "et"
+        },
+        {
+            "i": 1223,
+            "document": 10,
+            "paragraph": 16,
+            "text": "al"
+        },
+        {
+            "i": 1224,
+            "document": 10,
+            "paragraph": 16,
+            "text": "."
+        },
+        {
+            "i": 1225,
+            "document": 10,
+            "paragraph": 16,
+            "text": "'s"
+        },
+        {
+            "i": 1226,
+            "document": 10,
+            "paragraph": 16,
+            "text": "work"
+        },
+        {
+            "i": 1227,
+            "document": 10,
+            "paragraph": 16,
+            "text": "."
+        }
+    ],
+    "mentions": [
+        {
+            "start": 20,
+            "end": 21,
+            "clustId": "20_21"
+        },
+        {
+            "start": 53,
+            "end": 55
+        },
+        {
+            "start": 106,
+            "end": 107
+        },
+        {
+            "start": 215,
+            "end": 216
+        },
+        {
+            "start": 304,
+            "end": 305
+        },
+        {
+            "start": 390,
+            "end": 390
+        },
+        {
+            "start": 453,
+            "end": 457
+        },
+        {
+            "start": 552,
+            "end": 554
+        },
+        {
+            "start": 598,
+            "end": 601
+        },
+        {
+            "start": 604,
+            "end": 605
+        },
+        {
+            "start": 643,
+            "end": 646
+        },
+        {
+            "start": 700,
+            "end": 703
+        },
+        {
+            "start": 793,
+            "end": 796
+        },
+        {
+            "start": 932,
+            "end": 932
+        },
+        {
+            "start": 969,
+            "end": 970
+        },
+        {
+            "start": 1060,
+            "end": 1061
+        },
+        {
+            "start": 1142,
+            "end": 1142
+        },
+        {
+            "start": 1203,
+            "end": 1204
+        }
+    ],
+    "selectedCluster": "20_21",
+    "clusterName": "hmm"
+}

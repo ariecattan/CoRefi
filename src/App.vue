@@ -199,14 +199,14 @@
 </template>
 
 <script>
-// import jsonData from  "./data/scientific_onboarding_tutorial.json"
+import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
 // import jsonData from "./data/guided_sentiment.json";
 // import jsonData from "./data/scirex_example_.json";
 // import jsonData from "../../coref-hypernym/data/scirex3/100.json";
 // import jsonData from "../../export_data/arie_sentiment.json";
 
-import jsonData from "./data/mt_annotation.json";
+// import jsonData from "./data/mt_annotation.json";
 
 
 // import jsonData from "./internal_trial/speech_review.json"; 

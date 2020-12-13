@@ -3,8 +3,8 @@
       <v-chip class="ma-2" disabled label color="white" font-weight="700" text-color="black">
         <strong>Hierarchy:</strong> 
       </v-chip>
-      <v-btn @click="forceRerender()" absolute large append color="#B0BEC5">Reset</v-btn>
-    <vue-tree-list
+      <v-btn class="reset" @click="forceRerender()" absolute large append color="#B0BEC5">Reset</v-btn>
+    <vue-tree-list class="hypernym"
       @drop="updateTree()"
       :model="clusterTree"
       @click="selectCluster"
@@ -272,4 +272,6 @@
     font-size: 80%;
     display: none;
   }
+
+  
 </style>

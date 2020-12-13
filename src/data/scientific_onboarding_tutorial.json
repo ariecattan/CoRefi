@@ -1,5 +1,6 @@
 {
     "mode": "onboarding",
+    "hypernym": true,
     "fixableSpans":false,
     "reassignable":false,
     "tokens": [
@@ -123,7 +124,7 @@
             "header": {
                 "title": "CoRefi Onboarding!"
             },
-            "content": "This experience will walkthrough how to perform coreference annotation."
+            "content": "This experience will walkthrough how to perform the annotation of concept linking and hierarchy."
         },
         {
             "target": "#dashboard",
@@ -137,7 +138,7 @@
             "header": {
                 "title": "Cluster Mentions"
             },
-            "content": "The first Mention is automatically assigned to it's own Corefernce  <span class=\"cluster\">Cluster</span>."
+            "content": "The first Mention is automatically assigned to it's own Corefernce <span class=\"cluster\">Cluster</span>."
         },
         {
             "target": ".v-chip--active",
@@ -178,28 +179,48 @@
             "header": {
                 "title": "Assigning a New Cluster"
             },
-            "content": "If the current mention does not belong to any cluster in the cluster bank it can be assigned to new cluster with Ctrl + SPACE (Windows) or ALT + SPACE (MacOS), or click on the <span style='color:#2d9cdb;background-color:#ddeff9'> + </span> at the bottom left."
+            "content": "If the current mention does not belong to any cluster in the cluster bank, it can be assigned to new cluster with Ctrl + SPACE (Windows) or Option + SPACE (MacOS), or click on the <span style='color:#2d9cdb;background-color:#ddeff9'> + </span> at the bottom left."
         },
         {
             "target": ".current",
             "header": {
                 "title": "Reassigning a Mention"
             },
-            "content": "If a mention was assigned incorrectly assigned it can be selected for reassignment at any point with Ctrl + Click (Windows) or Alt + Click (MacOS) or Double Click (ALL) on the mention."
+            "content": "If a mention was incorrectly assigned, you can select it for reassignment at any point with Ctrl + Click (Windows) or Option + Click (MacOS) or Double Click (ALL) on the mention."
         },
         {
             "target": ".current",
             "header": {
                 "title": "Help and Controls"
             },
-            "content": "If you ever forget any of the controls all of CoRefi's functionality can be found in the help menu. Just click on the black '?' in the top left corner of the screen."
+            "content": "If you ever forget any of the controls, all of CoRefi's functionality can be found in the help menu. Just click on the black '?' in the top left corner of the screen."
+        }, 
+        {
+            "target": ".hypernym",
+            "header": {
+                "title": "Hierarchy"
+            },
+            "params": {
+                "placement": "left"
+            },
+            "content": "Here, you will build the hierarchy of clusters using drag-and-drop. You can alternate between concept linking and the hierarchy."
         },
         {
-            "target": ".current",
+            "target": ".reset",
+            "header": {
+                "title": "Reset Hierarchy"
+            },
+            "params": {
+                "placement": "right"
+            },
+            "content": "Click on this Reset button if you want to start the hierarchy from scratch."
+        },
+        {
+            "target": "#dashboard",
             "header": {
                 "title": "Finish The Annotation"
             },
-            "content": "Now using what you've learned assign the remaining mentions to the correct clusters until they are all assigned. Don't worry if you make mistakes CoRefi will guided to the correct answers."
+            "content": "Let's start the annotation. Text classification is not the same concept as CNN, so please create a new cluster and continue to the next mentions."
         }
     ],
     "goldMentions": [
@@ -228,5 +249,5 @@
             }
         }
     ],
-    "snackbarTimeout": 5000
+    "snackbarTimeout": 8000
 }

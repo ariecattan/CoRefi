@@ -13,10 +13,11 @@
         </v-card-title>
         <v-card-text>
           <ul>
-            <li>Assign Mention to Current Cluster: SPACE</li>
-            <li>Assign Mention to New Cluster: Ctrl + SPACE (Windows) or Alt + SPACE (MacOS)</li>
-            <li>Select Cluster: Click on a previously assigned mention or use the ↔ keys on the keyboard</li>
-            <li>Select Mention to Reassign: Ctrl + Click (Windows) or Alt + Click (MacOS) or Double Click the mention (ALL)</li>
+            <li>Select Cluster: Click on the cluster name in the cluster bank or any ot its mention in the documents.</li>
+            <li>Assign Mention to the Selected Cluster: SPACE</li>
+            <li>Assign Mention to New Cluster: Ctrl + SPACE (Windows) or option + SPACE (MacOS), or click on the <span style='color:#2d9cdb;background-color:#ddeff9'>+</span> at the bottom left.</li>
+            <!-- <li>Select Cluster: Click on a previously assigned mention or use the ↔ keys on the keyboard</li> -->
+            <li>Select Mention to Reassign: Ctrl + Click (Windows) or option + Click (MacOS) or Double Click the mention (ALL)</li>
             <!-- <li>Fix Mention Span: Highlight the correct mention span length and press the F key</li>
             <li>Insert New Mention: Highlight text preceeding the current mention that does not belong to another mention and press the N key</li> -->
           </ul>
@@ -84,7 +85,7 @@
             v-else
             :id="'token-' + token.i"
             :key="token.i"
-            class="mention"
+            class="token"
             :class="{ 'no-white':token.noWhite }"
             v-text="token.text"
           />
@@ -94,7 +95,7 @@
     </v-container>
   </v-layout>
   <v-divider mx-4 />
-  <v-btn block color="#B0BEC5" v-if="this.hypernym" @click="showHideHypernym()">{{hypernymMessage}} Hypernyms </v-btn>
+  <v-btn block color="#B0BEC5" v-if="this.hypernym" @click="showHideHypernym()">{{hypernymMessage}} Concept Hierarchy </v-btn>
   <v-container>
   <Hypernym  :clusterList="this.clusters" 
       :mentions="this.assignedMentions"
@@ -108,7 +109,7 @@
   </Hypernym>
   </v-container>
 
-  <v-btn block color="#20BF7E" v-if="this.done" @click="submit()">Submit </v-btn>
+  <v-btn block color="#20BF7E" v-if="this.done && this.local" @click="submit()">Submit </v-btn>
 
 </v-container>
       
@@ -198,17 +199,17 @@
 </template>
 
 <script>
-import jsonData from  "./data/scientific_onboarding_tutorial.json"
+// import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
 // import jsonData from "./data/guided_sentiment.json";
 // import jsonData from "./data/scirex_example_.json";
 // import jsonData from "../../coref-hypernym/data/scirex3/100.json";
 // import jsonData from "../../export_data/arie_sentiment.json";
 
-// import jsonData from "./data/mt_annotation.json";
+import jsonData from "./data/mt_annotation.json";
 
 
-// import jsonData from "./internal_trial/image_generation.json"; 
+// import jsonData from "./internal_trial/speech_review.json"; 
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
 import VueTreeList from 'vue-tree-list'
@@ -305,7 +306,8 @@ export default {
     data.hypernym = data.hypernym ? data.hypernym : false;
     data.done = false;
     data.hypernymRerender = false;
-    data.showHypernym = false;
+    data.showHypernym = true;
+    data.local = data.local ? data.local : false;
     return data;
   },
   computed: {
@@ -451,8 +453,12 @@ export default {
               mentionSpan.class = "current";
             } else if (this.mentions[mentInd].clustId == this.selectedCluster) {
               mentionSpan.class = "cluster";
-            } else {
-              mentionSpan.class = "viewed";
+              
+            } else if (mentInd < this.curMentionIndex) {
+                mentionSpan.class = "viewed";
+            }       
+            else {
+              mentionSpan.class = "future";
             }
 
             paragraph_spans.push(mentionSpan);
@@ -619,8 +625,8 @@ export default {
     },
 
     viewedMentionClicked(e, mention) {
-      if (!mention.class){
-        return; // just a token not a mention
+      if (!mention.class || mention.class == "future"){
+        return; // just a token not a mention or a future mention
       }
       // if (this.reassignable) {
       //     this.reassignMention(mention.index);
@@ -634,7 +640,8 @@ export default {
         if (this.reassignable) {
           this.reassignMention(mention.index);
         }
-      } else {
+      } 
+      else {
         if (mention.index != undefined && mention.index != this.curMentionIndex){
             this.selectCluster(this.mentions[mention.index].clustId);
         }
@@ -642,7 +649,7 @@ export default {
     },
 
     viewedMentionDoubleClicked(e, mention) {
-      if (!mention.class){
+      if (!mention.class || mention.class == "future"){
         return; // just a token not a mention
       }
       if (this.reassignable){
@@ -800,7 +807,7 @@ export default {
       else {
         if (!this.done) {
           this.done = true;
-          this.$alert("Coreference part is finished. Please complete the hypernym before submitting the task (you can always modify the coreference clusters).", 'Done', 'info');
+          this.$alert("Coreference part is finished. Please complete the hierarchy before submitting the task. Notice that you can always modify the clusters.", 'Done', 'info');
         }
         
       }
@@ -898,17 +905,24 @@ export default {
   font-weight: medium;
   color: #b16a00;
 }
-.mention {
-  margin-right: 0.3em;
-  font-weight: bold;
-  color: black;
-}
 .cluster {
+  margin-right: 0.3em;
   background: #ddeff9;
   color: #2d9cdb;
   margin-right: 0.3em;
   padding-left: 0.3em;
 }
+.mention {
+  margin-right: 0.3em;
+  font-weight: bold;
+  color: #616161;
+}
+.viewed, .future {
+  font-weight: bold;
+  color: #616161;
+}
+
+
 .first {
   background: #ddeff9;
   color: #2d9cdb;
@@ -918,6 +932,8 @@ export default {
 .current {
   font-weight: 500;
   padding: 0em;
+  font-weight: bold;
+  /* color: #616161; */
   border-bottom: 1px solid #c71585;
 }
 .current-document {

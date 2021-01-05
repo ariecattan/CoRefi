@@ -8480,16 +8480,16 @@
             "start": 177,
             "end": 181,
             "first": true,
-            "clustId": "177-181",
-            "validMessage": "Correct! This is a new cluster!",
-            "defaultErrorMessage": "Not quite right! Target-dependent (as you can understand from the text) is not the same as Aspect based."
+            "clustId": "22-26",
+            "validMessage": "Correct! Target-dependent is similar to Aspect based Sentiment Analysis!",
+            "defaultErrorMessage": "Not quite right!"
         },
         {
             "start": 222,
             "end": 223,
             "first": false,
             "clustId": "222-223",
-            "validMessage": "Correct! Notice that Sentiment Analysis is the Hypernym of both Aspect-based Sentiment Analysis and Target-dependent sentiment classification.",
+            "validMessage": "Correct! Notice that Sentiment Analysis is the parent of Aspect-based Sentiment Analysis.",
             "defaultErrorMessage": "Not quite right! This is the more general task of sentiment analysis."
         },
         {
@@ -8497,7 +8497,7 @@
             "end": 332,
             "first": true,
             "clustId": "331-332",
-            "validMessage": "Correct!",
+            "validMessage": "Correct! Notice that written reviews should be under Sentiment Analysis.",
             "defaultErrorMessage": "Not quite right! Written reviews is an application of Sentiment Analysis but does not refer to it"
         },
         {
@@ -8505,7 +8505,7 @@
             "end": 428,
             "first": false,
             "clustId": "425-428",
-            "validMessage": "Correct! Notice that this is a ''type of'' Sentiment Analysis, so it shouldn't be marked as hyponym",
+            "validMessage": "Correct! Notice that this is not a ''type of'' Sentiment Analysis, so it shouldn't be marked as a substask",
             "defaultErrorMessage": "Not quite right! This should be a new cluster"
         },
         {
@@ -8605,5 +8605,5 @@
             "defaultErrorMessage": "Not quite right!"
         }
     ],
-    "snackbarTimeout": 8000
+    "snackbarTimeout": 5000
 }

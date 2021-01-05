@@ -13,7 +13,7 @@
         </v-card-title>
         <v-card-text>
           <ul>
-            <li>Select Cluster: Click on the cluster name in the cluster bank or any ot its mention in the documents.</li>
+            <li>Select Cluster: Click on the cluster name in the cluster bank or in the hierarchy or any ot its mention in the documents.</li>
             <li>Assign Mention to the Selected Cluster: SPACE</li>
             <li>Assign Mention to New Cluster: Ctrl + SPACE (Windows) or option + SPACE (MacOS), or click on the <span style='color:#2d9cdb;background-color:#ddeff9'>+</span> at the bottom left.</li>
             <!-- <li>Select Cluster: Click on a previously assigned mention or use the ↔ keys on the keyboard</li> -->
@@ -23,7 +23,7 @@
           </ul>
         </v-card-text>
         <v-card-actions>
-          <v-spacer></v-spacer>
+          <!-- <v-spacer></v-spacer> -->
           <v-btn color="green darken-1" text @click="help = false">Close</v-btn>
         </v-card-actions>
       </v-card>
@@ -53,7 +53,11 @@
   >
     <v-container :class="doc.class">
       <v-layout row>
-        <span mb-2 class="title">Document {{ docIndex + 1 }}:</span>
+        <span mb-2 class="title">Document {{ docIndex + 1 }} </span> 
+          
+      </v-layout>
+      <v-layout row>
+        <span mt-3 v-if="metadata.length > 0"> <a :href="metadata[docIndex].url" target="_blank">{{metadata[docIndex].title}}</a> ({{metadata[docIndex].BookTitle}} {{metadata[docIndex].Year}}) </span>
       </v-layout>
       <v-layout row mt-3>
         <v-container 
@@ -99,10 +103,12 @@
   <v-container>
   <Hypernym  :clusterList="this.clusters" 
       :mentions="this.assignedMentions"
+      :selectedCluster.sync="selectedCluster"
       @candidateSelected="selectCluster"
       @updateTree="updateTree($event)"
       @forceRerender="renderHypernym()"
       :key="this.hypernymRerender" 
+      :mode="mode"
       style="display:block"
       v-if="this.hypernym"
       v-show="this.showHypernym">
@@ -199,6 +205,7 @@
 </template>
 
 <script>
+// import jsonData from "../../sci-coref-hypernym/data/candidates/pwc_10m/task_simple/Coreference Resolution.json"
 import jsonData from  "./data/scientific_onboarding_tutorial.json"
 // import jsonData from "./data/sentiment_examples.json"
 // import jsonData from "./data/guided_sentiment.json";
@@ -208,6 +215,7 @@ import jsonData from  "./data/scientific_onboarding_tutorial.json"
 
 // import jsonData from "./data/mt_annotation.json";
 
+// import jsonData from "/Users/arie/Documents/ai2_internship/sci-coref-hypernym/data/pwc/task/Abstractive Text Summarization.json";
 
 // import jsonData from "./internal_trial/speech_review.json"; 
 import Vue from "vue";
@@ -285,6 +293,7 @@ export default {
       type: String,
       default: "",
     },
+    renderProp: String
   },
   data() {
     const data =
@@ -296,7 +305,7 @@ export default {
     data.mentionsViewed = 1;
     data.snackbar = false;
     data.snackbarText = "";
-    data.snackbarTimeout = 2000;
+    data.snackbarTimeout = data.snackbarTimeout ? data.snackbarTimeout : 3000;
     data.fixedFooter = !data.fixedFooter ? false: true;
     data.help = false;
     data.previousCoreferringWorkerTokens = {};
@@ -307,6 +316,7 @@ export default {
     data.done = false;
     data.hypernymRerender = false;
     data.showHypernym = true;
+    data.metadata = data.metadata ? data.metadata : [];
     data.local = data.local ? data.local : false;
     return data;
   },
@@ -502,6 +512,8 @@ export default {
   },
   watch: {
     // To Be Optimized
+    
+
     mode: function (newMode) {
       this.$tours["myTour"].stop();
       if (newMode == "onboarding") {

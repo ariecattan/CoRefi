@@ -138,7 +138,7 @@
             "header": {
                 "title": "Cluster Mentions"
             },
-            "content": "The first Mention is automatically assigned to it's own Corefernce <span class=\"cluster\">Cluster</span>."
+            "content": "The first Mention is automatically assigned to it's own Coreference <span class=\"cluster\">Cluster</span>."
         },
         {
             "target": ".v-chip--active",
@@ -155,7 +155,7 @@
             "header": {
                 "title": "Selecting Clusters"
             },
-            "content": "Clusters can be selected with the arrow keys, or by clicking on a previously assigned mention.",
+            "content": "Clusters can be selected with the arrow keys in the cluster bank, or by clicking on a previously assigned mention.",
             "params": {
                 "placement": "top"
               }
@@ -165,7 +165,7 @@
             "header": {
                 "title": "Current Mention"
             },
-            "content": "The current mention appears in <span class=\"current\">purple</span>."
+            "content": "The current mention is underlined in <span class=\"current\">purple</span>."
         },
         {
             "target": ".current",
@@ -216,7 +216,7 @@
             "content": "Click on this Reset button if you want to start the hierarchy from scratch."
         },
         {
-            "target": "#dashboard",
+            "target": ".current",
             "header": {
                 "title": "Finish The Annotation"
             },
@@ -228,14 +228,14 @@
             "start": 6,
             "end": 7,
             "clustId": "6-7",
-            "validMessage": "Correct! This is a new mention!",
-            "defaultErrorMessage": "Are you sure this mention co-refers with CNN ?"
+            "validMessage": "Great! You succesfully created a new cluster (see in the cluster bank and in the hierarchy)!",
+            "defaultErrorMessage": "Not quite! Text classification should be a new cluster!"
         },
         {
             "start": 12,
             "end": 14,
             "clustId": "4-4",
-            "validMessage": "Correct! CNN is the acronym of Convolutional Neural Network and they should be marked as coreferring even though they are used for different tasks!",
+            "validMessage": "Correct! CNN is the acronym of Convolutional Neural Network and they should be marked as identical!",
             "defaultErrorMessage": "That's not quite right, CNN and Convolutional Neural Network are exactly the same method!"
         },
         {
@@ -244,10 +244,10 @@
             "clustId": "16-17",
             "validMessage": "Correct! This is a new cluster!",
             "clusterErrorMessages":{
-                "4-4": "Sentiment Analysis doesn't corefer with CNN",
-                "6-7": "That's not quite right! Although Sentiment Analysis is a ''type of'' Text Classification, they do not corefer"
+                "4-4": "That's not quite right! Sentiment Analysis and CNN are not the same!",
+                "6-7": "That's not quite right! Although Sentiment Analysis is a ''type of'' Text Classification, it's not the same task!"
             }
         }
     ],
-    "snackbarTimeout": 8000
+    "snackbarTimeout": -1
 }

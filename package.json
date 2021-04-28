@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "moment": "^2.29.1",
     "vue": "^2.6.11",
     "vue-flash-message": "^0.7.2",
+    "vue-scrollto": "^2.20.0",
     "vue-simple-alert": "^1.1.1",
     "vue-tour": "git+https://github.com/aribornstein/vue-tour.git",
-    "vue-tree-list": "^1.4.6",
+    "vue-tree-list": "git+https://github.com/ariecattan/vue-tree-list.git",
     "vued3tree": "^5.1.0",
     "vuetify": "^2.3.6"
   },

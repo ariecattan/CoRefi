@@ -47,30 +47,13 @@
     </v-chip-group>
     
 
-    <div v-if="withHypernym"> 
-      <v-divider></v-divider>
-    <!-- <v-btn block disabled v-if="!lastMention" color="#B0BEC5">Move to Hypernym Annotation</v-btn>
-    <v-btn block v-on:click="finished=!finished" id="done" v-if="appear" color="#B0BEC5">Move to Hypernym Annotation</v-btn> -->
-    <!-- <v-divider v-if="mode=='reviewer'"></v-divider> -->
-    
-    <div id="treetest" v-if="appear">
-       <Hypernym  :clusterList="this.clusters" 
-       @candidateSelected="candidateSelected($event)"
-       @updateTree="updateTree($event)"
-       @forceRerender="forceRerender()"
-       :key="hypernymRerender" >
-       </Hypernym>
-      </div>
-    </div>
+
   </v-main>
 </template>
 
 
 <script>
 import { VMain, VDivider, VChip, VChipGroup, VIcon } from "vuetify/lib";
-import Hypernym from './Hypernym.vue'
-import { Tree } from 'vue-tree-list'
-
 
 export default {
   name: "ClusterBank",
@@ -79,8 +62,7 @@ export default {
     VDivider,
     VChip,
     VChipGroup,
-    VIcon,
-    Hypernym
+    VIcon
   },
   props: {
     clusters: Object,
@@ -94,9 +76,7 @@ export default {
     return {
       currentCluster: this.selectedCluster.toString(),
       finished: false,
-      treeClusters: Tree,
-      appear: this.lastMention,
-      hypernymRerender: 0,
+      appear: this.lastMention
     };
   },
   computed: {

@@ -3,11 +3,13 @@
       <v-chip class="ma-2" disabled label color="white" font-weight="700" text-color="black">
         <strong>Hierarchy:</strong> 
       </v-chip>
-      <v-btn class="reset" @click="forceRerender()" absolute large append color="#B0BEC5">Reset</v-btn>
+      <v-btn class="reset" @click="reset()" absolute large append color="#B0BEC5">Reset</v-btn>
     <vue-tree-list class="hypernym"
-      @drop="updateTree()"
+      ref="package"
       :model="clusterTree"
       @click="selectCluster"
+      @change-name="onChangeName"
+      @start-focus="onStartInput"
       default-tree-node-name="new node"
       default-leaf-node-name="new leaf"
       v-bind:default-expanded="true"
@@ -33,6 +35,7 @@
     },
     props: {
         clusterList: Object,
+        hierarchy: Object,
         mentions: Array
     },
     data() {
@@ -44,15 +47,16 @@
       }
     },
     created() {
-      // console.log('Re-rendering');
-      Object.values(this.clusterList).forEach((value) => {
-        value.addTreeNodeDisabled = true;
-        value.addLeafNodeDisabled = true;
-        value.editNodeDisabled =  true,
-        value.delNodeDisabled = true
-      });
-      this.clusterTree = new Tree(Object.values(this.clusterList));
-        // this.clusterTree = new Tree(this.clusterList);
+     Object.values(this.clusterList).forEach((value) => {
+          value.addTreeNodeDisabled = true;
+          value.addLeafNodeDisabled = true;
+          value.editNodeDisabled =  false;
+          value.delNodeDisabled = true;
+          value.name = value.text;
+        });
+        this.clusterTree = new Tree(Object.values(this.clusterList));
+          // this.clusterTree = new Tree(this.clusterList);
+      
     },
 
     watch: {
@@ -77,21 +81,51 @@
 
 
         // check whether to add or to delete a node from the hypernyms
-        if (toBeAdded.length > 0) {
-          this.addMissingNode(this.clusterList[toBeAdded]);          
-        } else {
-          let clusterToBeDeleted = oldVal[toBeDeleted];
-
         
+        if (toBeDeleted.length > 0) {
+          let clusterToBeDeleted = oldVal[toBeDeleted];
           let [start, end] = clusterToBeDeleted.id.split('-');
+          
           let newCluster = this.getClusterMention(start, end);
           this.deleteExtraNode(oldVal[toBeDeleted].id, newCluster);
         }
+        if (toBeAdded.length > 0) {
+          this.addMissingNode(this.clusterList[toBeAdded]);          
+        } 
         
       
       }
     },
-    methods: {
+    methods: { 
+      onStartInput: function() {
+        this.$emit('deactivateEvents')
+      },
+      onChangeName: function(params) {     
+        if (params.newName.startsWith(params.oldName.trim())) {
+          var node = this.dfs(params.id);
+          node.name = params.newName;
+          node.text = params.newName;
+        }
+        this.$emit('activateEvents')
+      },
+
+      reset: function() {
+        let flatHierarchy = Array();
+
+        for (var clusterId in this.clusterList) {
+          var oldNode = this.dfs(clusterId);
+          var newNode = {};
+          for (var k in oldNode) {
+            if (k !== 'children' && k !== 'parent') {
+              newNode[k] = oldNode[k];
+            }
+          }
+          flatHierarchy.push(newNode);
+        }
+
+        this.clusterTree = new Tree(flatHierarchy);
+      },
+
       forceRerender: function() {
         this.$emit('forceRerender');
       },
@@ -138,40 +172,27 @@
         let deleted = this.dfs(nodeName);
         let dest = this.dfs(clusterDest);
 
+        if (dest == undefined) {
+          dest = this.dfs(deleted.pid);
+        }
+        
+
+        // let newCluster = this.dfs(toBeDeleted).parent.id;
+        let chidlren = [];
+        if (deleted.children != null && deleted.children.length > 0) {
+          deleted.children.forEach(x => chidlren.push(x.id));  
+        }
+        
+
+        if (chidlren.includes(dest.id)) {
+          dest = this.dfs(deleted.parent.id);
+        }
+
         if (deleted.children) {
           deleted.children.forEach(x => dest.addChildren(x));
         }
         deleted.remove();
 
-        // let stack = [];
-        // let explored = new Set();
-        // stack.push(this.clusterTree);
-
-        // explored.add(this.clusterTree);
-
-        // // find with dfs the node to delete
-        // while (!stack.length == 0) {
-        //   let t = stack.pop();
-        //   explored.add(t);
-
-        //   if (t.id == nodeName.id) {
-        //     // if the node to delete has children, move the children to his parents
-        //     if (t.children) {
-        //       t.children.forEach(x => clusterDest.addChildren(x));
-        //     }
-        //     t.remove();
-        //     break;
-        //   } 
-
-        //   // add the children in the stack (for the dfs)
-        //   if (t.children) {
-        //     t.children.forEach(element => {
-        //     stack.push(element);
-        //     explored.add(element);
-        //   });
-        //   }
-          
-        // }
       },
 
       // onChangeName() {
@@ -181,9 +202,9 @@
         if (nodeName) {
           nodeName.addTreeNodeDisabled = true;
           nodeName.addLeafNodeDisabled = true;
-          nodeName.ditNodeDisabled = true;
           nodeName.delNodeDisabled = true;
-          nodeName.editNodeDisabled = true;
+          nodeName.editNodeDisabled = false;
+          nodeName.name = nodeName.text;
           var node = new TreeNode(nodeName);
           this.clusterTree.addChildren(node);
 
@@ -206,7 +227,7 @@
 
       
       addNode() {
-        var node = new TreeNode({ name: 'new node', isLeaf: false })
+        var node = new TreeNode({ name: 'new node', isLeaf: false, editNodeDisabled: false })
         if (!this.clusterTree.children) this.clusterTree.children = []
         this.clusterTree.addChildren(node)
       },
@@ -239,7 +260,6 @@
       },
 
       selectCluster(params) {
-        // console.log(params);
         return this.$emit("candidateSelected", params.id);
       }
     }
@@ -258,7 +278,11 @@
     .vtl-disabled {
       background-color: #d0cfcf;
     }
+    .vtl-active {
+      outline: 2px dashed pink;
+    }
   }
+
 </style>
 
 <style lang="less" rel="stylesheet/less" scoped>

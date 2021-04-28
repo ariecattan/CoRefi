@@ -72,6 +72,7 @@ JSON.stringify(results);
 ## TODO
 
 - add explanations of the configs
+- add gif of the hierarchy annotation
 
 
 ## Support

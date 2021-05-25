@@ -69,11 +69,23 @@ let corefi = document.getElementsByTagName("co-refi")[0].vueComponent;
 let results = {tokens:corefi.tokens, mentions:corefi.viewedMentions, tree:corefi.hypernym}
 JSON.stringify(results);
 ```
-## TODO
 
-- add explanations of the configs
-- add gif of the hierarchy annotation
 
+## Configurate CoRefi
+
+See below the important parameters in the JSON config file:
+* `mode`: (onboarding, annotation, reviewer)
+* `hypernym`: (true or false) whether to allow or not annotation of hierarchy between clusters
+* `tokens`: list of flatten tokens from all documents, each token needs to include {`i`: incremental index, `document`: doc_id of the document, `text`} and optionally `paragraph` 
+* `mentions`: list of candidate mentions to annotate, each mention needs to include {`start`, `end`}. In CoRefi, the `clustId` corresponds to "start-end", the first mention needs to be filled in the annotation mode and all mentions need to have `clustId` in the onboarding and reviewer mode
+
+
+
+The hierarchy of clusters is built using simple drag-and-drop operations. Anntotators may also add notes for each node.
+
+![Hypernym](src/assets/hypernym.gif)
+
+Please refer to our [website](https://scico.apps.allenai.org/tool) for more details on the tool functionaly. 
 
 ## Support
 

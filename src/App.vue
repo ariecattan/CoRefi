@@ -135,23 +135,9 @@
   
 </v-container>
       
-      <!-- <ClusterBank
-        v-if="!clusterBarBottom"
-        :clusters="clusters"
-        :selectedCluster="selectedCluster"
-        :suggestedReviewerClusters="suggestedReviewerClusters"
-        :mode="mode"
-        :withHypernym="this.hypernym"
-        :lastMention="true"
-        v-on:newCluster="assignMention(true)"
-        v-on:candidateSelected="selectCluster"
-        @updateTree="updateTree"
-      ></ClusterBank> -->
 
-        
     </v-main>
 
-    <!-- <v-btn block color="#B0BEC5" v-if="this.hypernym" @click="showHideHypernym()">{{hypernymMessage}} Hypernyms </v-btn> -->
 
    
 
@@ -162,27 +148,8 @@
 
     <v-tour name="myTour" :steps="tourSteps" />
 
-
-    <!-- <v-footer  inset app color="white"
-    :fixed="fixedFooter" 
-    >
-      <ClusterBank
-        v-if="clusterBarBottom"
-        :clusters="clusters"
-        :selectedCluster.sync="selectedCluster"
-        :suggestedReviewerClusters="suggestedReviewerClusters"
-        :mode="mode"
-        :withHypernym="this.hypernym"
-        :lastMention="isFinalMention()"
-        v-on:candidateSelected="selectCluster"
-        v-on:newCluster="assignMention(true)"
-        @updateTree="updateTree"
-      ></ClusterBank>
-    </v-footer> -->
     <v-footer :fixed="true">
-      <!-- <v-btn id="help" @click.stop="help = true" fab dark left small icon color="blue">
-        <v-icon>mdi-help</v-icon>
-      </v-btn> -->
+
       <ClusterBank
         v-if="true"
         :clusters="clusters"
